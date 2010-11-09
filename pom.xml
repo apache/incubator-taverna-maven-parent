@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>net.sf.taverna</groupId>
 		<artifactId>parent</artifactId>
-		<version>0.1.2010-07-12</version>
+		<version>0.2.2010-09-06</version>
 	</parent>
 	<groupId>net.sf.taverna</groupId>
 	<artifactId>taverna-parent</artifactId>
@@ -68,8 +68,9 @@
 	  <hibernate.version>3.2.5.ga.raven</hibernate.version>
 	  <jetty.version>6.1.24</jetty.version>
 	  <opm.version>1.0.3</opm.version>
-          <org.xhtmlrenderer.core-renderer.version>R8</org.xhtmlrenderer.core-renderer.version>
+          <org.xhtmlrenderer.core-renderer.version>R8pre2</org.xhtmlrenderer.core-renderer.version>
           <gson.version>1.4</gson.version>
+          <knowarc.usecases.version>0.3.4</knowarc.usecases.version>
 
           <spring.version>2.5.4</spring.version>
 
