@@ -71,7 +71,11 @@
 		<org.xhtmlrenderer.core-renderer.version>R8pre2</org.xhtmlrenderer.core-renderer.version>
 		<gson.version>1.4</gson.version>
 		<knowarc.usecases.version>0.3.4</knowarc.usecases.version>
-
+		<xalan.version>2.7.0</xalan.version>
+		<saxpath.version>1.0-FCS</saxpath.version>
+		<stax.version>1.0</stax.version>
+		<xerces.version>2.7.1</xerces.version>
+		
 		<spring.version>2.5.4</spring.version>
 
 		<!-- Taverna versions -->
