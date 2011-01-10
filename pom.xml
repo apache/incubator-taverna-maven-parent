@@ -23,7 +23,6 @@
 		<axis.wsdl4j.version>1.5.1</axis.wsdl4j.version>
 		<axis.wss4j.version>1.4-1.5.4-2</axis.wss4j.version>
 		<bcprov.jdk16.version>140</bcprov.jdk16.version>
-		<browserlauncher.version>1.3</browserlauncher.version>
 		<jaxp.ri.version>1.4</jaxp.ri.version>
 		<xstream.version>1.3.1</xstream.version>
 		<commons.beanutils.version>1.8.3</commons.beanutils.version>
@@ -70,7 +69,7 @@
 		<opm.version>1.0.3</opm.version>
 		<org.xhtmlrenderer.core-renderer.version>R8pre2</org.xhtmlrenderer.core-renderer.version>
 		<gson.version>1.4</gson.version>
-		<knowarc.usecases.version>0.3.4</knowarc.usecases.version>
+		<knowarc.usecases.version>0.3.5-SNAPSHOT</knowarc.usecases.version>
 		<xalan.version>2.7.0</xalan.version>
 		<saxpath.version>1.0-FCS</saxpath.version>
 		<stax.version>1.0</stax.version>
