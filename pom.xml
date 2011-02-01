@@ -64,7 +64,7 @@
 		<aspectj.version>1.6.9</aspectj.version>
 		<bsh.version>2.0b4</bsh.version>
 		<martj.version>0.6</martj.version>
-		<jmoby.version>1.1.4</jmoby.version>
+		<jmoby.version>1.1.4-taverna</jmoby.version>
 		<hibernate.version>3.2.5.ga.raven</hibernate.version>
 		<jetty.version>6.1.24</jetty.version>
 		<opm.version>1.0.3</opm.version>
