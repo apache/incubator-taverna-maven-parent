@@ -75,6 +75,7 @@
 		<saxpath.version>1.0-FCS</saxpath.version>
 		<stax.version>1.0</stax.version>
 		<xerces.version>2.7.1</xerces.version>
+		<jsch.version>0.1.42</jsch.version>
 
 		<spring.version>2.5.4</spring.version>
 
