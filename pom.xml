@@ -135,7 +135,7 @@
 					</execution>
 				</executions>
 			</plugin>
-			
+
 
 		</plugins>
 	</build>
@@ -184,23 +184,105 @@
 
 	<repositories>
 		<repository>
+			<id>mygrid-repository</id>
+			<name>myGrid Repository</name>
+			<url>http://www.mygrid.org.uk/maven/repository</url>
 			<releases />
 			<snapshots>
 				<enabled>false</enabled>
 			</snapshots>
-			<id>mygrid-repository</id>
-			<name>myGrid Repository</name>
-			<url>http://www.mygrid.org.uk/maven/repository</url>
 		</repository>
 		<repository>
+			<id>mygrid-snapshot-repository</id>
+			<name>myGrid Snapshot Repository</name>
+			<url>http://www.mygrid.org.uk/maven/snapshot-repository</url>
 			<releases>
 				<enabled>false</enabled>
 			</releases>
 			<snapshots />
-			<id>mygrid-snapshot-repository</id>
-			<name>myGrid Snapshot Repository</name>
-			<url>http://www.mygrid.org.uk/maven/snapshot-repository</url>
 		</repository>
+		<repository>
+			<id>jboss</id>
+			<name>JBoss repository</name>
+			<url>http://repository.jboss.org/maven2/</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+		<repository>
+			<id>javanet</id>
+			<name>java.net</name>
+			<url>http://download.java.net/maven/2/</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+
+		<!-- Disabled as it returns HTTP 405 Method Not Allowed <repository> <id>odftoolkit</id> 
+			<name>Odftoolkit Repository</name> <url>http://odftoolkit.org/svn/odfdom~maven2/release/</url> 
+			<snapshots> <enabled>false</enabled> </snapshots> </repository> -->
+
+		<repository>
+			<id>biomoby</id>
+			<name>Biomoby.org Repository</name>
+			<!--<url>http://biomoby.org/m2repo/</url> -->
+			<url>http://www.mygrid.org.uk/maven/biomoby/biomoby.org/m2repo</url>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+		</repository>
+		<repository>
+			<id>tupelo2</id>
+			<name>Tupelo 2</name>
+			<url>http://dlt-dev.ncsa.uiuc.edu/m2</url>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+		<repository>
+			<id>opm</id>
+			<name>Open Provenance (OPM)</name>
+			<url>http://openprovenance.org/java/maven-releases</url>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+		<repository>
+			<id>jena</id>
+			<name>Jena</name>
+			<url>http://openjena.org/repo/</url>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+
+		<repository>
+			<id>eviware</id>
+			<name>Eviware repository</name>
+			<url>http://www.eviware.com/repository/maven2/</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+		<repository>
+			<id>trianacode-maven-repos</id>
+			<url>http://trianacode.org/maven</url>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>		
 	</repositories>
 </project>
   
