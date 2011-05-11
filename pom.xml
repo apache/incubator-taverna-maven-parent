@@ -201,17 +201,21 @@
 			</releases>
 			<snapshots />
 		</repository>
+		<!-- 
 		<repository>
 			<id>jboss</id>
 			<name>JBoss repository</name>
-			<url>http://repository.jboss.org/maven2/</url>
+			-  <url>http://repository.jboss.org/maven2/</url>-
+			<url>https://repository.jboss.org/nexus/</url>
 			<releases>
+				<checksumPolicy>fail</checksumPolicy>
 				<enabled>true</enabled>
 			</releases>
 			<snapshots>
 				<enabled>false</enabled>
 			</snapshots>
 		</repository>
+		 -->
 		<repository>
 			<id>javanet</id>
 			<name>java.net</name>
@@ -221,7 +225,7 @@
 			</releases>
 			<snapshots>
 				<enabled>false</enabled>
-			</snapshots>
+			</snapshots>			
 		</repository>
 
 		<!-- Disabled as it returns HTTP 405 Method Not Allowed <repository> <id>odftoolkit</id> 
@@ -256,6 +260,7 @@
 				<enabled>false</enabled>
 			</snapshots>
 		</repository>
+		<!-- 
 		<repository>
 			<id>jena</id>
 			<name>Jena</name>
@@ -264,7 +269,9 @@
 				<enabled>false</enabled>
 			</snapshots>
 		</repository>
-
+		 -->
+	
+		<!-- 
 		<repository>
 			<id>eviware</id>
 			<name>Eviware repository</name>
@@ -283,6 +290,7 @@
 				<enabled>false</enabled>
 			</snapshots>
 		</repository>		
+		 -->
 	</repositories>
 </project>
   
