@@ -68,8 +68,10 @@
 		<jmoby.version>1.1.4-taverna</jmoby.version>
 		<hibernate.version>3.2.5.ga.raven</hibernate.version>
 		<jetty.version>6.1.24</jetty.version>
-		<opm.version>1.0.3</opm.version>
-		<tupelo.version>2.6</tupelo.version>
+		<opm.version>1.1.7</opm.version>
+		<!-- Note: tupelo.version must match the one used by ${opm.version} -->
+		<tupelo.version>2.5</tupelo.version>
+		
 		<org.xhtmlrenderer.core-renderer.version>R8pre2</org.xhtmlrenderer.core-renderer.version>
 		<gson.version>1.4</gson.version>
 		<knowarc.usecases.version>0.3.5-SNAPSHOT</knowarc.usecases.version>
