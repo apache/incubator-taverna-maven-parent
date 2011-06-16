@@ -81,6 +81,8 @@
 		<jsch.version>0.1.42</jsch.version>
 		<jena.version>2.6.4</jena.version>
 		<jena.arq.version>2.8.7</jena.arq.version>
+		<!--  to match Jena -->
+		<icu4j.version>3.4.4</icu4j.version>
 
 		<spring.version>2.5.4</spring.version>
 
