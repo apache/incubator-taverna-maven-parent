@@ -101,7 +101,7 @@
 		<t2.core.version>2.0-SNAPSHOT</t2.core.version>
 		<t2.infrastructure.version>3.0-SNAPSHOT</t2.infrastructure.version>
 		<t2.lang.version>2.0-SNAPSHOT</t2.lang.version>
-		<t2.provenance-client.version>0.1-SNAPSHOT</t2.provenance-client.version>
+		<t2.provenance-client.version>1.0-SNAPSHOT</t2.provenance-client.version>
 		<t2.reference-core-extensions.version>2.0-SNAPSHOT</t2.reference-core-extensions.version>
 		<t2.security.version>2.0-SNAPSHOT</t2.security.version>
 		<t2.taverna.workbench.version>${project.version}</t2.taverna.workbench.version>
