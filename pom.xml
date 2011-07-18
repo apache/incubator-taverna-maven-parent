@@ -84,7 +84,7 @@
 		<!--  to match Jena -->
 		<icu4j.version>3.4.4</icu4j.version>
 
-		<spring.version>2.5.4</spring.version>
+		<spring.version>3.0.5.RELEASE</spring.version>
 
 		<!-- Taverna versions -->
 		<jedit.syntax.version>2.2.4-SNAPSHOT</jedit.syntax.version>
@@ -262,14 +262,14 @@
 				<enabled>true</enabled>
 			</releases>
 		</repository>
-		<repository>
+		<!-- <repository>
 			<id>tupelo2</id>
 			<name>Tupelo 2</name>
 			<url>http://dlt-dev.ncsa.uiuc.edu/m2</url>
 			<snapshots>
 				<enabled>false</enabled>
 			</snapshots>
-		</repository>
+		</repository> -->
 		<repository>
 			<id>opm</id>
 			<name>Open Provenance (OPM)</name>
