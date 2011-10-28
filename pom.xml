@@ -66,7 +66,7 @@
 		<aspectj.version>1.6.9</aspectj.version>
 		<bsh.version>2.0b4</bsh.version>
 		<martj.version>0.6</martj.version>
-		<jmoby.version>1.1.4-taverna</jmoby.version>
+		<jmoby.version>1.1.5-taverna</jmoby.version>
 		<hibernate.version>3.2.5.ga.raven</hibernate.version>
 		<jetty.version>6.1.24</jetty.version>
 		<opm.version>1.1.8</opm.version>
@@ -245,10 +245,11 @@
 			<name>Odftoolkit Repository</name> <url>http://odftoolkit.org/svn/odfdom~maven2/release/</url> 
 			<snapshots> <enabled>false</enabled> </snapshots> </repository> -->
 
+		<!-- Mirror of old BioMoby repository
 		<repository>
 			<id>biomoby</id>
 			<name>Biomoby.org Repository</name>
-			<!--<url>http://biomoby.org/m2repo/</url> -->
+			<url>http://biomoby.org/m2repo/</url> 
 			<url>http://www.mygrid.org.uk/maven/biomoby/biomoby.org/m2repo</url>
 			<snapshots>
 				<enabled>false</enabled>
@@ -256,6 +257,16 @@
 			<releases>
 				<enabled>true</enabled>
 			</releases>
+		</repository>
+		-->
+		<repository>
+			<id>inab-repository</id>
+			<name>INAB Moby Repository mirror</name>
+			<url>http://www.mygrid.org.uk/maven/biomoby/moby-dev.inab.org/m2/</url>
+			<releases />
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
 		</repository>
 		<repository>
 			<id>tupelo2</id>
