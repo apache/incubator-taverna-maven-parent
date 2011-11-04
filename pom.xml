@@ -116,6 +116,8 @@
 		<t2.ui.components.version>2.0-SNAPSHOT</t2.ui.components.version>
 		<t2.ui.exts.version>2.0-SNAPSHOT</t2.ui.exts.version>
 		<t2.ui.activities.version>2.0-SNAPSHOT</t2.ui.activities.version>
+		<t2.results.version>2.0-SNAPSHOT</t2.results.version>
+		<t2.baclava.version>0.1-SNAPSHOT</t2.baclava.version>
 		<taverna.version>1.7.2.2</taverna.version>
 
 	</properties>
