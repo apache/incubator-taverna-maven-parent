@@ -14,7 +14,7 @@
 	<packaging>pom</packaging>
 	<name>Taverna Maven parent</name>
 	<description>
-		General POM-file parent for Taverna workbench etc. 
+		General POM-file parent for Taverna workbench etc.
 	</description>
 	<properties>
 		<antlr.version>2.7.7</antlr.version>
@@ -86,27 +86,27 @@
 
 		<spring.version>3.0.5.RELEASE</spring.version>
 		<spring.dm.version>2.0.0.M1</spring.dm.version>
-		
+
 
 		<!-- Taverna versions -->
 		<jedit.syntax.version>2.2.4-SNAPSHOT</jedit.syntax.version>
-		<wsdl.generic.version>1.9-SNAPSHOT</wsdl.generic.version>
+		<wsdl.generic.version>1.10-SNAPSHOT</wsdl.generic.version>
 		<org.biomart.martservice.version>2.0-SNAPSHOT</org.biomart.martservice.version>
-		<org.fife.ui.hexeditor.version>1.0-SNAPSHOT</org.fife.ui.hexeditor.version>
+		<org.fife.ui.hexeditor.version>1.1-SNAPSHOT</org.fife.ui.hexeditor.version>
 		<org.icepdf.version>4.1.1-taverna</org.icepdf.version>
 
 		<scufl2.version>0.9-SNAPSHOT</scufl2.version>
-		<t2.activities.version>2.0-SNAPSHOT</t2.activities.version>
+		<t2.activities.version>[2.0-SNAPSHOT,3.0)</t2.activities.version>
 		<t2.compatibility.version>2.0-SNAPSHOT</t2.compatibility.version>
 		<t2.core.provenanceconnector.version>2.0-SNAPSHOT</t2.core.provenanceconnector.version>
 		<t2.core.provenance.derby.version>2.0-SNAPSHOT</t2.core.provenance.derby.version>
 		<t2.core.provenance.mysql.version>2.0-SNAPSHOT</t2.core.provenance.mysql.version>
-		<t2.core.version>2.0-SNAPSHOT</t2.core.version>
+		<t2.core.version>[2.0-SNAPSHOT,3.0)</t2.core.version>
 		<t2.infrastructure.version>3.0-SNAPSHOT</t2.infrastructure.version>
-		<t2.lang.version>2.0-SNAPSHOT</t2.lang.version>
+		<t2.lang.version>[2.0-SNAPSHOT,3.0)</t2.lang.version>
 		<t2.provenance-client.version>1.0-SNAPSHOT</t2.provenance-client.version>
-		<t2.reference-core-extensions.version>2.0-SNAPSHOT</t2.reference-core-extensions.version>
-		<t2.security.version>2.0-SNAPSHOT</t2.security.version>
+		<t2.reference-core-extensions.version>[2.0-SNAPSHOT,3.0)</t2.reference-core-extensions.version>
+		<t2.security.version>[2.0-SNAPSHOT,3.0)</t2.security.version>
 		<t2.taverna.workbench.version>${project.version}</t2.taverna.workbench.version>
 		<t2.taverna-commandline.version>2.0-SNAPSHOT</t2.taverna-commandline.version>
 		<t2.translators.version>2.0-SNAPSHOT</t2.translators.version>
@@ -224,7 +224,7 @@
 			</snapshots>
 		</repository>
 
-		<!-- 
+		<!--
 		<repository>
 			<id>jboss</id>
 			<name>JBoss repository</name>
@@ -248,11 +248,11 @@
 			</releases>
 			<snapshots>
 				<enabled>false</enabled>
-			</snapshots>			
+			</snapshots>
 		</repository>
 
-		<!-- Disabled as it returns HTTP 405 Method Not Allowed <repository> <id>odftoolkit</id> 
-			<name>Odftoolkit Repository</name> <url>http://odftoolkit.org/svn/odfdom~maven2/release/</url> 
+		<!-- Disabled as it returns HTTP 405 Method Not Allowed <repository> <id>odftoolkit</id>
+			<name>Odftoolkit Repository</name> <url>http://odftoolkit.org/svn/odfdom~maven2/release/</url>
 			<snapshots> <enabled>false</enabled> </snapshots> </repository> -->
 
 		<repository>
@@ -283,7 +283,7 @@
 				<enabled>false</enabled>
 			</snapshots>
 		</repository>
-		<!-- 
+		<!--
 		<repository>
 			<id>jena</id>
 			<name>Jena</name>
@@ -293,8 +293,8 @@
 			</snapshots>
 		</repository>
 		 -->
-	
-		<!-- 
+
+		<!--
 		<repository>
 			<id>eviware</id>
 			<name>Eviware repository</name>
@@ -312,7 +312,7 @@
 			<snapshots>
 				<enabled>false</enabled>
 			</snapshots>
-		</repository>		
+		</repository>
 		 -->
 		<repository>
 			<id>com.springsource.repository.bundles.release</id>
@@ -326,4 +326,4 @@
 		</repository>
 	</repositories>
 </project>
-  
+
