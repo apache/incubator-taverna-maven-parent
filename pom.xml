@@ -17,15 +17,18 @@
 		General POM-file parent for Taverna workbench etc.
 	</description>
 	<properties>
+		<activation.version>1.1.1</activation.version>
 		<antlr.version>2.7.7</antlr.version>
-		<axis.version>1.4</axis.version>
+		<apache.httpclient.version>4.0.1</apache.httpclient.version>
+		<aspectj.version>1.6.9</aspectj.version>
 		<axis.jaxrpc.version>1.4</axis.jaxrpc.version>
 		<axis.sggj.version>1.4</axis.sggj.version>
+		<axis.version>1.4</axis.version>
 		<axis.wsdl4j.version>1.5.1</axis.wsdl4j.version>
 		<axis.wss4j.version>1.4-1.5.4-2</axis.wss4j.version>
+		<batik.version>1.7</batik.version>
 		<bcprov.jdk16.version>1.46</bcprov.jdk16.version>
-		<jaxp.ri.version>1.4</jaxp.ri.version>
-		<xstream.version>1.3.1</xstream.version>
+		<bsh.version>2.0b4</bsh.version>
 		<commons.beanutils.version>1.8.3</commons.beanutils.version>
 		<commons.cli.version>1.2</commons.cli.version>
 		<commons.codec.version>1.4</commons.codec.version>
@@ -33,60 +36,56 @@
 		<commons.configuration.version>1.6</commons.configuration.version>
 		<commons.dbcp.version>1.4</commons.dbcp.version>
 		<commons.httpclient.version>3.1</commons.httpclient.version>
-		<apache.httpclient.version>4.0.1</apache.httpclient.version>
 		<commons.io.version>1.4</commons.io.version>
-		<commons.net.version>2.0</commons.net.version>
 		<commons.lang.version>2.5</commons.lang.version>
 		<commons.logging.version>1.1.1</commons.logging.version>
-		<dom4j.version>1.6.1</dom4j.version>
-		<geronimo.spec.jta.version>1.0-M1</geronimo.spec.jta.version>
-		<activation.version>1.1.1</activation.version>
-		<javahelp.version>2.0.02</javahelp.version>
-		<mail.version>1.4.1</mail.version>
-		<jaxws.api.version>2.1</jaxws.api.version>
-		<jaxen.version>1.1.1</jaxen.version>
-		<jdom.version>1.1</jdom.version>
-		<slf4j.version>1.5.6</slf4j.version>
-		<jmimemagic.version>0.1.2</jmimemagic.version>
-		<junit.version>4.8.1</junit.version>
-		<log4j.version>1.2.16</log4j.version>
-		<mysql.connector.java.version>5.1.13</mysql.connector.java.version>
-		<jai.imageio.core.standalone.version>1.2-pre-dr-b04-2010-04-30</jai.imageio.core.standalone.version>
-		<json.lib.version>2.3</json.lib.version>
-		<opencsv.version>2.1</opencsv.version>
-		<javacsv.version>2.0</javacsv.version>
+		<commons.net.version>2.0</commons.net.version>
 		<derby.version>10.6.1.0</derby.version>
 		<derbyclient.version>${derby.version}</derbyclient.version>
 		<derbynet.version>${derby.version}</derbynet.version>
 		<derbytools.version>${derby.version}</derbytools.version>
-		<poi.version>3.6</poi.version>
-		<poi.ooxml.version>3.6</poi.ooxml.version>
-		<xmlbeans.version>2.4.0</xmlbeans.version>
-		<batik.version>1.7</batik.version>
-		<aspectj.version>1.6.9</aspectj.version>
-		<bsh.version>2.0b4</bsh.version>
-		<martj.version>0.6</martj.version>
-		<jmoby.version>1.1.4-taverna</jmoby.version>
-		<hibernate.version>3.2.5.ga.raven</hibernate.version>
-		<jetty.version>6.1.24</jetty.version>
-		<opm.version>1.1.8</opm.version>
-		<tupelo.version>2.6</tupelo.version>
-		<org.xhtmlrenderer.core-renderer.version>R8pre2</org.xhtmlrenderer.core-renderer.version>
+		<dom4j.version>1.6.1</dom4j.version>
+		<geronimo.spec.jta.version>1.0-M1</geronimo.spec.jta.version>
 		<gson.version>1.4</gson.version>
-		<knowarc.usecases.version>0.3.5-SNAPSHOT</knowarc.usecases.version>
-		<xalan.version>2.7.1</xalan.version>
-		<saxpath.version>1.0-FCS</saxpath.version>
-		<stax.version>1.0</stax.version>
-		<xerces.version>2.9.1</xerces.version>
-		<jsch.version>0.1.42</jsch.version>
-		<jena.version>2.6.4</jena.version>
+		<hibernate.version>3.2.5.ga.raven</hibernate.version>
+		<jai.imageio.core.standalone.version>1.2-pre-dr-b04-2010-04-30</jai.imageio.core.standalone.version>
+		<javacsv.version>2.0</javacsv.version>
+		<javahelp.version>2.0.02</javahelp.version>
+		<jaxen.version>1.1.1</jaxen.version>
+		<jaxp.ri.version>1.4</jaxp.ri.version>
+		<jaxws.api.version>2.1</jaxws.api.version>
+		<jdom.version>1.1</jdom.version>
 		<jena.arq.version>2.8.7</jena.arq.version>
+		<jena.version>2.6.4</jena.version>
 		<!--  to match Jena -->
 		<icu4j.version>3.4.4</icu4j.version>
+		<jetty.version>6.1.24</jetty.version>
+		<jmimemagic.version>0.1.2</jmimemagic.version>
+		<jmoby.version>1.1.4-taverna</jmoby.version>
+		<jsch.version>0.1.42</jsch.version>
+		<json.lib.version>2.3</json.lib.version>
+		<junit.version>4.8.1</junit.version>
+		<knowarc.usecases.version>0.3.5-SNAPSHOT</knowarc.usecases.version>
+		<log4j.version>1.2.16</log4j.version>
+		<mail.version>1.4.1</mail.version>
+		<martj.version>0.6</martj.version>
+		<mysql.connector.java.version>5.1.13</mysql.connector.java.version>
+		<opencsv.version>2.1</opencsv.version>
+		<opm.version>1.1.8</opm.version>
+		<org.xhtmlrenderer.core-renderer.version>R8pre2</org.xhtmlrenderer.core-renderer.version>
+		<poi.ooxml.version>3.6</poi.ooxml.version>
+		<poi.version>3.6</poi.version>
+		<saxpath.version>1.0-FCS</saxpath.version>
+		<slf4j.version>1.5.6</slf4j.version>
+		<stax.version>1.0</stax.version>
+		<tupelo.version>2.6</tupelo.version>
+		<xalan.version>2.7.1</xalan.version>
+		<xerces.version>2.9.1</xerces.version>
+		<xmlbeans.version>2.4.0</xmlbeans.version>
+		<xstream.version>1.3.1</xstream.version>
 
 		<spring.version>3.0.5.RELEASE</spring.version>
 		<spring.dm.version>2.0.0.M1</spring.dm.version>
-
 
 		<!-- Taverna versions -->
 		<jedit.syntax.version>2.2.4-SNAPSHOT</jedit.syntax.version>
@@ -96,29 +95,29 @@
 		<org.icepdf.version>4.1.1-taverna</org.icepdf.version>
 
 		<scufl2.version>[0.9-SNAPSHOT,1.0)</scufl2.version>
-		<taverna.configuration.version>0.1.0-SNAPSHOT</taverna.configuration.version>
 		<t2.activities.version>[2.0-SNAPSHOT,3.0)</t2.activities.version>
+		<t2.baclava.version>0.1-SNAPSHOT</t2.baclava.version>
 		<t2.compatibility.version>[2.0-SNAPSHOT,3.0)</t2.compatibility.version>
-		<t2.core.provenanceconnector.version>[2.0-SNAPSHOT,3.0)</t2.core.provenanceconnector.version>
 		<t2.core.provenance.derby.version>[2.0-SNAPSHOT,3.0)</t2.core.provenance.derby.version>
 		<t2.core.provenance.mysql.version>[2.0-SNAPSHOT,3.0)</t2.core.provenance.mysql.version>
+		<t2.core.provenanceconnector.version>[2.0-SNAPSHOT,3.0)</t2.core.provenanceconnector.version>
 		<t2.core.version>[2.0-SNAPSHOT,3.0)</t2.core.version>
 		<t2.infrastructure.version>3.0-SNAPSHOT</t2.infrastructure.version>
 		<t2.lang.version>[2.0-SNAPSHOT,3.0)</t2.lang.version>
 		<t2.provenance-client.version>[1.0-SNAPSHOT,2.0)</t2.provenance-client.version>
 		<t2.reference-core-extensions.version>[2.0-SNAPSHOT,3.0)</t2.reference-core-extensions.version>
+		<t2.results.version>[2.0-SNAPSHOT,3.0)</t2.results.version>
 		<t2.security.version>[2.0-SNAPSHOT,3.0)</t2.security.version>
-		<t2.taverna.workbench.version>${project.version}</t2.taverna.workbench.version>
 		<t2.taverna-commandline.version>[2.0-SNAPSHOT,3.0)</t2.taverna-commandline.version>
+		<t2.taverna.workbench.version>${project.version}</t2.taverna.workbench.version>
 		<t2.translators.version>[2.0-SNAPSHOT,3.0)</t2.translators.version>
 		<t2.ui.activities.version>[2.0-SNAPSHOT,3.0)</t2.ui.activities.version>
+		<t2.ui.activities.version>[2.0-SNAPSHOT,3.0)</t2.ui.activities.version>
 		<t2.ui.api.version>[2.0-SNAPSHOT,3.0)</t2.ui.api.version>
-		<t2.ui.impl.version>[2.0-SNAPSHOT,3.0)</t2.ui.impl.version>
 		<t2.ui.components.version>[2.0-SNAPSHOT,3.0)</t2.ui.components.version>
 		<t2.ui.exts.version>[2.0-SNAPSHOT,3.0)</t2.ui.exts.version>
-		<t2.ui.activities.version>[2.0-SNAPSHOT,3.0)</t2.ui.activities.version>
-		<t2.results.version>[2.0-SNAPSHOT,3.0)</t2.results.version>
-		<t2.baclava.version>0.1-SNAPSHOT</t2.baclava.version>
+		<t2.ui.impl.version>[2.0-SNAPSHOT,3.0)</t2.ui.impl.version>
+		<taverna.configuration.version>[0.1.0-SNAPSHOT,1.0)</taverna.configuration.version>
 		<taverna.version>1.7.2.2</taverna.version>
 
 	</properties>
