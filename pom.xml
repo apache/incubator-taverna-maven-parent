@@ -90,34 +90,34 @@
 		<!-- Taverna versions -->
 		<jedit.syntax.version>2.2.4-SNAPSHOT</jedit.syntax.version>
 		<wsdl.generic.version>1.10-SNAPSHOT</wsdl.generic.version>
-		<org.biomart.martservice.version>[2.0-SNAPSHOT,3.0)</org.biomart.martservice.version>
+		<org.biomart.martservice.version>2.0-SNAPSHOT</org.biomart.martservice.version>
 		<org.fife.ui.hexeditor.version>1.1-SNAPSHOT</org.fife.ui.hexeditor.version>
 		<org.icepdf.version>4.1.1-taverna</org.icepdf.version>
 
-		<scufl2.version>[0.9-SNAPSHOT,1.0)</scufl2.version>
-		<t2.activities.version>[2.0-SNAPSHOT,3.0)</t2.activities.version>
+		<scufl2.version>0.9.2</scufl2.version>
+		<t2.activities.version>2.0-SNAPSHOT</t2.activities.version>
 		<t2.baclava.version>0.1-SNAPSHOT</t2.baclava.version>
-		<t2.compatibility.version>[2.0-SNAPSHOT,3.0)</t2.compatibility.version>
-		<t2.core.provenance.derby.version>[2.0-SNAPSHOT,3.0)</t2.core.provenance.derby.version>
-		<t2.core.provenance.mysql.version>[2.0-SNAPSHOT,3.0)</t2.core.provenance.mysql.version>
-		<t2.core.provenanceconnector.version>[2.0-SNAPSHOT,3.0)</t2.core.provenanceconnector.version>
-		<t2.core.version>[2.0-SNAPSHOT,3.0)</t2.core.version>
+		<t2.compatibility.version>2.0-SNAPSHOT</t2.compatibility.version>
+		<t2.core.provenance.derby.version>2.0-SNAPSHOT</t2.core.provenance.derby.version>
+		<t2.core.provenance.mysql.version>2.0-SNAPSHOT</t2.core.provenance.mysql.version>
+		<t2.core.provenanceconnector.version>2.0-SNAPSHOT</t2.core.provenanceconnector.version>
+		<t2.core.version>2.0-SNAPSHOT</t2.core.version>
 		<t2.infrastructure.version>3.0-SNAPSHOT</t2.infrastructure.version>
-		<t2.lang.version>[2.0-SNAPSHOT,3.0)</t2.lang.version>
-		<t2.provenance-client.version>[1.0-SNAPSHOT,2.0)</t2.provenance-client.version>
-		<t2.reference-core-extensions.version>[2.0-SNAPSHOT,3.0)</t2.reference-core-extensions.version>
-		<t2.results.version>[2.0-SNAPSHOT,3.0)</t2.results.version>
-		<t2.security.version>[2.0-SNAPSHOT,3.0)</t2.security.version>
-		<t2.taverna-commandline.version>[2.0-SNAPSHOT,3.0)</t2.taverna-commandline.version>
+		<t2.lang.version>2.0-SNAPSHOT</t2.lang.version>
+		<t2.provenance-client.version>1.0-SNAPSHOT</t2.provenance-client.version>
+		<t2.reference-core-extensions.version>2.0-SNAPSHOT</t2.reference-core-extensions.version>
+		<t2.results.version>2.0-SNAPSHOT</t2.results.version>
+		<t2.security.version>2.0-SNAPSHOT</t2.security.version>
+		<t2.taverna-commandline.version>2.0-SNAPSHOT</t2.taverna-commandline.version>
 		<t2.taverna.workbench.version>${project.version}</t2.taverna.workbench.version>
-		<t2.translators.version>[2.0-SNAPSHOT,3.0)</t2.translators.version>
-		<t2.ui.activities.version>[2.0-SNAPSHOT,3.0)</t2.ui.activities.version>
-		<t2.ui.activities.version>[2.0-SNAPSHOT,3.0)</t2.ui.activities.version>
-		<t2.ui.api.version>[2.0-SNAPSHOT,3.0)</t2.ui.api.version>
-		<t2.ui.components.version>[2.0-SNAPSHOT,3.0)</t2.ui.components.version>
-		<t2.ui.exts.version>[2.0-SNAPSHOT,3.0)</t2.ui.exts.version>
-		<t2.ui.impl.version>[2.0-SNAPSHOT,3.0)</t2.ui.impl.version>
-		<taverna.configuration.version>[0.1.0-SNAPSHOT,1.0)</taverna.configuration.version>
+		<t2.translators.version>2.0-SNAPSHOT</t2.translators.version>
+		<t2.ui.activities.version>2.0-SNAPSHOT</t2.ui.activities.version>
+		<t2.ui.activities.version>2.0-SNAPSHOT</t2.ui.activities.version>
+		<t2.ui.api.version>2.0-SNAPSHOT</t2.ui.api.version>
+		<t2.ui.components.version>2.0-SNAPSHOT</t2.ui.components.version>
+		<t2.ui.exts.version>2.0-SNAPSHOT</t2.ui.exts.version>
+		<t2.ui.impl.version>2.0-SNAPSHOT</t2.ui.impl.version>
+		<taverna.configuration.version>0.1.0-SNAPSHOT</taverna.configuration.version>
 		<taverna.version>1.7.2.2</taverna.version>
 
 	</properties>
