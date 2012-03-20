@@ -241,24 +241,7 @@
 			</snapshots>			
 		</repository>
 
-		<!-- Disabled as it returns HTTP 405 Method Not Allowed <repository> <id>odftoolkit</id> 
-			<name>Odftoolkit Repository</name> <url>http://odftoolkit.org/svn/odfdom~maven2/release/</url> 
-			<snapshots> <enabled>false</enabled> </snapshots> </repository> -->
 
-		<!-- Mirror of old BioMoby repository
-		<repository>
-			<id>biomoby</id>
-			<name>Biomoby.org Repository</name>
-			<url>http://biomoby.org/m2repo/</url> 
-			<url>http://www.mygrid.org.uk/maven/biomoby/biomoby.org/m2repo</url>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-			<releases>
-				<enabled>true</enabled>
-			</releases>
-		</repository>
-		-->
 		<repository>
 			<id>inab-repository</id>
 			<name>INAB Moby Repository mirror</name>
@@ -284,37 +267,6 @@
 				<enabled>false</enabled>
 			</snapshots>
 		</repository>
-		<!-- 
-		<repository>
-			<id>jena</id>
-			<name>Jena</name>
-			<url>http://openjena.org/repo/</url>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-		</repository>
-		 -->
-	
-		<!-- 
-		<repository>
-			<id>eviware</id>
-			<name>Eviware repository</name>
-			<url>http://www.eviware.com/repository/maven2/</url>
-			<releases>
-				<enabled>true</enabled>
-			</releases>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-		</repository>
-		<repository>
-			<id>trianacode-maven-repos</id>
-			<url>http://trianacode.org/maven</url>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-		</repository>		
-		 -->
 	</repositories>
 </project>
   
