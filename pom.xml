@@ -19,7 +19,7 @@
 	<properties>
 		<activation.version>1.1.1</activation.version>
 		<antlr.version>2.7.7</antlr.version>
-		<apache.httpclient.version>4.0.1</apache.httpclient.version>
+		<apache.httpclient.version>4.1.1</apache.httpclient.version>
 		<aspectj.version>1.6.9</aspectj.version>
 		<axis.jaxrpc.version>1.4</axis.jaxrpc.version>
 		<axis.sggj.version>1.4</axis.sggj.version>
@@ -31,11 +31,11 @@
 		<bsh.version>2.0b4</bsh.version>
 		<commons.beanutils.version>1.8.3</commons.beanutils.version>
 		<commons.cli.version>1.2</commons.cli.version>
-		<commons.codec.version>1.4</commons.codec.version>
+		<commons.codec.version>1.4.0</commons.codec.version>
 		<commons.collections.version>3.2.1</commons.collections.version>
 		<commons.configuration.version>1.6</commons.configuration.version>
 		<commons.dbcp.version>1.4</commons.dbcp.version>
-		<commons.httpclient.version>3.1</commons.httpclient.version>
+		<commons.httpclient.version>3.1.0</commons.httpclient.version>
 		<commons.io.version>1.4</commons.io.version>
 		<commons.lang.version>2.5</commons.lang.version>
 		<commons.logging.version>1.1.1</commons.logging.version>
@@ -47,7 +47,7 @@
 		<dom4j.version>1.6.1</dom4j.version>
 		<geronimo.spec.jta.version>1.0-M1</geronimo.spec.jta.version>
 		<gson.version>1.4</gson.version>
-		<hibernate.version>3.2.5.ga.raven</hibernate.version>
+		<hibernate.version>3.2.6.ga</hibernate.version>
 		<jai.imageio.core.standalone.version>1.2-pre-dr-b04-2010-04-30</jai.imageio.core.standalone.version>
 		<javacsv.version>2.0</javacsv.version>
 		<javahelp.version>2.0.02</javahelp.version>
