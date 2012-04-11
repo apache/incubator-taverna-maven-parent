@@ -214,21 +214,6 @@
 			</snapshots>
 		</repository>
 
-		<!-- 
-		<repository>
-			<id>jboss</id>
-			<name>JBoss repository</name>
-			-  <url>http://repository.jboss.org/maven2/</url>-
-			<url>https://repository.jboss.org/nexus/</url>
-			<releases>
-				<checksumPolicy>fail</checksumPolicy>
-				<enabled>true</enabled>
-			</releases>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-		</repository>
-		 -->
 		<repository>
 			<id>javanet</id>
 			<name>java.net</name>
@@ -251,22 +236,7 @@
 				<enabled>false</enabled>
 			</snapshots>
 		</repository>
-		<repository>
-			<id>tupelo2</id>
-			<name>Tupelo 2</name>
-			<url>http://dlt-dev.ncsa.uiuc.edu/m2</url>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-		</repository>
-		<repository>
-			<id>opm</id>
-			<name>Open Provenance (OPM)</name>
-			<url>http://openprovenance.org/java/maven-releases</url>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-		</repository>
+
 	</repositories>
 </project>
   
