@@ -34,7 +34,7 @@
 		<commons.io.version>1.4.0</commons.io.version>
 		<commons.lang.version>2.5.0</commons.lang.version>
 		<commons.logging.version>1.1.1</commons.logging.version>
-		<commons.net.version>2.0</commons.net.version>
+		<commons.net.version>2.0.0</commons.net.version>
 		<derby.version>10.5.1000001.764942</derby.version>
 		<derbyclient.version>${derby.version}</derbyclient.version>
 		<derbynet.version>${derby.version}</derbynet.version>
@@ -88,13 +88,14 @@
 		<osgi.core.version>4.2.0</osgi.core.version>
 		<osgi.enterprise.version>4.2.0</osgi.enterprise.version>
 		<osgi.equinox.version>3.6.0.v20100517</osgi.equinox.version>
-		<osgi.launcher.version>0.1.0</osgi.launcher.version>
-		<osgi.services.version>0.1.0</osgi.services.version>
+
+		<osgi.launcher.version>0.1.1-SNAPSHOT</osgi.launcher.version>
+		<osgi.services.version>0.1.1-SNAPSHOT</osgi.services.version>
 
 		<!-- Taverna versions -->
 		<jedit.syntax.version>2.2.5</jedit.syntax.version>
 		<wsdl.generic.version>1.10.0</wsdl.generic.version>
-		<org.biomart.martservice.version>2.0.0</org.biomart.martservice.version>
+		<org.biomart.martservice.version>2.0.1-SNAPSHOT</org.biomart.martservice.version>
 		<org.fife.ui.hexeditor.version>1.1-SNAPSHOT</org.fife.ui.hexeditor.version>
 		<org.icepdf.version>4.1.1-taverna</org.icepdf.version>
 
@@ -110,7 +111,7 @@
 		<t2.reference-core-extensions.version>2.0.1-SNAPSHOT</t2.reference-core-extensions.version>
 		<t2.security.version>2.0.1-SNAPSHOT</t2.security.version>
 
-		<t2.taverna-commandline.version>2.0.0</t2.taverna-commandline.version>
+		<t2.taverna-commandline.version>2.0.1-SNAPSHOT</t2.taverna-commandline.version>
 		<t2.taverna.workbench.version>${project.version}</t2.taverna.workbench.version>
 
 		<t2.ui.activities.version>2.0-SNAPSHOT</t2.ui.activities.version>
@@ -120,12 +121,12 @@
 		<t2.ui.exts.version>2.0-SNAPSHOT</t2.ui.exts.version>
 		<t2.ui.impl.version>2.0-SNAPSHOT</t2.ui.impl.version>
 
-		<t2.lang.version>2.0.0</t2.lang.version>
-		<t2.baclava.version>0.1.0</t2.baclava.version>
-		<t2.results.version>2.0.0</t2.results.version>
+		<t2.lang.version>2.0.1-SNAPSHOT</t2.lang.version>
+		<t2.baclava.version>0.1.1-SNAPSHOT</t2.baclava.version>
+		<t2.results.version>2.0.1-SNAPSHOT</t2.results.version>
 
 		<taverna.configuration.version>0.1.1-SNAPSHOT</taverna.configuration.version>
-		<taverna.commandline-arguments.version>0.1.0</taverna.commandline-arguments.version>
+		<taverna.commandline-arguments.version>0.1.1-SNAPSHOT</taverna.commandline-arguments.version>
 
 		<!-- <t2.compatibility.version>2.0-SNAPSHOT</t2.compatibility.version> -->
 		<!-- <t2.translators.version>2.0-SNAPSHOT</t2.translators.version> -->
