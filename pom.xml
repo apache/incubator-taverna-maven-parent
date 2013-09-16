@@ -63,7 +63,7 @@
 		<log4j.version>1.2.16</log4j.version>
 		<mail.version>1.4.1</mail.version>
 		<martj.version>0.6</martj.version>
-		<mimeutil.version>2.1.3</mimeutil.version>
+		<mimeutil.version>2.1.3-SNAPSHOT</mimeutil.version>
 		<mysql.connector.java.version>5.1.13</mysql.connector.java.version>
 		<odfdom.version>0.7</odfdom.version>
 		<opencsv.version>2.1</opencsv.version>
