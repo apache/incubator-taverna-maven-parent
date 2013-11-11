@@ -107,7 +107,6 @@
 		<t2.taverna.workbench.version>${project.version}</t2.taverna.workbench.version>
 		<t2.taverna-commandline.version>1.5-SNAPSHOT</t2.taverna-commandline.version>
 		<t2.translators.version>1.5-SNAPSHOT</t2.translators.version>
-		<t2.ui.activities.version>1.5-SNAPSHOT</t2.ui.activities.version>
 		<t2.ui.api.version>1.5-SNAPSHOT</t2.ui.api.version>
 		<t2.ui.impl.version>1.5-SNAPSHOT</t2.ui.impl.version>
 		<t2.ui.components.version>1.5-SNAPSHOT</t2.ui.components.version>
