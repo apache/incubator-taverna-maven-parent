@@ -102,6 +102,7 @@
 		<t2.infrastructure.version>2.5-SNAPSHOT</t2.infrastructure.version>
 		<t2.lang.version>1.5-SNAPSHOT</t2.lang.version>
 		<t2.provenance-client.version>0.1-SNAPSHOT</t2.provenance-client.version>
+		<t2.provenance-bundle.version>2.1.7-SNAPSHOT</t2.provenance-bundle.version>
 		<t2.reference-core-extensions.version>1.5-SNAPSHOT</t2.reference-core-extensions.version>
 		<t2.security.version>1.5-SNAPSHOT</t2.security.version>
 		<t2.taverna.workbench.version>${project.version}</t2.taverna.workbench.version>
@@ -252,9 +253,9 @@
 			</snapshots>
 		</repository>
 		<repository>
-			<id>tupelo2</id>
-			<name>Tupelo 2</name>
-			<url>http://dlt-dev.ncsa.uiuc.edu/m2</url>
+			<id>aduna-software</id>
+			<name>Aduna Software</name>
+			<url>http://repo.aduna-software.org/maven2/releases/</url>
 			<snapshots>
 				<enabled>false</enabled>
 			</snapshots>
