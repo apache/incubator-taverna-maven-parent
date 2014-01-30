@@ -270,6 +270,18 @@
 				<enabled>false</enabled>
 			</snapshots>
 		</repository>
+		<repository>
+			<id>akathist-repository</id>
+			<!-- disable broken http://9stmaryrd.com/maven/ referenced by raven 1.9 -->
+			<url>http://build.mygrid.org.uk/maven/404</url>
+			<releases>
+				<enabled>false</enabled>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>			
+		</repository>
+
 	</repositories>
 </project>
   
