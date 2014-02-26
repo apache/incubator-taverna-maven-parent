@@ -68,6 +68,7 @@
 		<martj.version>0.6</martj.version>
 		<jmoby.version>1.1.5-taverna</jmoby.version>
 		<hibernate.version>3.2.5.ga.raven</hibernate.version>
+		<servletapi.version>2.4</servletapi.version>
 		<jetty.version>6.1.24</jetty.version>
 		<opm.version>1.1.8</opm.version>
 		<tupelo.version>2.6</tupelo.version>
