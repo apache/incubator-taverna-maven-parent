@@ -92,6 +92,7 @@
 		<org.biomart.martservice.version>1.5-SNAPSHOT</org.biomart.martservice.version>
 		<org.fife.ui.hexeditor.version>1.0.2011-07-04</org.fife.ui.hexeditor.version>
 		<org.icepdf.version>4.1.1-taverna</org.icepdf.version>
+		<mimeutil.verison>2.1.2-x-SNAPSHOT</mimeutil.version>
 
 		<t2.activities.version>1.5-SNAPSHOT</t2.activities.version>
 		<t2.compatibility.version>1.5-SNAPSHOT</t2.compatibility.version>
