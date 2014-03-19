@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>net.sf.taverna</groupId>
 		<artifactId>parent</artifactId>
-		<version>0.2.2014-01-06</version>
+		<version>0.2.2014-03-19</version>
 		<relativePath>../parent/pom.xml</relativePath>
 	</parent>
 	<groupId>net.sf.taverna</groupId>
@@ -88,8 +88,8 @@
 		<spring.version>2.5.4</spring.version>
 
 		<!-- Taverna versions -->
-		<wsdl.generic.version>1.10</wsdl.generic.version>
-		<org.biomart.martservice.version>1.5-SNAPSHOT</org.biomart.martservice.version>
+		<wsdl.generic.version>1.11-SNAPSHOT</wsdl.generic.version>
+		<org.biomart.martservice.version>1.6-SNAPSHOT</org.biomart.martservice.version>
 		<org.fife.ui.hexeditor.version>1.0.2011-07-04</org.fife.ui.hexeditor.version>
 		<org.icepdf.version>4.1.1-taverna</org.icepdf.version>
 		<mimeutil.version>2.1.2-x-SNAPSHOT</mimeutil.version>
