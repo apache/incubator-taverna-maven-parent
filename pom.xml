@@ -74,7 +74,6 @@
 		<tupelo.version>2.6</tupelo.version>
 		<org.xhtmlrenderer.core-renderer.version>R8pre2</org.xhtmlrenderer.core-renderer.version>
 		<gson.version>1.4</gson.version>
-		<knowarc.usecases.version>0.3.5-SNAPSHOT</knowarc.usecases.version>
 		<xalan.version>2.7.1</xalan.version>
 		<saxpath.version>1.0-FCS</saxpath.version>
 		<stax.version>1.0</stax.version>
@@ -89,9 +88,9 @@
 		<spring.version>2.5.4</spring.version>
 
 		<!-- Taverna versions -->
-		<wsdl.generic.version>1.9-SNAPSHOT</wsdl.generic.version>
-		<org.biomart.martservice.version>1.5-SNAPSHOT</org.biomart.martservice.version>
-		<org.fife.ui.hexeditor.version>1.0-SNAPSHOT</org.fife.ui.hexeditor.version>
+		<wsdl.generic.version>1.10</wsdl.generic.version>
+		<org.biomart.martservice.version>1.5</org.biomart.martservice.version>
+		<org.fife.ui.hexeditor.version>1.0.2011-07-04</org.fife.ui.hexeditor.version>
 		<org.icepdf.version>4.1.1-taverna</org.icepdf.version>
 		<mimeutil.version>2.1.2-6</mimeutil.version>
 
@@ -100,13 +99,14 @@
 		<t2.core.provenanceconnector.version>1.5-SNAPSHOT</t2.core.provenanceconnector.version>
 		<t2.core.provenance.derby.version>1.5-SNAPSHOT</t2.core.provenance.derby.version>
 		<t2.core.provenance.mysql.version>1.5-SNAPSHOT</t2.core.provenance.mysql.version>
-		<t2.core.version>1.5-SNAPSHOT</t2.core.version>
-		<t2.infrastructure.version>2.5-SNAPSHOT</t2.infrastructure.version>
-		<t2.lang.version>1.5-SNAPSHOT</t2.lang.version>
+		<t2.core.version>1.5</t2.core.version>
+		<t2.infrastructure.version>2.5</t2.infrastructure.version>
+		<t2.lang.version>1.5</t2.lang.version>
+		<t2.results.version>1.5</t2.results.version>
 		<t2.provenance-client.version>0.1-SNAPSHOT</t2.provenance-client.version>
 		<t2.tavernaprov.version>2.2.0-SNAPSHOT</t2.tavernaprov.version>
-		<t2.reference-core-extensions.version>1.5-SNAPSHOT</t2.reference-core-extensions.version>
-		<t2.security.version>1.5-SNAPSHOT</t2.security.version>
+		<t2.reference-core-extensions.version>1.5</t2.reference-core-extensions.version>
+		<t2.security.version>1.5</t2.security.version>
 		<!--  see https://github.com/myGrid/taverna-prov/tree/maintenance  -->
 		<t2.taverna.workbench.version>${project.version}</t2.taverna.workbench.version>
 		<t2.taverna-commandline.version>1.5-SNAPSHOT</t2.taverna-commandline.version>
