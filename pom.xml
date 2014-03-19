@@ -103,7 +103,7 @@
 		<t2.infrastructure.version>2.5</t2.infrastructure.version>
 		<t2.lang.version>1.5</t2.lang.version>
 		<t2.results.version>1.5</t2.results.version>
-		<t2.provenance-client.version>0.1-SNAPSHOT</t2.provenance-client.version>
+		<t2.provenance-client.version>1.5-SNAPSHOT</t2.provenance-client.version>
 		<t2.tavernaprov.version>2.2.0-SNAPSHOT</t2.tavernaprov.version>
 		<t2.reference-core-extensions.version>1.5</t2.reference-core-extensions.version>
 		<t2.security.version>1.5</t2.security.version>
