@@ -51,7 +51,7 @@
 		<junit.version>4.8.1</junit.version>
 		<log4j.version>1.2.16</log4j.version>
 		<mysql.connector.java.version>5.1.13</mysql.connector.java.version>
-		<jai.imageio.core.standalone.version>1.2-pre-dr-b04-2010-04-30</jai.imageio.core.standalone.version>
+		<jai.imageio.core.standalone.version>1.2-pre-dr-b04-2011-07-04</jai.imageio.core.standalone.version>
 		<json.lib.version>2.3</json.lib.version>
 		<opencsv.version>2.1</opencsv.version>
 		<javacsv.version>2.0</javacsv.version>
@@ -74,7 +74,6 @@
 		<tupelo.version>2.6</tupelo.version>
 		<org.xhtmlrenderer.core-renderer.version>R8pre2</org.xhtmlrenderer.core-renderer.version>
 		<gson.version>1.4</gson.version>
-		<knowarc.usecases.version>0.3.5-SNAPSHOT</knowarc.usecases.version>
 		<xalan.version>2.7.1</xalan.version>
 		<saxpath.version>1.0-FCS</saxpath.version>
 		<stax.version>1.0</stax.version>
@@ -89,9 +88,9 @@
 		<spring.version>2.5.4</spring.version>
 
 		<!-- Taverna versions -->
-		<wsdl.generic.version>1.9-SNAPSHOT</wsdl.generic.version>
-		<org.biomart.martservice.version>1.5-SNAPSHOT</org.biomart.martservice.version>
-		<org.fife.ui.hexeditor.version>1.0-SNAPSHOT</org.fife.ui.hexeditor.version>
+		<wsdl.generic.version>1.10</wsdl.generic.version>
+		<org.biomart.martservice.version>1.5</org.biomart.martservice.version>
+		<org.fife.ui.hexeditor.version>1.0.2011-07-04</org.fife.ui.hexeditor.version>
 		<org.icepdf.version>4.1.1-taverna</org.icepdf.version>
 
 		<t2.activities.version>1.5-SNAPSHOT</t2.activities.version>
