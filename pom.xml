@@ -275,7 +275,7 @@
 			</snapshots>			
 		</repository>
 		<repository>
-			<id>aduna-software</id>
+			<id>aduna-opensource.releases</id>
 			<name>Aduna Software mirror</name>
 			<!--
 			<url>http://repo.aduna-software.org/maven2/releases/</url>
@@ -285,6 +285,7 @@
 				<enabled>false</enabled>
 			</snapshots>
 		</repository>
+
 
 	</repositories>
 </project>
