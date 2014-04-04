@@ -256,14 +256,6 @@
 			</snapshots>
 		</repository>
 		<repository>
-			<id>aduna-software</id>
-			<name>Aduna Software</name>
-			<url>http://repo.aduna-software.org/maven2/releases/</url>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-		</repository>
-		<repository>
 			<id>opm</id>
 			<name>Open Provenance (OPM)</name>
 			<url>http://openprovenance.org/java/maven-releases</url>
@@ -281,6 +273,17 @@
 			<snapshots>
 				<enabled>false</enabled>
 			</snapshots>			
+		</repository>
+		<repository>
+			<id>aduna-software</id>
+			<name>Aduna Software mirror</name>
+			<!--
+			<url>http://repo.aduna-software.org/maven2/releases/</url>
+			-->
+			<url>http://build.mygrid.org.uk/maven/aduna</url>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
 		</repository>
 
 	</repositories>
