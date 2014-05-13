@@ -88,7 +88,7 @@
 		<spring.version>2.5.4</spring.version>
 
 		<!-- Taverna versions -->
-		<wsdl.generic.version>1.11-SNAPSHOT</wsdl.generic.version>
+		<wsdl.generic.version>1.10</wsdl.generic.version>
 		<org.biomart.martservice.version>1.6-SNAPSHOT</org.biomart.martservice.version>
 		<org.fife.ui.hexeditor.version>1.0.2011-07-04</org.fife.ui.hexeditor.version>
 		<org.icepdf.version>4.1.1-taverna</org.icepdf.version>
