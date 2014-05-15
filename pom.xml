@@ -31,7 +31,7 @@
 		<commons.configuration.version>1.6</commons.configuration.version>
 		<commons.dbcp.version>1.2.2.osgi</commons.dbcp.version>
 		<commons.httpclient.version>3.1.0</commons.httpclient.version>
-		<commons.io.version>1.4</commons.io.version>
+		<commons.io.version>1.4.0</commons.io.version>
 		<commons.lang.version>2.5.0</commons.lang.version>
 		<commons.logging.version>1.1.1</commons.logging.version>
 		<commons.net.version>2.0.0</commons.net.version>
