@@ -6,7 +6,6 @@
 		<groupId>net.sf.taverna</groupId>
 		<artifactId>parent</artifactId>
 		<version>0.2.2014-03-19</version>
-		<relativePath>../parent/pom.xml</relativePath>
 	</parent>
 	<groupId>net.sf.taverna</groupId>
 	<artifactId>taverna-parent</artifactId>
