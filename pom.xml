@@ -107,7 +107,7 @@
 		<t2.reference-core-extensions.version>1.6-SNAPSHOT</t2.reference-core-extensions.version>
 		<t2.security.version>1.6-SNAPSHOT</t2.security.version>
 		<!--  see https://github.com/myGrid/taverna-prov/tree/maintenance  -->
-		<t2.taverna.workbench.version>${project.version}</t2.taverna.workbench.version>
+		<t2.taverna.workbench.version>2.6-SNAPSHOT</t2.taverna.workbench.version>
 		<t2.taverna-commandline.version>1.6-SNAPSHOT</t2.taverna-commandline.version>
 		<t2.translators.version>1.6-SNAPSHOT</t2.translators.version>
 		<t2.ui.api.version>1.6-SNAPSHOT</t2.ui.api.version>
