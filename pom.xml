@@ -45,6 +45,7 @@
 		<gson.version>1.4</gson.version>
 		<hibernate.version>3.2.6.ga</hibernate.version>
 		<icu4j.version>3.4.4</icu4j.version>
+                <jackson-databind.version>2.2.2</jackson-databind.version>
 		<jai.imageio.core.standalone.version>1.2-pre-dr-b04-2010-04-30</jai.imageio.core.standalone.version>
 		<javacsv.version>2.0</javacsv.version>
 		<javahelp.version>2.0.02</javahelp.version>
