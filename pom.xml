@@ -132,6 +132,7 @@
 
 		<taverna.commons.version>0.1.0-SNAPSHOT</taverna.commons.version>
 		<taverna.configuration.version>0.1.1-SNAPSHOT</taverna.configuration.version>
+                <taverna.databundle.version>0.3.3-SNAPSHOT</taverna.databundle.version>
 		<taverna.serviceregistry.version>0.1.0-SNAPSHOT</taverna.serviceregistry.version>
 		<taverna.commandline-arguments.version>0.1.1-SNAPSHOT</taverna.commandline-arguments.version>
 
