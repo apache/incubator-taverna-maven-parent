@@ -27,7 +27,7 @@
 		<bsh.version>2.0.0.b4</bsh.version>
 		<commons.beanutils.version>1.8.3</commons.beanutils.version>
 		<commons.cli.version>1.2.0</commons.cli.version>
-		<commons.codec.version>1.4.0</commons.codec.version>
+		<commons.codec.version>1.7</commons.codec.version>
 		<commons.collections.version>3.2.1</commons.collections.version>
 		<commons.configuration.version>1.6</commons.configuration.version>
 		<commons.dbcp.version>1.2.2.osgi</commons.dbcp.version>
