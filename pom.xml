@@ -75,6 +75,7 @@
 		<opm.version>1.1.8</opm.version>
 		<org.xhtmlrenderer.core-renderer.version>R8pre2</org.xhtmlrenderer.core-renderer.version>
 		<poi.version>3.6</poi.version>
+                <robundle.version>0.3.1</robundle.version>
 		<saxpath.version>1.0-FCS</saxpath.version>
 		<slf4j.version>1.7.5</slf4j.version>
 		<stax.version>1.0</stax.version>
