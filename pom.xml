@@ -50,6 +50,7 @@
 		<javacsv.version>2.0</javacsv.version>
 		<javahelp.version>2.0.02</javahelp.version>
 		<javax.transaction.version>1.1.0</javax.transaction.version>
+                <javax.wsdl.version>1.6.1</javax.wsdl.version>
 		<jaxen.version>1.1.1</jaxen.version>
                 <jaxb.version>2.2.4-1</jaxb.version>
 		<jaxp.ri.version>1.4</jaxp.ri.version>
@@ -100,7 +101,7 @@
 
 		<!-- Taverna versions -->
 		<jedit.syntax.version>2.2.5</jedit.syntax.version>
-		<wsdl.generic.version>1.10.0</wsdl.generic.version>
+		<wsdl.generic.version>1.11.0-SNAPSHOT</wsdl.generic.version>
 		<org.biomart.martservice.version>2.0.1-SNAPSHOT</org.biomart.martservice.version>
 		<org.fife.ui.hexeditor.version>1.1-SNAPSHOT</org.fife.ui.hexeditor.version>
 		<org.icepdf.version>4.1.1-taverna</org.icepdf.version>
