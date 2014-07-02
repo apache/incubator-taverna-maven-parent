@@ -29,7 +29,7 @@
 		<commons.cli.version>1.2.0</commons.cli.version>
 		<commons.codec.version>1.7</commons.codec.version>
 		<commons.collections.version>3.2.1</commons.collections.version>
-		<commons.configuration.version>1.6</commons.configuration.version>
+		<commons.configuration.version>1.9</commons.configuration.version>
 		<commons.dbcp.version>1.2.2.osgi</commons.dbcp.version>
 		<commons.httpclient.version>3.1.0</commons.httpclient.version>
 		<commons.io.version>2.4</commons.io.version>
