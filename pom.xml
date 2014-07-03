@@ -142,6 +142,7 @@
                 <taverna.databundle.version>0.3.3-SNAPSHOT</taverna.databundle.version>
 		<taverna.serviceregistry.version>0.1.0-SNAPSHOT</taverna.serviceregistry.version>
 		<taverna.commandline-arguments.version>0.1.1-SNAPSHOT</taverna.commandline-arguments.version>
+                <taverna-command-line.version>0.1.2-SNAPSHOT</taverna-command-line.version>
 
 		<!-- <t2.compatibility.version>2.0-SNAPSHOT</t2.compatibility.version> -->
 		<!-- <t2.translators.version>2.0-SNAPSHOT</t2.translators.version> -->
