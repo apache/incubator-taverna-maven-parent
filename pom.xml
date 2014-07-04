@@ -60,7 +60,6 @@
 		<jaxp.ri.version>1.4</jaxp.ri.version>
 		<jaxws.api.version>2.1</jaxws.api.version>
 		<jdom.version>1.1.0</jdom.version>
-		<jena.arq.version>2.8.7</jena.arq.version>
 		<jena.version>2.11.0</jena.version>
 		<jetty.version>6.1.24</jetty.version>
 		<jmimemagic.version>0.1.2</jmimemagic.version>
