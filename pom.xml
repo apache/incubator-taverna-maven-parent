@@ -112,7 +112,7 @@
 		<org.icepdf.version>4.1.1-taverna</org.icepdf.version>
 		<mimeutil.version>2.1.2-6</mimeutil.version>
 
-		<scufl2.version>0.14.0</scufl2.version>
+		<scufl2.version>0.14.1-SNAPSHOT</scufl2.version>
                 <scufl2.wfdesc.version>0.3.8</scufl2.wfdesc.version>
 		<platform.version>0.1.3-SNAPSHOT</platform.version>
 
