@@ -72,7 +72,7 @@
 		<jdom.version>1.1</jdom.version>
 		<slf4j.version>1.7.5</slf4j.version>
 		<jmimemagic.version>0.1.2</jmimemagic.version>
-		<junit.version>4.8.1</junit.version>
+		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.16</log4j.version>
 		<mysql.connector.java.version>5.1.13</mysql.connector.java.version>
 		<jai.imageio.core.standalone.version>1.2-pre-dr-b04-2011-07-04</jai.imageio.core.standalone.version>
@@ -142,6 +142,19 @@
 		<t2.ui.activities.version>1.6-SNAPSHOT</t2.ui.activities.version>
 		<taverna.version>1.7.2.2</taverna.version>
 	</properties>
+
+
+	<!-- Common (test) dependencies - keep this list short
+			and up to date! -->
+	<dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>${junit.version}</version>
+      <scope>test</scope>
+    </dependency>
+
+	</dependencies>
 
 
 	<build>
