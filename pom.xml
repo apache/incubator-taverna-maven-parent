@@ -7,15 +7,19 @@
 		<artifactId>parent</artifactId>
 		<version>0.2.2014-03-19</version>
 	</parent>
-	<groupId>net.sf.taverna</groupId>
+	<groupId>org.apache.taverna</groupId>
 	<artifactId>taverna-parent</artifactId>
-	<version>2.6-SNAPSHOT</version>
+	<version>1-SNAPSHOT</version>
 	<packaging>pom</packaging>
-	<name>Taverna Maven parent</name>
+	<name>Apache Taverna (incubating) Maven parent</name>
 	<description>
-		General POM-file parent for Taverna workbench etc. 
+		General POM-file parent for Taverna workbench etc.
 	</description>
 	<properties>
+
+	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+
 		<antlr.version>2.7.7</antlr.version>
 		<axis.version>1.4</axis.version>
 		<axis.jaxrpc.version>1.4</axis.jaxrpc.version>
@@ -141,6 +145,59 @@
 				</executions>
 			</plugin>
 
+		<plugin>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-compiler-plugin</artifactId>
+							<version>3.1</version>
+			<configuration>
+				<source>1.7</source>
+				<target>1.7</target>
+			</configuration>
+		</plugin>
+		<plugin>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-source-plugin</artifactId>
+							<version>2.2.1</version>
+			<executions>
+				<execution>
+					<goals>
+						<goal>jar</goal>
+						<goal>test-jar</goal>
+					</goals>
+				</execution>
+			</executions>
+		</plugin>
+		<plugin>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-jar-plugin</artifactId>
+							<version>2.4</version>
+			<executions>
+				<execution>
+					<goals>
+						<goal>test-jar</goal>
+					</goals>
+				</execution>
+			</executions>
+		</plugin>
+		<plugin>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-surefire-plugin</artifactId>
+							<version>2.17</version>
+			<configuration>
+				<skip>false</skip>
+				<systemProperties>
+					<property>
+						<name>java.awt.headless</name>
+						<value>true</value>
+					</property>
+				</systemProperties>
+			</configuration>
+		</plugin>
+		<plugin>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-release-plugin</artifactId>
+			<version>2.5</version>
+		</plugin>
 
 		</plugins>
 	</build>
@@ -189,99 +246,24 @@
 
 	<repositories>
 		<repository>
-			<id>mygrid-repository</id>
-			<name>myGrid Repository</name>
-			<url>http://www.mygrid.org.uk/maven/repository</url>
-			<releases />
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-		</repository>
-		<repository>
-			<id>mygrid-snapshot-repository</id>
-			<name>myGrid Snapshot Repository</name>
-			<url>http://www.mygrid.org.uk/maven/snapshot-repository</url>
+			<id>taverna-incubating</id>
+			<name>Taverna incubating Repository</name>
+        <url>http://repository.mygrid.org.uk/artifactory/incubator-snapshot-local/</url>
 			<releases>
 				<enabled>false</enabled>
 			</releases>
 			<snapshots />
 		</repository>
-		<repository>
-			<id>central-uk</id>
-			<name>UK mirror of central</name>
-			<url>http://uk.maven.org/maven2/</url>
-			<releases />
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-		</repository>
-
-		<!-- 
-		<repository>
-			<id>jboss</id>
-			<name>JBoss repository</name>
-			-  <url>http://repository.jboss.org/maven2/</url>-
-			<url>https://repository.jboss.org/nexus/</url>
-			<releases>
-				<checksumPolicy>fail</checksumPolicy>
-				<enabled>true</enabled>
-			</releases>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-		</repository>
-		 -->
-		<repository>
-			<id>javanet</id>
-			<name>java.net</name>
-			<url>http://download.java.net/maven/2/</url>
-			<releases>
-				<enabled>true</enabled>
-			</releases>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>			
-		</repository>
-
-
-		<repository>
-			<id>inab-repository</id>
-			<name>INAB Moby Repository mirror</name>
-			<url>http://www.mygrid.org.uk/maven/biomoby/moby-dev.inab.org/m2/</url>
-			<releases />
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-		</repository>
-		<repository>
-			<id>aduna-software</id>
-			<name>Aduna Software</name>
-<!--            broken  <url>http://repo.aduna-software.org/maven2/releases/</url> -->
-			<url>http://www.mygrid.org.uk/maven/aduna/</url>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-		</repository>
-		<repository>
-			<id>opm</id>
-			<name>Open Provenance (OPM)</name>
-			<url>http://openprovenance.org/java/maven-releases</url>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-		</repository>
-		<repository>
-			<id>akathist-repository</id>
-			<!-- disable broken http://9stmaryrd.com/maven/ referenced by raven 1.9 -->
-			<url>http://build.mygrid.org.uk/maven/404</url>
-			<releases>
-				<enabled>false</enabled>
-			</releases>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>			
-		</repository>
 
 	</repositories>
+
+	<distributionManagement>
+    <snapshotRepository>
+			<!-- TODO: Use Apache snapshot repo -->
+			<id>taverna-incubating</id>
+			<name>Taverna incubating Repository</name>
+      <url>http://repository.mygrid.org.uk/artifactory/incubator-snapshot-local/</url>
+    </snapshotRepository>
+</distributionManagement>
+
 </project>
-  
