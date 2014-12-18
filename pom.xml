@@ -39,6 +39,15 @@
 
 
 	<properties>
+    <!-- Version of dependencies 
+         Note that in some cases these versions refer to a 
+         springsource repackaging for OSGi, e.g. 
+         com.springsource.org.jdom
+
+Do NOT put taverna.* versions in here, as we do not want
+to update taverna-parent whenever a taverna-* has been 
+upgraded - this leads to recursive spaghetti.
+         -->
 <activation.version>1.1.1</activation.version>
 <antlr.version>2.7.7</antlr.version>
 <apache.commons.csv.version>1.0.0.BUILD-20080106</apache.commons.csv.version>
@@ -271,6 +280,7 @@
 
 	<repositories>
 		<repository>
+			<!-- TODO: Use Apache snapshot repo instead -->
 			<id>taverna-incubating</id>
 			<name>Taverna incubating Repository</name>
         <url>http://repository.mygrid.org.uk/artifactory/incubator-snapshot-local/</url>
@@ -295,7 +305,7 @@
 
 	<distributionManagement>
     <snapshotRepository>
-			<!-- TODO: Use Apache snapshot repo -->
+			<!-- TODO: Use Apache snapshot repo instead -->
 			<id>taverna-incubating</id>
 			<name>Taverna incubating Repository</name>
       <url>http://repository.mygrid.org.uk/artifactory/incubator-snapshot-local/</url>
