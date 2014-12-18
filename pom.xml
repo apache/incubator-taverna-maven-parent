@@ -76,7 +76,7 @@ upgraded - this leads to recursive spaghetti.
 <derbyclient.version>${derby.version}</derbyclient.version>
 <derbynet.version>${derby.version}</derbynet.version>
 <derbytools.version>${derby.version}</derbytools.version>
-<derby.version>10.6.1.0</derby.version>
+<derby.version>10.5.1000001.764942</derby.version>
 <dom4j.version>1.6.1</dom4j.version>
 <geronimo.spec.jta.version>1.0-M1</geronimo.spec.jta.version>
 <gson.version>1.4</gson.version>
