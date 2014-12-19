@@ -97,7 +97,7 @@ upgraded - this leads to recursive spaghetti.
 <jaxws.api.version>2.1</jaxws.api.version>
 <jdom.version>1.1.0</jdom.version> <!-- com.springsource.org.jdom -->
 <jedit.syntax.version>2.2.5</jedit.syntax.version>
-<jena.version>2.12.2-SNAPSHOT</jena.version>
+<jena.version>2.12.1</jena.version>
 <jetty.version>6.1.24</jetty.version>
 <jmimemagic.version>0.1.2</jmimemagic.version>
 <jmoby.version>1.1.5-taverna</jmoby.version>
