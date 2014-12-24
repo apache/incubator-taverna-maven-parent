@@ -51,7 +51,8 @@ upgraded - this leads to recursive spaghetti.
 <activation.version>1.1.1</activation.version>
 <antlr.version>2.7.7</antlr.version>
 <apache.commons.csv.version>1.0.0.BUILD-20080106</apache.commons.csv.version>
-<apache.httpclient.version>4.2.1</apache.httpclient.version>
+<apache.httpclient.version>4.2.6</apache.httpclient.version>
+<apache.httpcore.version>4.2.5</apache.httpcore.version>
 <aspectj.version>1.6.9</aspectj.version>
 <axis.jaxrpc.version>1.4</axis.jaxrpc.version>
 <axis.sggj.version>1.4</axis.sggj.version>
