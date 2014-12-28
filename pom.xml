@@ -291,16 +291,52 @@ upgraded - this leads to recursive spaghetti.
 			<snapshots />
 		</repository>
 
+<!--
       <repository>
         <id>com.springsource.repository.bundles.release</id>
         <name>SpringSource Enterprise Bundle Repository - SpringSource Bundle Releases</name>
         <url>http://repository.springsource.com/maven/bundles/release</url>
       </repository>
+-->
       <repository>
         <id>com.springsource.repository.bundles.external</id>
         <name>SpringSource Enterprise Bundle Repository - External Bundle Releases</name>
         <url>http://repository.springsource.com/maven/bundles/external</url>
       </repository>
+
+<!--
+<repository>
+    <id>repository.spring.snapshot</id>
+    <name>Spring Snapshot Repository</name>
+    <url>http://repo.spring.io/snapshot</url>
+    <releases>
+      <enabled>false</enabled>
+    </releases>
+    <snapshots />
+</repository>
+
+also in Maven Central:
+<repository> 
+    <id>repository.spring.release</id>
+    <name>Spring GA Repository</name>
+    <url>http://repo.spring.io/release</url>
+    <releases />
+    <snapshots>
+      <enabled>false</enabled>
+    </snapshots>
+</repository>
+
+-->
+<repository>
+    <id>repository.spring.milestone</id>
+    <name>Spring Milestone Repository</name>
+    <url>http://repo.spring.io/milestone</url>
+    <releases />
+    <snapshots>
+      <enabled>false</enabled>
+    </snapshots>
+</repository>
+
 
 	</repositories>
 
