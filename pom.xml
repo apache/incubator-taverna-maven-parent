@@ -83,7 +83,7 @@ upgraded - this leads to recursive spaghetti.
 <gson.version>1.4</gson.version>
 <hibernate.version>3.2.6.ga</hibernate.version>
 <icu4j.version>3.4.4</icu4j.version>
-<jackson-databind.version>2.2.2</jackson-databind.version>
+<jackson.version>2.3.3</jackson.version>
 <jai.imageio.core.standalone.version>1.2-pre-dr-b04-2011-07-04</jai.imageio.core.standalone.version>
 <javacsv.version>2.0</javacsv.version>
 <javahelp.version>2.0.02</javahelp.version>
@@ -104,6 +104,8 @@ upgraded - this leads to recursive spaghetti.
 <jmoby.version>1.1.5-taverna</jmoby.version>
 <jsch.version>0.1.42.w1</jsch.version>
 <json.lib.version>2.3</json.lib.version>
+<jsonld.version>0.5.1</jsonld.version>
+
 <junit.version>4.11</junit.version>
 <log4j.version>1.2.16</log4j.version>
 <mail.version>1.4.1</mail.version>
