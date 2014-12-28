@@ -1,6 +1,6 @@
 Parent POM for builds of Taverna Workbench, Command-Line and Platform
 
-[![Build Status](https://travis-ci.org/taverna/taverna-maven-parent.svg?branch=maintenance)](https://travis-ci.org/taverna/taverna-maven-parent)
+[![Build Status](https://travis-ci.org/taverna-incubator/incubator-taverna-maven-parent.svg)](https://travis-ci.org/taverna-incubator/incubator-taverna-maven-parent)
 
 Supplies Version number constants for all the main Taverna dependencies.
 Adds in shared Maven build and reporting steps
