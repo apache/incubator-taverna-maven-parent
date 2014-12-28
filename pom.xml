@@ -304,7 +304,6 @@ upgraded - this leads to recursive spaghetti.
         <name>bintray</name>
         <url>http://dl.bintray.com/spring/jars</url>
       </repository>
-    </repositories>
 
       <repository>
         <id>com.springsource.repository.bundles.release</id>
