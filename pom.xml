@@ -295,7 +295,6 @@ upgraded - this leads to recursive spaghetti.
 			<snapshots />
 		</repository>
 
-    <repositories>
       <repository>
         <snapshots>
           <enabled>false</enabled>
