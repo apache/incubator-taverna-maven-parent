@@ -48,6 +48,7 @@ Do NOT put taverna.* versions in here, as we do not want
 to update taverna-parent whenever a taverna-* has been 
 upgraded - this leads to recursive spaghetti.
          -->
+<abdera.version>1.1.3</abdera.version>
 <activation.version>1.1.1</activation.version>
 <antlr.version>2.7.7</antlr.version>
 <apache.commons.csv.version>1.0.0.BUILD-20080106</apache.commons.csv.version>
@@ -106,7 +107,6 @@ upgraded - this leads to recursive spaghetti.
 <jsch.version>0.1.42.w1</jsch.version>
 <json.lib.version>2.3</json.lib.version>
 <jsonld.version>0.5.1</jsonld.version>
-
 <junit.version>4.11</junit.version>
 <log4j.version>1.2.16</log4j.version>
 <mail.version>1.4.1</mail.version>
@@ -137,6 +137,7 @@ upgraded - this leads to recursive spaghetti.
 <spring.version>3.0.5.RELEASE</spring.version>
 <stax.version>1.0</stax.version>
 <tupelo.version>2.6</tupelo.version>
+<velocity.version>1.7</velocity.version>
 <ws.security.version>1.5.8</ws.security.version>
 <xalan.version>2.7.1</xalan.version>
 <xerces.version>2.9.1</xerces.version>
