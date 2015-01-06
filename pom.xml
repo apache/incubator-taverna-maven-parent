@@ -285,6 +285,20 @@ upgraded - this leads to recursive spaghetti.
 		</plugins>
 	</reporting>
 
+  <pluginRepositories>
+    <pluginRepository>
+			<!-- TODO: Use Apache snapshot repo instead -->
+			<id>taverna-incubating</id>
+			<name>Taverna incubating Repository</name>
+        <url>http://repository.mygrid.org.uk/artifactory/incubator-snapshot-local/</url>
+			<releases>
+				<enabled>false</enabled>
+			</releases>
+			<snapshots />
+    </pluginRepository>
+  </pluginRepositories>
+  
+
 	<repositories>
 		<repository>
 			<!-- TODO: Use Apache snapshot repo instead -->
@@ -358,6 +372,7 @@ also in Maven Central:
 
 
 	</repositories>
+
 
 	<distributionManagement>
     <snapshotRepository>
