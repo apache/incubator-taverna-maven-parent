@@ -1,11 +1,20 @@
-Parent POM for builds of Taverna Workbench, Command-Line and Platform
+# Parent POM 
 
 [![Build Status](https://travis-ci.org/taverna-incubator/incubator-taverna-maven-parent.svg)](https://travis-ci.org/taverna-incubator/incubator-taverna-maven-parent)
 
-Supplies Version number constants for all the main Taverna dependencies.  
+Common Maven Parent for [all the other Apache Taverna repositories](http://taverna.incubator.apache.org/code/).
+ 
+Note that released Taverna modules might not use the same version of the parent, this is usually NOT an issue.
+
+
+Supplies Version number constants for all external Taverna dependencies.  
+
 Adds in shared Maven build and reporting steps.  
-List repositories to be used.
+
+List additional repositories to be used (mainly for OSGi/Spring dependencies).
 
 This does NOT contain a `<modules>` section so does NOT do Project Aggregation.
 
-This code was previously hosted at http://taverna.googlecode.com/svn/taverna/taverna-parent/
+This parent does NOT define the version of org.apache.taverna modules, that should
+be done within `<properties>` of each top-level project.
+
