@@ -104,7 +104,7 @@ upgraded - this leads to recursive spaghetti.
 <jetty.version>6.1.24</jetty.version>
 <jmimemagic.version>0.1.2</jmimemagic.version>
 <jmoby.version>1.1.5-taverna</jmoby.version>
-<jsch.version>0.1.42.w1</jsch.version>
+<jsch.version>1.0.6.RELEASE</jsch.version>
 <json.lib.version>2.3</json.lib.version>
 <jsonld.version>0.5.1</jsonld.version>
 <junit.version>4.11</junit.version>
@@ -300,7 +300,7 @@ upgraded - this leads to recursive spaghetti.
         <snapshots>
           <enabled>false</enabled>
         </snapshots>
-        <id>central</id>
+        <id>bintray</id>
         <name>bintray</name>
         <url>http://dl.bintray.com/spring/jars</url>
       </repository>
