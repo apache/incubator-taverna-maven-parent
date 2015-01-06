@@ -84,6 +84,7 @@ upgraded - this leads to recursive spaghetti.
 <geronimo.spec.jta.version>1.0-M1</geronimo.spec.jta.version>
 <gson.version>1.4</gson.version>
 <hibernate.version>3.2.6.ga</hibernate.version>
+<htmlparser.version>1.4</htmlparser.version>
 <icu4j.version>3.4.4</icu4j.version>
 <jackson.version>2.3.3</jackson.version>
 <jai.imageio.core.standalone.version>1.2-pre-dr-b04-2011-07-04</jai.imageio.core.standalone.version>
@@ -133,7 +134,7 @@ upgraded - this leads to recursive spaghetti.
 <servletapi.version>2.5</servletapi.version>
 <sesame.version>2.7.0</sesame.version>
 <simple-jndi.version>0.11.1</simple-jndi.version>
-<slf4j.version>1.7.5</slf4j.version>
+<slf4j.version>1.7.6</slf4j.version>
 <spring.dm.version>2.0.0.M1</spring.dm.version>
 <spring.version>3.0.5.RELEASE</spring.version>
 <stax.version>1.0</stax.version>
