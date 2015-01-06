@@ -59,7 +59,6 @@ upgraded - this leads to recursive spaghetti.
 <axis.sggj.version>1.4</axis.sggj.version>
 <axis.version>1.4.0</axis.version>
 <axis.wsdl4j.version>1.5.1</axis.wsdl4j.version>
-<axis.wss4j.version>1.4-1.5.4-2</axis.wss4j.version>
 <batik.version>1.7.0</batik.version>
 <bcprov.jdk16.version>1.46</bcprov.jdk16.version>
 <bsh.version>2.0.0.b4</bsh.version>
@@ -109,7 +108,7 @@ upgraded - this leads to recursive spaghetti.
 <json.lib.version>2.3</json.lib.version>
 <jsonld.version>0.5.1</jsonld.version>
 <junit.version>4.11</junit.version>
-<log4j.version>1.2.16</log4j.version>
+<log4j.version>1.2.17</log4j.version>
 <mail.version>1.4.1</mail.version>
 <martj.version>0.6</martj.version>
 <mimeutil.version>2.1.2-6</mimeutil.version>
@@ -130,6 +129,7 @@ upgraded - this leads to recursive spaghetti.
 <osgi.services.version>0.1.2-SNAPSHOT</osgi.services.version>
 <poi.ooxml.version>3.6</poi.ooxml.version>
 <poi.version>3.6</poi.version>
+<santuario.xmlsec.version>1.5.7</santuario.xmlsec.version>
 <saxpath.version>1.0-FCS</saxpath.version>
 <servletapi.version>2.5</servletapi.version>
 <sesame.version>2.7.0</sesame.version>
@@ -140,13 +140,12 @@ upgraded - this leads to recursive spaghetti.
 <stax.version>1.0</stax.version>
 <tupelo.version>2.6</tupelo.version>
 <velocity.version>1.7</velocity.version>
-<ws.security.version>1.5.8</ws.security.version>
 <xalan.version>2.7.1</xalan.version>
 <xerces.version>2.9.1</xerces.version>
 <xmlbeans.version>2.4.0</xmlbeans.version>
 <xml.rpc.version>1.1.0</xml.rpc.version>
-<xml.security.version>1.4.2</xml.security.version>
 <xstream.version>1.4.1</xstream.version>
+<wss4j.version>1.5.12</wss4j.version>
 	</properties>
 
 
