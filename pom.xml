@@ -115,6 +115,7 @@ upgraded - this leads to recursive spaghetti.
 <mockito.version>1.9.5</mockito.version>
 <mysql.connector.java.version>5.1.13</mysql.connector.java.version>
 <odfdom.version>0.7</odfdom.version>
+<!-- <odfdom.version>0.8.8-incubating</odfdom.version>-->
 <opencsv.version>2.1</opencsv.version>
 <opm.version>1.1.8</opm.version>
 <org.fife.ui.hexeditor.version>1.0.2011-07-04</org.fife.ui.hexeditor.version>
