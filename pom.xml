@@ -18,9 +18,9 @@
 
 	<name>Apache Taverna (incubating) Maven parent</name>
 	<description>
-		General POM-file parent for Taverna workbench etc.
+		General POM-file parent for Apache Taverna projects
 	</description>
-	<url>http://incubator.apache.org/projects/taverna.html</url>
+	<url>http://taverna.incubator.apache.org/</url>
   <mailingLists>
     <mailingList>
       <name>Apache Taverna Developer List</name>
@@ -28,14 +28,43 @@
       <unsubscribe>dev-unsubscribe@taverna.incubator.apache.org</unsubscribe>
       <post>dev@taverna.incubator.apache.org</post>
       <archive>http://mail-archives.apache.org/mod_mbox/incubator-taverna-dev/</archive>
+      <otherArchives>
+        <otherArchive>http://www.mail-archive.com/dev@taverna.incubator.apache.org/</otherArchive>
+        <otherArchive>http://markmail.org/search/?q=list%3Aorg.apache.taverna.dev</otherArchive>
+      </otherArchives>
+    </mailingList>
+    <mailingList>
+      <name>Apache Taverna Users List</name>
+      <subscribe>users-subscribe@taverna.incubator.apache.org</subscribe>
+      <unsubscribe>users-unsubscribe@taverna.incubator.apache.org</unsubscribe>
+      <post>users@taverna.incubator.apache.org</post>
+      <archive>http://mail-archives.apache.org/mod_mbox/incubator-taverna-users/</archive>
+      <otherArchives>
+        <otherArchive>http://www.mail-archive.com/users@taverna.incubator.apache.org/</otherArchive>
+        <otherArchive>http://markmail.org/search/?q=list%3Aorg.apache.taverna.users</otherArchive>
+      </otherArchives>
+    </mailingList>
+    <mailingList>
+      <name>Apache Taverna Commits</name>
+      <subscribe>commits-subscribe@taverna.incubator.apache.org</subscribe>
+      <unsubscribe>commits-unsubscribe@taverna.incubator.apache.org</unsubscribe>
+      <post>commits@taverna.incubator.apache.org</post>
+      <archive>http://mail-archives.apache.org/mod_mbox/incubator-taverna-commits/</archive>
     </mailingList>
   </mailingLists>
 
   <scm>
-    <connection>scm:git:git://github.com/taverna-incubating/taverna-maven-parent.git</connection>
-    <developerConnection>scm:git:ssh://git@github.com/taverna-incubating/taverna-maven-parent.git</developerConnection>
-    <url>https://github.com/taverna-incubating/taverna-maven-parent/</url>
-  </scm>
+    <!-- TODO: Replace with git.apache.org details :
+      <connection>scm:git:https://git-wip-us.apache.org/repos/asf/incubator-taverna-maven-parent.git</connection>
+      <developerConnection>scm:git:https://git-wip-us.apache.org/repos/asf/incubator-taverna-maven-parent.git</developerConnection>
+      <url>https://git-wip-us.apache.org/repos/asf/incubator-taverna-maven-parent.git</url>
+    -->
+    <connection>scm:git:https://github.com/taverna-incubator/incubator-taverna-maven-parent.git</connection>
+    <developerConnection>scm:git:git@github.com:taverna-incubator/incubator-taverna-maven-parent.git</developerConnection>
+    <url>https://github.com/taverna-incubator/incubator-taverna-maven-parent</url>
+    <tag>HEAD</tag>
+</scm>
+
 
 
 	<properties>
