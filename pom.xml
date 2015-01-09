@@ -39,6 +39,13 @@
 
 
 	<properties>
+
+    <!-- Java version (picked up in Apache Parent pom -->
+
+    <maven.compiler.source>1.7</maven.compiler.source>
+    <maven.compiler.target>1.7</maven.compiler.target>
+
+
     <!-- Version of dependencies 
          Note that in some cases these versions refer to a 
          springsource repackaging for OSGi, e.g. 
@@ -193,14 +200,6 @@ upgraded - this leads to recursive spaghetti.
 
 		<plugin>
 			<groupId>org.apache.maven.plugins</groupId>
-			<artifactId>maven-compiler-plugin</artifactId>
-			<configuration>
-				<source>1.7</source>
-				<target>1.7</target>
-			</configuration>
-		</plugin>
-		<plugin>
-			<groupId>org.apache.maven.plugins</groupId>
 			<artifactId>maven-source-plugin</artifactId>
 			<executions>
 				<execution>
@@ -266,7 +265,7 @@ upgraded - this leads to recursive spaghetti.
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-javadoc-plugin</artifactId>
-				<version>2.7</version>
+
 				<configuration>
 					<minmemory>128m</minmemory>
 					<maxmemory>512</maxmemory>
@@ -275,7 +274,6 @@ upgraded - this leads to recursive spaghetti.
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
-				<version>2.7.1</version>
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -296,6 +294,14 @@ upgraded - this leads to recursive spaghetti.
 			</releases>
 			<snapshots />
     </pluginRepository>
+    <pluginRepository>
+			<id>taverna-incubating-release</id>
+			<name>Taverna incubating test release</name>
+      <url>http://repository.mygrid.org.uk/artifactory/incubator-release-test/</url>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </pluginRepository>
   </pluginRepositories>
   
 
@@ -310,6 +316,15 @@ upgraded - this leads to recursive spaghetti.
 			</releases>
 			<snapshots />
 		</repository>
+    <repository>
+			<!-- TODO: Use Apache snapshot repo instead -->
+			<id>taverna-incubating-release</id>
+			<name>Taverna incubating test release</name>
+      <url>http://repository.mygrid.org.uk/artifactory/incubator-release-test/</url>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
 
       <repository>
         <snapshots>
@@ -381,6 +396,12 @@ also in Maven Central:
 			<name>Taverna incubating Repository</name>
       <url>http://repository.mygrid.org.uk/artifactory/incubator-snapshot-local/</url>
     </snapshotRepository>
+    <repository>
+			<!-- TODO: Use Apache snapshot repo instead -->
+			<id>taverna-incubating-release</id>
+			<name>Taverna incubating test release</name>
+      <url>http://repository.mygrid.org.uk/artifactory/incubator-release-test/</url>
+    </repository>
 </distributionManagement>
 
 </project>
