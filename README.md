@@ -18,3 +18,7 @@ This does NOT contain a `<modules>` section so does NOT do Project Aggregation.
 This parent does NOT define the version of org.apache.taverna modules, that should
 be done within `<properties>` of each top-level project.
 
+## License
+
+Apache Taverna is distributed under the
+[Apache License, version 2.0](http://www.apache.org/licenses/LICENSE-2.0)
