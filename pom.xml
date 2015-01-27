@@ -322,15 +322,6 @@ upgraded - this leads to recursive spaghetti.
 	<reporting>
 		<plugins>
 			<plugin>
-				<groupId>com.atlassian.maven.plugins</groupId>
-				<artifactId>maven-clover2-plugin</artifactId>
-				<version>2.3.1</version>
-				<configuration>
-					<generatePdf>true</generatePdf>
-					<generateXml>true</generateXml>
-				</configuration>
-			</plugin>
-			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-checkstyle-plugin</artifactId>
 				<version>2.6</version>
