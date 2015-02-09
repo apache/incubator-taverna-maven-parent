@@ -331,16 +331,24 @@ upgraded - this leads to recursive spaghetti.
     </plugin>
   </plugins>
 
-    <pluginManagement>
-			<plugins>
-	      <plugin>
-	        <!-- Force upgrade to avoid https://jira.codehaus.org/browse/SCM-740 -->
-	        <groupId>org.apache.maven.plugins</groupId>
-	        <artifactId>maven-scm-plugin</artifactId>
-	        <version>1.9.2</version>
-	      </plugin>
-			</plugins>
-    </pluginManagement>
+	<pluginManagement>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>${maven.compiler.source}</source>
+					<target>${maven.compiler.target}</target>
+				</configuration>
+			</plugin>
+			<plugin>
+				<!-- Force upgrade to avoid https://jira.codehaus.org/browse/SCM-740 -->
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-scm-plugin</artifactId>
+				<version>1.9.2</version>
+			</plugin>
+		</plugins>
+	</pluginManagement>
 	</build>
 	<reporting>
 		<plugins>
