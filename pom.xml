@@ -36,6 +36,7 @@
 		General POM-file parent for Apache Taverna projects
 	</description>
 	<url>http://taverna.incubator.apache.org/</url>
+  <inceptionYear>2015</inceptionYear>
   <mailingLists>
     <mailingList>
       <name>Apache Taverna Developer List</name>
