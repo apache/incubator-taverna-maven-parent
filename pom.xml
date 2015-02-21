@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   Licensed to the Apache Software Foundation (ASF) under one or more
+   contributor license agreements.  See the NOTICE file distributed with
+   this work for additional information regarding copyright ownership.
+   The ASF licenses this file to You under the Apache License, Version 2.0
+   (the "License"); you may not use this file except in compliance with
+   the License.  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+-->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		  <groupId>org.apache</groupId>
+		  <artifactId>apache</artifactId>
+		  <version>14</version>
+	</parent>
+	<prerequisites>
+		<maven>3.2.0</maven>
+	</prerequisites>
+
+	<groupId>org.apache.taverna</groupId>
+	<artifactId>taverna-parent</artifactId>
+	<version>1-incubating-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<name>Apache Taverna (incubating) Maven parent</name>
+	<description>
+		General POM-file parent for Apache Taverna projects
+	</description>
+	<url>http://taverna.incubator.apache.org/</url>
+  <inceptionYear>2015</inceptionYear>
+  <mailingLists>
+    <mailingList>
+      <name>Apache Taverna Developer List</name>
+      <subscribe>dev-subscribe@taverna.incubator.apache.org</subscribe>
+      <unsubscribe>dev-unsubscribe@taverna.incubator.apache.org</unsubscribe>
+      <post>dev@taverna.incubator.apache.org</post>
+      <archive>http://mail-archives.apache.org/mod_mbox/incubator-taverna-dev/</archive>
+      <otherArchives>
+        <otherArchive>http://www.mail-archive.com/dev@taverna.incubator.apache.org/</otherArchive>
+        <otherArchive>http://markmail.org/search/?q=list%3Aorg.apache.taverna.dev</otherArchive>
+      </otherArchives>
+    </mailingList>
+    <mailingList>
+      <name>Apache Taverna Users List</name>
+      <subscribe>users-subscribe@taverna.incubator.apache.org</subscribe>
+      <unsubscribe>users-unsubscribe@taverna.incubator.apache.org</unsubscribe>
+      <post>users@taverna.incubator.apache.org</post>
+      <archive>http://mail-archives.apache.org/mod_mbox/incubator-taverna-users/</archive>
+      <otherArchives>
+        <otherArchive>http://www.mail-archive.com/users@taverna.incubator.apache.org/</otherArchive>
+        <otherArchive>http://markmail.org/search/?q=list%3Aorg.apache.taverna.users</otherArchive>
+      </otherArchives>
+    </mailingList>
+    <mailingList>
+      <name>Apache Taverna Commits</name>
+      <subscribe>commits-subscribe@taverna.incubator.apache.org</subscribe>
+      <unsubscribe>commits-unsubscribe@taverna.incubator.apache.org</unsubscribe>
+      <post>commits@taverna.incubator.apache.org</post>
+      <archive>http://mail-archives.apache.org/mod_mbox/incubator-taverna-commits/</archive>
+    </mailingList>
+  </mailingLists>
+
+  <scm>
+    <!-- TODO: Replace with git.apache.org details :
+      <connection>scm:git:https://git-wip-us.apache.org/repos/asf/incubator-taverna-maven-parent.git</connection>
+      <developerConnection>scm:git:https://git-wip-us.apache.org/repos/asf/incubator-taverna-maven-parent.git</developerConnection>
+      <url>https://git-wip-us.apache.org/repos/asf/incubator-taverna-maven-parent.git</url>
+    -->
+    <connection>scm:git:https://github.com/taverna-incubator/incubator-taverna-maven-parent.git</connection>
+    <developerConnection>scm:git:git@github.com:taverna-incubator/incubator-taverna-maven-parent.git</developerConnection>
+    <url>https://github.com/taverna-incubator/incubator-taverna-maven-parent</url>
+    <tag>HEAD</tag>
+</scm>
+
+
+
+	<properties>
+    <!-- override java version from Apache parent -->
+    <maven.compiler.source>1.7</maven.compiler.source>
+    <maven.compiler.target>1.7</maven.compiler.target>
+
+    <!-- Version of dependencies
+         Note that in some cases these versions refer to a
+         springsource repackaging for OSGi, e.g.
+         com.springsource.org.jdom
+
+Do NOT put taverna.* versions in here, as we do not want
+to update taverna-parent whenever a taverna-* has been
+upgraded - this leads to recursive spaghetti.
+         -->
+<abdera.version>1.1.3</abdera.version>
+<activation.version>1.1.1</activation.version>
+<antlr.version>2.7.7</antlr.version>
+<apache.commons.csv.version>1.0.0.BUILD-20080106</apache.commons.csv.version>
+<apache.httpclient.version>4.2.6</apache.httpclient.version>
+<apache.httpcore.version>4.2.5</apache.httpcore.version>
+<aspectj.version>1.6.9</aspectj.version>
+<axis.jaxrpc.version>1.4</axis.jaxrpc.version>
+<axis.sggj.version>1.4</axis.sggj.version>
+<axis.version>1.4.0</axis.version>
+<axis.wsdl4j.version>1.5.1</axis.wsdl4j.version>
+<batik.version>1.7.0</batik.version>
+<bcprov.jdk16.version>1.46</bcprov.jdk16.version>
+<bsh.version>2.0.b5</bsh.version>
+<cglib.version>2.1.3</cglib.version>
+<commons.beanutils.version>1.9.2</commons.beanutils.version>
+<commons.cli.version>1.2.0</commons.cli.version>
+<commons.codec.version>1.7</commons.codec.version>
+<commons.collections.version>3.2.1</commons.collections.version>
+<commons.configuration.version>1.9</commons.configuration.version>
+<commons.dbcp.version>1.4</commons.dbcp.version>
+<commons.httpclient.version>3.1.0</commons.httpclient.version>
+<commons.io.version>2.4</commons.io.version>
+<commons.lang.version>2.5.0</commons.lang.version>
+<commons.logging.version>1.1.1</commons.logging.version>
+<commons.net.version>2.0.0</commons.net.version>
+<derbyclient.version>${derby.version}</derbyclient.version>
+<derbynet.version>${derby.version}</derbynet.version>
+<derbytools.version>${derby.version}</derbytools.version>
+<derby.version>10.5.1000001.764942</derby.version>
+<dom4j.version>1.6.1</dom4j.version>
+<elmo.version>1.5</elmo.version>
+<geronimo.spec.jta.version>1.0-M1</geronimo.spec.jta.version>
+<gson.version>1.4</gson.version>
+<hibernate.version>3.2.6.ga</hibernate.version>
+<htmlparser.version>1.4</htmlparser.version>
+<icu4j.version>3.4.4</icu4j.version>
+<jackson.version>2.3.3</jackson.version>
+<jai.imageio.core.standalone.version>1.2-pre-dr-b04-2011-07-04</jai.imageio.core.standalone.version>
+<javacsv.version>2.0</javacsv.version>
+<javahelp.version>2.0.02</javahelp.version>
+<javax.el.version>1.0.0</javax.el.version>
+<javax.servlet.jsp.version>2.1.0</javax.servlet.jsp.version>
+<javax.servlet.version>2.5.0</javax.servlet.version>
+<javax.transaction.version>1.1.0</javax.transaction.version>
+<javax.wsdl.version>1.6.1</javax.wsdl.version>
+<jaxb.version>2.2.11</jaxb.version>
+<jaxen.version>1.1.1</jaxen.version>
+<jaxp.ri.version>1.4</jaxp.ri.version>
+<jaxws.api.version>2.1</jaxws.api.version>
+<jdom.version>1.1.0</jdom.version> <!-- com.springsource.org.jdom -->
+<jedit.syntax.version>2.2.5</jedit.syntax.version>
+<jena.version>2.12.1</jena.version>
+<jetty.version>6.1.24</jetty.version>
+<jmimemagic.version>0.1.2</jmimemagic.version>
+<jmoby.version>1.1.5-taverna</jmoby.version>
+<jsch.version>1.0.6.RELEASE</jsch.version>
+<json.lib.version>2.3</json.lib.version>
+<jsonld.version>0.5.1</jsonld.version>
+<junit.version>4.11</junit.version>
+<log4j.version>1.2.17</log4j.version>
+<mail.version>1.4.1</mail.version>
+<martj.version>0.6</martj.version>
+<mimeutil.version>2.1.2-6</mimeutil.version>
+<mockito.version>1.9.5</mockito.version>
+<mysql.connector.java.version>5.1.13</mysql.connector.java.version>
+<odfdom.version>0.7</odfdom.version>
+<!-- <odfdom.version>0.8.8-incubating</odfdom.version>-->
+<opencsv.version>2.1</opencsv.version>
+<opm.version>1.1.8</opm.version>
+<org.fife.ui.hexeditor.version>1.0.2011-07-04</org.fife.ui.hexeditor.version>
+<org.icepdf.version>4.1.1-taverna</org.icepdf.version>
+<org.rosuda.version>200910</org.rosuda.version>
+<org.xhtmlrenderer.core-renderer.version>R8pre2</org.xhtmlrenderer.core-renderer.version>
+<osgi.core.version>4.3.1</osgi.core.version>
+<osgi.enterprise.version>4.2.0</osgi.enterprise.version>
+<osgi.equinox.version>3.8.0.v20120529-1548</osgi.equinox.version>
+<osgi.launcher.version>0.1.1-SNAPSHOT</osgi.launcher.version>
+<osgi.services.version>0.1.2-SNAPSHOT</osgi.services.version>
+<poi.ooxml.version>3.6</poi.ooxml.version>
+<poi.version>3.6</poi.version>
+<santuario.xmlsec.version>1.5.7</santuario.xmlsec.version>
+<saxpath.version>1.0-FCS</saxpath.version>
+<servletapi.version>2.5</servletapi.version>
+<sesame.version>2.7.0</sesame.version>
+<simple-jndi.version>0.11.1</simple-jndi.version>
+<slf4j.version>1.7.6</slf4j.version>
+<spring.dm.version>2.0.0.M1</spring.dm.version>
+<spring.version>3.0.5.RELEASE</spring.version>
+<stax.version>1.0</stax.version>
+<tupelo.version>2.6</tupelo.version>
+<velocity.version>1.7</velocity.version>
+<xalan.version>2.7.1</xalan.version>
+<xerces.version>2.9.1</xerces.version>
+<xmlbeans.version>2.4.0</xmlbeans.version>
+<xml.rpc.version>1.1.0</xml.rpc.version>
+<xstream.version>1.4.1</xstream.version>
+<wss4j.version>1.5.12</wss4j.version>
+	</properties>
+
+
+
+	<!-- Common (test) dependencies - keep this list short
+			and up to date! -->
+	<dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>${junit.version}</version>
+      <scope>test</scope>
+    </dependency>
+
+	</dependencies>
+
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.felix</groupId>
+				<artifactId>maven-bundle-plugin</artifactId>
+			  <version>2.3.7</version>
+				<extensions>true</extensions>
+			</plugin>
+    <plugin>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-compiler-plugin</artifactId>
+      <configuration>
+        <source>${maven.compiler.source}</source>
+        <target>${maven.compiler.target}</target>
+      </configuration>
+    </plugin>
+		<plugin>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-source-plugin</artifactId>
+			<executions>
+				<execution>
+					<goals>
+						<goal>jar</goal>
+						<goal>test-jar</goal>
+					</goals>
+				</execution>
+			</executions>
+		</plugin>
+		<plugin>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-jar-plugin</artifactId>
+			<executions>
+				<execution>
+					<goals>
+						<goal>test-jar</goal>
+					</goals>
+				</execution>
+			</executions>
+		</plugin>
+		<plugin>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-surefire-plugin</artifactId>
+			<configuration>
+				<skip>false</skip>
+				<systemProperties>
+					<property>
+						<name>java.awt.headless</name>
+						<value>true</value>
+					</property>
+				</systemProperties>
+			</configuration>
+		</plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-remote-resources-plugin</artifactId>
+        <executions>
+          <execution>
+            <goals>
+              <goal>process</goal>
+            </goals>
+            <configuration>
+              <resourceBundles>
+                <!-- Will generate META-INF/DEPENDENCIES META-INF/LICENSE META-INF/NOTICE -->
+                <resourceBundle>org.apache:apache-jar-resource-bundle:1.4</resourceBundle>
+                <!-- Will generate META-INF/DISCLAIMER  -->
+                <resourceBundle>org.apache:apache-incubator-disclaimer-resource-bundle:1.1</resourceBundle>
+              </resourceBundles>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+		<plugin>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-release-plugin</artifactId>
+			<dependencies>
+	        <!-- Force upgrade to avoid https://jira.codehaus.org/browse/SCM-740 -->
+				<dependency>
+					<groupId>org.apache.maven.scm</groupId>
+					<artifactId>maven-scm-api</artifactId>
+					<version>1.9.2</version>
+				</dependency>
+				<dependency>
+					<groupId>org.apache.maven.scm</groupId>
+					<artifactId>maven-scm-provider-gitexe</artifactId>
+					<version>1.9.2</version>
+				</dependency>
+			</dependencies>
+		</plugin>
+
+      <plugin>
+        <groupId>org.apache.rat</groupId>
+        <artifactId>apache-rat-plugin</artifactId>
+        <version>0.11</version>
+        <executions>
+          <execution>
+            <id>rat-checks</id>
+            <phase>verify</phase>
+            <goals>
+              <goal>check</goal>
+            </goals>
+          </execution>
+        </executions>
+        <configuration>
+          <excludes>
+            <!--
+            Text and Markdown files are typically used only for documentation purposes
+            and license declarations are usually spurious in these files since often they
+            will refer to the LICENSE/NOTICE for users to find the actual licenses
+            -->
+            <exclude>**/*.md</exclude>
+            <!--
+            META-INF services files can include comments but a license header would be
+            unecessarily clutter so we exclude these
+            -->
+            <exclude>**/META-INF/services/*</exclude>
+          </excludes>
+        </configuration>
+    </plugin>
+  </plugins>
+
+	<pluginManagement>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>${maven.compiler.source}</source>
+					<target>${maven.compiler.target}</target>
+				</configuration>
+			</plugin>
+			<plugin>
+				<!-- Force upgrade to avoid https://jira.codehaus.org/browse/SCM-740 -->
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-scm-plugin</artifactId>
+				<version>1.9.2</version>
+			</plugin>
+		</plugins>
+	</pluginManagement>
+	</build>
+	<reporting>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-checkstyle-plugin</artifactId>
+				<version>2.6</version>
+				<configuration>
+					<configLocation>
+						${basedir}/Rcheckstyle.xml
+					</configLocation>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-javadoc-plugin</artifactId>
+
+				<configuration>
+					<minmemory>128m</minmemory>
+					<maxmemory>512</maxmemory>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jxr-plugin</artifactId>
+				<version>2.2</version>
+			</plugin>
+		</plugins>
+	</reporting>
+
+  <pluginRepositories>
+    <pluginRepository>
+			<!-- TODO: Use Apache snapshot repo instead -->
+			<id>taverna-incubating</id>
+			<name>Taverna incubating Repository</name>
+        <url>http://repository.mygrid.org.uk/artifactory/incubator-snapshot-local/</url>
+			<releases>
+				<enabled>false</enabled>
+			</releases>
+			<snapshots />
+    </pluginRepository>
+    <pluginRepository>
+			<id>taverna-incubating-release</id>
+			<name>Taverna incubating test release</name>
+      <url>http://repository.mygrid.org.uk/artifactory/incubator-release-test/</url>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </pluginRepository>
+  </pluginRepositories>
+
+
+	<repositories>
+		<repository>
+			<!-- TODO: Use Apache snapshot repo instead -->
+			<id>taverna-incubating</id>
+			<name>Taverna incubating Repository</name>
+        <url>http://repository.mygrid.org.uk/artifactory/incubator-snapshot-local/</url>
+			<releases>
+				<enabled>false</enabled>
+			</releases>
+			<snapshots />
+		</repository>
+    <repository>
+			<!-- TODO: Use Apache snapshot repo instead -->
+			<id>taverna-incubating-release</id>
+			<name>Taverna incubating test release</name>
+      <url>http://repository.mygrid.org.uk/artifactory/incubator-release-test/</url>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
+
+      <repository>
+        <snapshots>
+          <enabled>false</enabled>
+        </snapshots>
+        <id>bintray</id>
+        <name>bintray</name>
+        <url>http://dl.bintray.com/spring/jars</url>
+      </repository>
+
+      <repository>
+        <id>com.springsource.repository.bundles.release</id>
+        <name>SpringSource Enterprise Bundle Repository - SpringSource Bundle Releases</name>
+        <url>http://repository.springsource.com/maven/bundles/release</url>
+        <snapshots>
+          <enabled>false</enabled>
+        </snapshots>
+      </repository>
+      <repository>
+        <id>com.springsource.repository.bundles.external</id>
+        <name>SpringSource Enterprise Bundle Repository - External Bundle Releases</name>
+        <url>http://repository.springsource.com/maven/bundles/external</url>
+        <snapshots>
+          <enabled>false</enabled>
+        </snapshots>
+      </repository>
+
+<!--
+<repository>
+    <id>repository.spring.snapshot</id>
+    <name>Spring Snapshot Repository</name>
+    <url>http://repo.spring.io/snapshot</url>
+    <releases>
+      <enabled>false</enabled>
+    </releases>
+    <snapshots />
+</repository>
+
+also in Maven Central:
+<repository>
+    <id>repository.spring.release</id>
+    <name>Spring GA Repository</name>
+    <url>http://repo.spring.io/release</url>
+    <releases />
+    <snapshots>
+      <enabled>false</enabled>
+    </snapshots>
+</repository>
+
+-->
+<repository>
+    <id>repository.spring.milestone</id>
+    <name>Spring Milestone Repository</name>
+    <url>http://repo.spring.io/milestone</url>
+    <releases />
+    <snapshots>
+      <enabled>false</enabled>
+    </snapshots>
+</repository>
+
+
+	</repositories>
+
+
+	<distributionManagement>
+    <snapshotRepository>
+			<!-- TODO: Use Apache snapshot repo instead -->
+			<id>taverna-incubating</id>
+			<name>Taverna incubating Repository</name>
+      <url>http://repository.mygrid.org.uk/artifactory/incubator-snapshot-local/</url>
+    </snapshotRepository>
+    <repository>
+			<!-- TODO: Use Apache snapshot repo instead -->
+			<id>taverna-incubating-release</id>
+			<name>Taverna incubating test release</name>
+      <url>http://repository.mygrid.org.uk/artifactory/incubator-release-test/</url>
+    </repository>
+  </distributionManagement>
+
+</project>
