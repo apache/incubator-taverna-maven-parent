@@ -70,15 +70,10 @@
   </mailingLists>
 
   <scm>
-    <!-- TODO: Replace with git.apache.org details :
       <connection>scm:git:https://git-wip-us.apache.org/repos/asf/incubator-taverna-maven-parent.git</connection>
       <developerConnection>scm:git:https://git-wip-us.apache.org/repos/asf/incubator-taverna-maven-parent.git</developerConnection>
-      <url>https://git-wip-us.apache.org/repos/asf/incubator-taverna-maven-parent.git</url>
-    -->
-    <connection>scm:git:https://github.com/taverna-incubator/incubator-taverna-maven-parent.git</connection>
-    <developerConnection>scm:git:git@github.com:taverna-incubator/incubator-taverna-maven-parent.git</developerConnection>
-    <url>https://github.com/taverna-incubator/incubator-taverna-maven-parent</url>
-    <tag>HEAD</tag>
+      <url>https://github.com/apache/incubator-taverna-maven-parent/</url>
+      <tag>HEAD</tag>
 </scm>
 
 
@@ -386,46 +381,19 @@ upgraded - this leads to recursive spaghetti.
 
   <pluginRepositories>
     <pluginRepository>
-			<!-- TODO: Use Apache snapshot repo instead -->
-			<id>taverna-incubating</id>
-			<name>Taverna incubating Repository</name>
-        <url>http://repository.mygrid.org.uk/artifactory/incubator-snapshot-local/</url>
-			<releases>
-				<enabled>false</enabled>
-			</releases>
-			<snapshots />
+        <id>apache.snapshots</id>
+        <name>Apache Snapshot Repository</name>
+        <url>http://repository.apache.org/snapshots</url>
+        <releases>
+          <enabled>false</enabled>
+        </releases>
     </pluginRepository>
-    <pluginRepository>
-			<id>taverna-incubating-release</id>
-			<name>Taverna incubating test release</name>
-      <url>http://repository.mygrid.org.uk/artifactory/incubator-release-test/</url>
-      <snapshots>
-        <enabled>false</enabled>
-      </snapshots>
-    </pluginRepository>
+    <!-- released plugins are in central and don't need a <pluginRepository> -->
   </pluginRepositories>
 
 
 	<repositories>
-		<repository>
-			<!-- TODO: Use Apache snapshot repo instead -->
-			<id>taverna-incubating</id>
-			<name>Taverna incubating Repository</name>
-        <url>http://repository.mygrid.org.uk/artifactory/incubator-snapshot-local/</url>
-			<releases>
-				<enabled>false</enabled>
-			</releases>
-			<snapshots />
-		</repository>
-    <repository>
-			<!-- TODO: Use Apache snapshot repo instead -->
-			<id>taverna-incubating-release</id>
-			<name>Taverna incubating test release</name>
-      <url>http://repository.mygrid.org.uk/artifactory/incubator-release-test/</url>
-      <snapshots>
-        <enabled>false</enabled>
-      </snapshots>
-    </repository>
+      <!-- Apache snapshot repository inherited from parent -->
 
       <repository>
         <snapshots>
@@ -490,19 +458,9 @@ also in Maven Central:
 	</repositories>
 
 
+  <!-- inherited from Apache parent
 	<distributionManagement>
-    <snapshotRepository>
-			<!-- TODO: Use Apache snapshot repo instead -->
-			<id>taverna-incubating</id>
-			<name>Taverna incubating Repository</name>
-      <url>http://repository.mygrid.org.uk/artifactory/incubator-snapshot-local/</url>
-    </snapshotRepository>
-    <repository>
-			<!-- TODO: Use Apache snapshot repo instead -->
-			<id>taverna-incubating-release</id>
-			<name>Taverna incubating test release</name>
-      <url>http://repository.mygrid.org.uk/artifactory/incubator-release-test/</url>
-    </repository>
   </distributionManagement>
+       -->
 
 </project>
