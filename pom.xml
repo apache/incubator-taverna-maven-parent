@@ -399,8 +399,8 @@ upgraded - this leads to recursive spaghetti.
         <snapshots>
           <enabled>false</enabled>
         </snapshots>
-        <id>bintray</id>
-        <name>bintray</name>
+        <id>bintray-spring</id>
+        <name>bintray-spring</name>
         <url>http://dl.bintray.com/spring/jars</url>
       </repository>
 
