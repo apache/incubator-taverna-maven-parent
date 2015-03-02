@@ -21,4 +21,4 @@ be done within `<properties>` of each top-level project.
 ## License
 
 Apache Taverna is distributed under the
-[Apache License, version 2.0](http://www.apache.org/licenses/LICENSE-2.0)
+[Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0)
