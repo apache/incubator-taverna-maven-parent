@@ -299,14 +299,9 @@ upgraded - this leads to recursive spaghetti.
       <plugin>
         <groupId>org.apache.rat</groupId>
         <artifactId>apache-rat-plugin</artifactId>
-        <version>0.11</version>
         <executions>
           <execution>
-            <id>rat-checks</id>
-            <phase>verify</phase>
-            <goals>
-              <goal>check</goal>
-            </goals>
+            <!-- activated by -Papache-release -->
           </execution>
         </executions>
         <configuration>
@@ -325,10 +320,24 @@ upgraded - this leads to recursive spaghetti.
           </excludes>
         </configuration>
     </plugin>
+    <plugin>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-release-plugin</artifactId>
+      <version>2.5.1</version>
+      <configuration>
+        <releaseProfiles>apache-release</releaseProfiles>
+      </configuration>
+    </plugin>
+
   </plugins>
 
 	<pluginManagement>
 		<plugins>
+      <plugin>
+        <groupId>org.apache.rat</groupId>
+        <artifactId>apache-rat-plugin</artifactId>
+        <version>0.11</version>
+      </plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
@@ -346,6 +355,28 @@ upgraded - this leads to recursive spaghetti.
 		</plugins>
 	</pluginManagement>
 	</build>
+  <profiles>
+    <profile>
+      <id>apache-release</id>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.apache.rat</groupId>
+            <artifactId>apache-rat-plugin</artifactId>
+            <executions>
+              <execution>
+                <id>rat-checks</id>
+                <phase>verify</phase>
+                <goals>
+                  <goal>check</goal>
+                </goals>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+  </profiles>
 	<reporting>
 		<plugins>
 			<plugin>
