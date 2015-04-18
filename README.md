@@ -1,6 +1,5 @@
 # Parent POM 
 
-[![Build Status](https://travis-ci.org/taverna-incubator/incubator-taverna-maven-parent.svg)](https://travis-ci.org/taverna-incubator/incubator-taverna-maven-parent)
 
 Common Maven Parent for [all the other Apache Taverna repositories](http://taverna.incubator.apache.org/code/).
  
