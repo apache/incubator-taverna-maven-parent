@@ -28,7 +28,7 @@
 
 	<groupId>org.apache.taverna</groupId>
 	<artifactId>taverna-parent</artifactId>
-	<version>2-incubating-SNAPSHOT</version>
+	<version>1-incubating-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>Apache Taverna (incubating) Maven parent</name>
@@ -299,6 +299,7 @@ upgraded - this leads to recursive spaghetti.
 			</dependencies>
       <configuration>
         <releaseProfiles>apache-release</releaseProfiles>
+        <tagNameFormat>@{project.version}-RC1</tagNameFormat>
       </configuration>
 		</plugin>
 
