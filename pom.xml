@@ -129,6 +129,7 @@ upgraded - this leads to recursive spaghetti.
 <hibernate.version>3.2.6.ga</hibernate.version>
 <htmlparser.version>1.4</htmlparser.version>
 <icu4j.version>3.4.4</icu4j.version>
+<io.airlift.airline.version>0.7</io.airlift.airline.version>
 <jackson.version>2.3.3</jackson.version>
 <!-- http://github.com/jai-imageio/ -->
 <jai.imageio.core.version>1.3.0</jai.imageio.core.version>
