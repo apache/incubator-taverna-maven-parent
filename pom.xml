@@ -341,6 +341,13 @@ upgraded - this leads to recursive spaghetti.
         <artifactId>appassembler-maven-plugin</artifactId>
         <version>1.1.1</version>
       </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-shade-plugin</artifactId>
+        <version>2.4</version>
+      </plugin>
+
+
 
 		</plugins>
 	</pluginManagement>
