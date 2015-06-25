@@ -216,7 +216,7 @@ upgraded - this leads to recursive spaghetti.
 			<plugin>
 				<groupId>org.apache.felix</groupId>
 				<artifactId>maven-bundle-plugin</artifactId>
-			  <version>2.3.7</version>
+			  <version>2.5.4</version>
 				<extensions>true</extensions>
 			</plugin>
     <plugin>
@@ -285,19 +285,7 @@ upgraded - this leads to recursive spaghetti.
 		<plugin>
 			<groupId>org.apache.maven.plugins</groupId>
 			<artifactId>maven-release-plugin</artifactId>
-			<dependencies>
-	        <!-- Force upgrade to avoid https://jira.codehaus.org/browse/SCM-740 -->
-				<dependency>
-					<groupId>org.apache.maven.scm</groupId>
-					<artifactId>maven-scm-api</artifactId>
-					<version>1.9.2</version>
-				</dependency>
-				<dependency>
-					<groupId>org.apache.maven.scm</groupId>
-					<artifactId>maven-scm-provider-gitexe</artifactId>
-					<version>1.9.2</version>
-				</dependency>
-			</dependencies>
+      <version>2.5.2</version>
       <configuration>
         <releaseProfiles>apache-release</releaseProfiles>
         <tagNameFormat>@{project.version}-RC1</tagNameFormat>
@@ -345,17 +333,17 @@ upgraded - this leads to recursive spaghetti.
 					<target>${maven.compiler.target}</target>
 				</configuration>
 			</plugin>
-			<plugin>
-				<!-- Force upgrade to avoid https://jira.codehaus.org/browse/SCM-740 -->
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-scm-plugin</artifactId>
-				<version>1.9.2</version>
-			</plugin>
       <plugin>
         <groupId>org.jvnet.jaxb2.maven2</groupId>
         <artifactId>maven-jaxb2-plugin</artifactId>
         <version>0.12.3</version>
       </plugin>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>appassembler-maven-plugin</artifactId>
+        <version>1.1.1</version>
+      </plugin>
+
 		</plugins>
 	</pluginManagement>
 	</build>
@@ -386,7 +374,7 @@ upgraded - this leads to recursive spaghetti.
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-checkstyle-plugin</artifactId>
-				<version>2.6</version>
+				<version>2.15</version>
 				<configuration>
 					<configLocation>
 						${basedir}/Rcheckstyle.xml
@@ -396,7 +384,6 @@ upgraded - this leads to recursive spaghetti.
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-javadoc-plugin</artifactId>
-
 				<configuration>
 					<minmemory>128m</minmemory>
 					<maxmemory>512</maxmemory>
@@ -409,7 +396,7 @@ upgraded - this leads to recursive spaghetti.
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-jxr-plugin</artifactId>
-				<version>2.2</version>
+				<version>2.5</version>
 			</plugin>
 		</plugins>
 	</reporting>
@@ -428,7 +415,17 @@ upgraded - this leads to recursive spaghetti.
 
 
 	<repositories>
-      <!-- Apache snapshot repository inherited from parent -->
+    <!-- Apache snapshot repository inherited from Apache parent:
+         
+    <repository>
+      <id>apache.snapshots</id>
+      <name>Apache Snapshot Repository</name>
+      <url>http://repository.apache.org/snapshots</url>
+      <releases>
+        <enabled>false</enabled>
+      </releases>
+    </repository>
+    -->
 
       <repository>
         <snapshots>
