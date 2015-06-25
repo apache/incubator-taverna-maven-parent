@@ -351,6 +351,11 @@ upgraded - this leads to recursive spaghetti.
 				<artifactId>maven-scm-plugin</artifactId>
 				<version>1.9.2</version>
 			</plugin>
+      <plugin>
+        <groupId>org.jvnet.jaxb2.maven2</groupId>
+        <artifactId>maven-jaxb2-plugin</artifactId>
+        <version>0.12.3</version>
+      </plugin>
 		</plugins>
 	</pluginManagement>
 	</build>
