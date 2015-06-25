@@ -1,24 +1,51 @@
-# Parent POM 
+# Apache Taverna (incubating) Maven Parent pom
 
-[![Build Status](https://travis-ci.org/taverna-incubator/incubator-taverna-maven-parent.svg)](https://travis-ci.org/taverna-incubator/incubator-taverna-maven-parent)
+The Apache Taverna Maven Parent provides common build settings for the rest of 
+[Apache Taverna](http://taverna.incubator.apache.org/code/) (incubating).
 
-Common Maven Parent for [all the other Apache Taverna repositories](http://taverna.incubator.apache.org/code/).
- 
-Note that released Taverna modules might not use the same version of the parent, this is usually NOT an issue.
+## Prerequisites
+
+- [JDK 7](http://www.oracle.com/technetwork/java/javase/downloads/) / [OpenJDK 7](http://openjdk.java.net/) or later
+- [Apache Maven](https://maven.apache.org/download.cgi) 3.2 or later
 
 
-Supplies Version number constants for all external Taverna dependencies.  
+## Installing
 
-Adds in shared Maven build and reporting steps.  
+    mvn clean install
 
-List additional repositories to be used (mainly for OSGi/Spring dependencies).
+_Note: Modules of Taverna might not use the latest version of the Taverna
+Parent. This is not generally an issue, if you want to avoid its download 
+from [Maven Central](http://central.maven.org/maven2/org/apache/taverna/).
+you may want to build the Apache Taverna Parent version corresponding to
+`<parent>` in the module's `pom.xml`_
 
-This does NOT contain a `<modules>` section so does NOT do Project Aggregation.
 
-This parent does NOT define the version of org.apache.taverna modules, that should
+## Details
+
+- Version number of common dependencies are declared within `<properties>`.
+- Common plugins are defined in `<plugins>`.
+- This parent does NOT define the version of org.apache.taverna modules, that should
 be done within `<properties>` of each top-level project.
+
 
 ## License
 
 Apache Taverna is distributed under the
-[Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0)
+[Apache License, version 2.0](http://www.apache.org/licenses/LICENSE-2.0)
+
+
+## Disclaimer
+
+Apache Taverna is an effort undergoing incubation at the 
+[Apache Software Foundation (ASF)](http://www.apache.org/), 
+sponsored by the 
+[Apache Incubator PMC](http://incubator.apache.org/). 
+
+Incubation is required of all newly accepted projects until a further review 
+indicates that the infrastructure, communications, and decision making process 
+have stabilized in a manner consistent with other successful ASF projects. 
+
+While incubation status is not necessarily a reflection of the completeness 
+or stability of the code, it does indicate that the project has yet to be 
+fully endorsed by the ASF.
+
