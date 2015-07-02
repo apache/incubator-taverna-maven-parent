@@ -28,7 +28,7 @@
 
 	<groupId>org.apache.taverna</groupId>
 	<artifactId>taverna-parent</artifactId>
-	<version>1-incubating-SNAPSHOT</version>
+	<version>1-incubating</version>
 	<packaging>pom</packaging>
 
 	<name>Apache Taverna (incubating) Maven parent</name>
@@ -73,7 +73,7 @@
       <connection>scm:git:https://git-wip-us.apache.org/repos/asf/incubator-taverna-maven-parent.git</connection>
       <developerConnection>scm:git:https://git-wip-us.apache.org/repos/asf/incubator-taverna-maven-parent.git</developerConnection>
       <url>https://github.com/apache/incubator-taverna-maven-parent/</url>
-      <tag>HEAD</tag>
+      <tag>1-incubating-RC3</tag>
 </scm>
 
 
