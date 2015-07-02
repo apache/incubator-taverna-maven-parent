@@ -172,8 +172,8 @@ upgraded - this leads to recursive spaghetti.
 <osgi.core.version>4.3.1</osgi.core.version>
 <osgi.enterprise.version>4.2.0</osgi.enterprise.version>
 <osgi.equinox.version>3.8.0.v20120529-1548</osgi.equinox.version>
-<osgi.launcher.version>0.1.1-SNAPSHOT</osgi.launcher.version>
-<osgi.services.version>0.1.2-SNAPSHOT</osgi.services.version>
+<!-- <osgi.launcher.version>0.1.1-SNAPSHOT</osgi.launcher.version> -->
+<!-- <osgi.services.version>0.1.2-SNAPSHOT</osgi.services.version> -->
 <osgi.compendium.version>4.3.1</osgi.compendium.version>
 <poi.ooxml.version>3.6</poi.ooxml.version>
 <poi.version>3.6</poi.version>
