@@ -68,8 +68,18 @@
       <archive>http://mail-archives.apache.org/mod_mbox/incubator-taverna-commits/</archive>
     </mailingList>
   </mailingLists>
+	<issueManagement>
+		<system>Jira</system>
+		<!-- Note: Do not include Component for Maven Parent here, as
+		  this issueManagement is inherited by every Taverna module.
+		-->
+		<url>https://issues.apache.org/jira/browse/TAVERNA</url>
+	</issueManagement>
 
   <scm>
+		<!-- While this section will also be inherited, it should be
+		overridden within each Taverna module with specific repositories.
+		-->
       <connection>scm:git:https://git-wip-us.apache.org/repos/asf/incubator-taverna-maven-parent.git</connection>
       <developerConnection>scm:git:https://git-wip-us.apache.org/repos/asf/incubator-taverna-maven-parent.git</developerConnection>
       <url>https://github.com/apache/incubator-taverna-maven-parent/</url>
@@ -421,7 +431,7 @@ upgraded - this leads to recursive spaghetti.
 
 	<repositories>
     <!-- Apache snapshot repository inherited from Apache parent:
-         
+
     <repository>
       <id>apache.snapshots</id>
       <name>Apache Snapshot Repository</name>
