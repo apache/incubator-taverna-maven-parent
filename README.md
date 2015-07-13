@@ -32,7 +32,8 @@ be done within `<properties>` of each top-level project.
 ## License
 
 (c) 2010-2014 University of Manchester
-(c) 2015 Apache Software Foundation
+
+(c) 2014-2015 Apache Software Foundation
 
 This product includes software developed at The
 [Apache Software Foundation](http://www.apache.org/).
