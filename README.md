@@ -28,26 +28,21 @@ you may want to build the Apache Taverna Parent version corresponding to
 be done within `<properties>` of each top-level project.
 
 
+
 ## License
 
-Apache Taverna is distributed under the
-[Apache License, version 2.0](http://www.apache.org/licenses/LICENSE-2.0)
+(c) 2010-2014 University of Manchester
+(c) 2015 Apache Software Foundation
 
+This product includes software developed at The
+[Apache Software Foundation](http://www.apache.org/).
 
-## Disclaimer
+Licensed under the
+[Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0), see the file
+[LICENSE](LICENSE) for details.
 
-Apache Taverna is an effort undergoing incubation at the
-[Apache Software Foundation (ASF)](http://www.apache.org/),
-sponsored by the
-[Apache Incubator PMC](http://incubator.apache.org/).
-
-Incubation is required of all newly accepted projects until a further review
-indicates that the infrastructure, communications, and decision making process
-have stabilized in a manner consistent with other successful ASF projects.
-
-While incubation status is not necessarily a reflection of the completeness
-or stability of the code, it does indicate that the project has yet to be
-fully endorsed by the ASF.
+The file [NOTICE](NOTICE) contain any additional attributions and
+details about embedded third-party libraries and source code.
 
 
 # Contribute
@@ -68,3 +63,20 @@ Any contributions received are assumed to be covered by the [Apache License
 2.0](https://www.apache.org/licenses/LICENSE-2.0). We might ask you
 to sign a [Contributor License Agreement](https://www.apache.org/licenses/#clas)
 before accepting a larger contribution.
+
+
+
+## Disclaimer
+
+Apache Taverna is an effort undergoing incubation at the
+[Apache Software Foundation (ASF)](http://www.apache.org/),
+sponsored by the
+[Apache Incubator PMC](http://incubator.apache.org/).
+
+Incubation is required of all newly accepted projects until a further review
+indicates that the infrastructure, communications, and decision making process
+have stabilized in a manner consistent with other successful ASF projects.
+
+While incubation status is not necessarily a reflection of the completeness
+or stability of the code, it does indicate that the project has yet to be
+fully endorsed by the ASF.
