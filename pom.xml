@@ -28,7 +28,7 @@
 
 	<groupId>org.apache.taverna</groupId>
 	<artifactId>taverna-parent</artifactId>
-	<version>2-incubating-SNAPSHOT</version>
+	<version>1-incubating</version>
 	<packaging>pom</packaging>
 
 	<name>Apache Taverna (incubating) Maven parent</name>
