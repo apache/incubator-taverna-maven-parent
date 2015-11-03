@@ -128,10 +128,7 @@ upgraded - this leads to recursive spaghetti.
 <commons.lang.version>2.5.0</commons.lang.version>
 <commons.logging.version>1.1.1</commons.logging.version>
 <commons.net.version>2.0.0</commons.net.version>
-<derbyclient.version>${derby.version}</derbyclient.version>
-<derbynet.version>${derby.version}</derbynet.version>
-<derbytools.version>${derby.version}</derbytools.version>
-<derby.version>10.5.1000001.764942</derby.version>
+<derby.version>10.12.1.1</derby.version>
 <dom4j.version>1.6.1</dom4j.version>
 <elmo.version>1.5</elmo.version>
 <geronimo.spec.jta.version>1.0-M1</geronimo.spec.jta.version>
