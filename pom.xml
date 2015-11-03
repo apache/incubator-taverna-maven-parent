@@ -16,26 +16,26 @@
    limitations under the License.
 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-	<modelVersion>4.0.0</modelVersion>
-	<parent>
-		  <groupId>org.apache</groupId>
-		  <artifactId>apache</artifactId>
-		  <version>17</version>
-	</parent>
-	<prerequisites>
-		<maven>3.2.0</maven>
-	</prerequisites>
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+      <groupId>org.apache</groupId>
+      <artifactId>apache</artifactId>
+      <version>17</version>
+  </parent>
+  <prerequisites>
+    <maven>3.2.0</maven>
+  </prerequisites>
 
-	<groupId>org.apache.taverna</groupId>
-	<artifactId>taverna-parent</artifactId>
-	<version>2-incubating-SNAPSHOT</version>
-	<packaging>pom</packaging>
+  <groupId>org.apache.taverna</groupId>
+  <artifactId>taverna-parent</artifactId>
+  <version>2-incubating-SNAPSHOT</version>
+  <packaging>pom</packaging>
 
-	<name>Apache Taverna (incubating) Maven parent</name>
-	<description>
-		General POM-file parent for Apache Taverna projects
-	</description>
-	<url>http://taverna.incubator.apache.org/</url>
+  <name>Apache Taverna (incubating) Maven parent</name>
+  <description>
+    General POM-file parent for Apache Taverna projects
+  </description>
+  <url>http://taverna.incubator.apache.org/</url>
   <inceptionYear>2015</inceptionYear>
   <mailingLists>
     <mailingList>
@@ -68,18 +68,18 @@
       <archive>http://mail-archives.apache.org/mod_mbox/incubator-taverna-commits/</archive>
     </mailingList>
   </mailingLists>
-	<issueManagement>
-		<system>Jira</system>
-		<!-- Note: Do not include Component for Maven Parent here, as
-		  this issueManagement is inherited by every Taverna module.
-		-->
-		<url>https://issues.apache.org/jira/browse/TAVERNA</url>
-	</issueManagement>
+  <issueManagement>
+    <system>Jira</system>
+    <!-- Note: Do not include Component for Maven Parent here, as
+      this issueManagement is inherited by every Taverna module.
+    -->
+    <url>https://issues.apache.org/jira/browse/TAVERNA</url>
+  </issueManagement>
 
   <scm>
-		<!-- While this section will also be inherited, it should be
-		overridden within each Taverna module with specific repositories.
-		-->
+    <!-- While this section will also be inherited, it should be
+    overridden within each Taverna module with specific repositories.
+    -->
       <connection>scm:git:https://git-wip-us.apache.org/repos/asf/incubator-taverna-maven-parent.git</connection>
       <developerConnection>scm:git:https://git-wip-us.apache.org/repos/asf/incubator-taverna-maven-parent.git</developerConnection>
       <url>https://github.com/apache/incubator-taverna-maven-parent/</url>
@@ -88,7 +88,7 @@
 
 
 
-	<properties>
+  <properties>
     <!-- override java version from Apache parent -->
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
@@ -201,13 +201,13 @@ upgraded - this leads to recursive spaghetti.
 <xml.rpc.version>1.1.0</xml.rpc.version>
 <xstream.version>1.4.1</xstream.version>
 <wss4j.version>1.5.12</wss4j.version>
-	</properties>
+  </properties>
 
 
 
-	<!-- Common (test) dependencies - keep this list short
-			and up to date! -->
-	<dependencies>
+  <!-- Common (test) dependencies - keep this list short
+      and up to date! -->
+  <dependencies>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
@@ -215,17 +215,17 @@ upgraded - this leads to recursive spaghetti.
       <scope>test</scope>
     </dependency>
 
-	</dependencies>
+  </dependencies>
 
 
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.apache.felix</groupId>
-				<artifactId>maven-bundle-plugin</artifactId>
-			  <version>2.5.4</version>
-				<extensions>true</extensions>
-			</plugin>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.felix</groupId>
+        <artifactId>maven-bundle-plugin</artifactId>
+        <version>2.5.4</version>
+        <extensions>true</extensions>
+      </plugin>
     <plugin>
       <groupId>org.apache.maven.plugins</groupId>
       <artifactId>maven-compiler-plugin</artifactId>
@@ -234,42 +234,42 @@ upgraded - this leads to recursive spaghetti.
         <target>${maven.compiler.target}</target>
       </configuration>
     </plugin>
-		<plugin>
-			<groupId>org.apache.maven.plugins</groupId>
-			<artifactId>maven-source-plugin</artifactId>
-			<executions>
-				<execution>
-					<goals>
-						<goal>jar</goal>
-						<goal>test-jar</goal>
-					</goals>
-				</execution>
-			</executions>
-		</plugin>
-		<plugin>
-			<groupId>org.apache.maven.plugins</groupId>
-			<artifactId>maven-jar-plugin</artifactId>
-			<executions>
-				<execution>
-					<goals>
-						<goal>test-jar</goal>
-					</goals>
-				</execution>
-			</executions>
-		</plugin>
-		<plugin>
-			<groupId>org.apache.maven.plugins</groupId>
-			<artifactId>maven-surefire-plugin</artifactId>
-			<configuration>
-				<skip>false</skip>
-				<systemProperties>
-					<property>
-						<name>java.awt.headless</name>
-						<value>true</value>
-					</property>
-				</systemProperties>
-			</configuration>
-		</plugin>
+    <plugin>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-source-plugin</artifactId>
+      <executions>
+        <execution>
+          <goals>
+            <goal>jar</goal>
+            <goal>test-jar</goal>
+          </goals>
+        </execution>
+      </executions>
+    </plugin>
+    <plugin>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-jar-plugin</artifactId>
+      <executions>
+        <execution>
+          <goals>
+            <goal>test-jar</goal>
+          </goals>
+        </execution>
+      </executions>
+    </plugin>
+    <plugin>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-surefire-plugin</artifactId>
+      <configuration>
+        <skip>false</skip>
+        <systemProperties>
+          <property>
+            <name>java.awt.headless</name>
+            <value>true</value>
+          </property>
+        </systemProperties>
+      </configuration>
+    </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-remote-resources-plugin</artifactId>
@@ -287,15 +287,15 @@ upgraded - this leads to recursive spaghetti.
           </execution>
         </executions>
       </plugin>
-		<plugin>
-			<groupId>org.apache.maven.plugins</groupId>
-			<artifactId>maven-release-plugin</artifactId>
+    <plugin>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-release-plugin</artifactId>
       <version>2.5.2</version>
       <configuration>
         <releaseProfiles>apache-release</releaseProfiles>
         <tagNameFormat>@{project.version}-RC1</tagNameFormat>
       </configuration>
-		</plugin>
+    </plugin>
 
       <plugin>
         <groupId>org.apache.rat</groupId>
@@ -323,21 +323,21 @@ upgraded - this leads to recursive spaghetti.
     </plugin>
   </plugins>
 
-	<pluginManagement>
-		<plugins>
+  <pluginManagement>
+    <plugins>
       <plugin>
         <groupId>org.apache.rat</groupId>
         <artifactId>apache-rat-plugin</artifactId>
         <version>0.11</version>
       </plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<configuration>
-					<source>${maven.compiler.source}</source>
-					<target>${maven.compiler.target}</target>
-				</configuration>
-			</plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <source>${maven.compiler.source}</source>
+          <target>${maven.compiler.target}</target>
+        </configuration>
+      </plugin>
       <plugin>
         <groupId>org.jvnet.jaxb2.maven2</groupId>
         <artifactId>maven-jaxb2-plugin</artifactId>
@@ -356,9 +356,9 @@ upgraded - this leads to recursive spaghetti.
 
 
 
-		</plugins>
-	</pluginManagement>
-	</build>
+    </plugins>
+  </pluginManagement>
+  </build>
   <profiles>
     <profile>
       <id>apache-release</id>
@@ -381,37 +381,37 @@ upgraded - this leads to recursive spaghetti.
       </build>
     </profile>
   </profiles>
-	<reporting>
-		<plugins>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-checkstyle-plugin</artifactId>
-				<version>2.15</version>
-				<configuration>
-					<configLocation>
-						${basedir}/Rcheckstyle.xml
-					</configLocation>
-				</configuration>
-			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-javadoc-plugin</artifactId>
-				<configuration>
-					<minmemory>128m</minmemory>
-					<maxmemory>512</maxmemory>
-				</configuration>
-			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-surefire-plugin</artifactId>
-			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-jxr-plugin</artifactId>
-				<version>2.5</version>
-			</plugin>
-		</plugins>
-	</reporting>
+  <reporting>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-checkstyle-plugin</artifactId>
+        <version>2.15</version>
+        <configuration>
+          <configLocation>
+            ${basedir}/Rcheckstyle.xml
+          </configLocation>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-javadoc-plugin</artifactId>
+        <configuration>
+          <minmemory>128m</minmemory>
+          <maxmemory>512</maxmemory>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-jxr-plugin</artifactId>
+        <version>2.5</version>
+      </plugin>
+    </plugins>
+  </reporting>
 
   <pluginRepositories>
     <pluginRepository>
@@ -426,7 +426,7 @@ upgraded - this leads to recursive spaghetti.
   </pluginRepositories>
 
 
-	<repositories>
+  <repositories>
     <!-- Apache snapshot repository inherited from Apache parent:
 
     <repository>
@@ -499,11 +499,11 @@ also in Maven Central:
 </repository>
 
 
-	</repositories>
+  </repositories>
 
 
   <!-- inherited from Apache parent
-	<distributionManagement>
+  <distributionManagement>
   </distributionManagement>
        -->
 
