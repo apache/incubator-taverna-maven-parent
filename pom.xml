@@ -199,7 +199,6 @@ upgraded - this leads to recursive spaghetti.
 <xmlbeans.version>2.4.0</xmlbeans.version>
 <xml.rpc.version>1.1.0</xml.rpc.version>
 <xstream.version>1.4.1</xstream.version>
-<wss4j.version>1.5.12</wss4j.version>
   </properties>
 
 
