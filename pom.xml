@@ -93,16 +93,25 @@
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
 
-    <!-- Version of dependencies
-         Note that in some cases these versions refer to a
-         springsource repackaging for OSGi, e.g.
-         com.springsource.org.jdom
+    <!--
+    Versions of dependencies that are used across
+    incubator-taverna-* repositories (e.g. commons-io).
+
+    Versions of dependencies that are only used in one repository,
+    e.g. beanshell, should rather be listed in the top-level pom.xml
+    of their repository (e.g. incubator-taverna-common-activities).
+
+   Note that in some cases these versions refer to a
+   springsource repackaging for OSGi, e.g.
+   com.springsource.org.jdom.
+   Before changing a version it can be a good idea to
+   grep for whatever.version in all the source-code
+   repositories to see how it is used.
 
 Do NOT put taverna.* versions in here, as we do not want
 to update taverna-parent whenever a taverna-* has been
 upgraded - this leads to recursive spaghetti.
          -->
-<abdera.version>1.1.3</abdera.version>
 <activation.version>1.1.1</activation.version>
 <antlr.version>2.7.7</antlr.version>
 <apache.commons.csv.version>1.0.0.BUILD-20080106</apache.commons.csv.version>
@@ -112,10 +121,9 @@ upgraded - this leads to recursive spaghetti.
 <axis.jaxrpc.version>1.4</axis.jaxrpc.version>
 <axis.sggj.version>1.4</axis.sggj.version>
 <axis.version>1.4.0</axis.version>
-<axis.wsdl4j.version>1.5.1</axis.wsdl4j.version>
+<!--<axis.wsdl4j.version>1.5.1</axis.wsdl4j.version>-->
 <batik.version>1.7.0</batik.version>
 <bcprov.jdk16.version>1.46</bcprov.jdk16.version>
-<bsh.version>2.0b5</bsh.version>
 <cglib.version>2.1.3</cglib.version>
 <commons.beanutils.version>1.9.2</commons.beanutils.version>
 <commons.cli.version>1.2.0</commons.cli.version>
@@ -139,13 +147,11 @@ upgraded - this leads to recursive spaghetti.
 <jackson.version>2.3.3</jackson.version>
 <!-- http://github.com/jai-imageio/ -->
 <jai.imageio.core.version>1.3.0</jai.imageio.core.version>
-<javacsv.version>2.0</javacsv.version>
 <javahelp.version>2.0.02</javahelp.version>
 <javax.el.version>1.0.0</javax.el.version>
 <javax.servlet.jsp.version>2.1.0</javax.servlet.jsp.version>
 <javax.servlet.version>2.5.0</javax.servlet.version>
 <javax.transaction.version>1.1.0</javax.transaction.version>
-<javax.wsdl.version>1.6.1</javax.wsdl.version>
 <jaxb.version>2.2.11</jaxb.version>
 <jaxen.version>1.1.1</jaxen.version>
 <jaxp.ri.version>1.4</jaxp.ri.version>
@@ -156,7 +162,6 @@ upgraded - this leads to recursive spaghetti.
 <jetty.version>6.1.24</jetty.version>
 <jmimemagic.version>0.1.2</jmimemagic.version>
 <jmoby.version>1.1.5-taverna</jmoby.version>
-<jsch.version>1.0.6.RELEASE</jsch.version>
 <json.lib.version>2.3</json.lib.version>
 <jsonld.version>0.5.1</jsonld.version>
 <junit.version>4.11</junit.version>
@@ -167,8 +172,6 @@ upgraded - this leads to recursive spaghetti.
 <mimeutil.version>2.1.2-6</mimeutil.version>
 <mockito.version>1.9.5</mockito.version>
 <mysql.connector.java.version>5.1.13</mysql.connector.java.version>
-<odfdom.version>0.7</odfdom.version>
-<!-- <odfdom.version>0.8.8-incubating</odfdom.version>-->
 <opencsv.version>2.1</opencsv.version>
 <opm.version>1.1.8</opm.version>
 <org.fife.ui.hexeditor.version>1.0.2011-07-04</org.fife.ui.hexeditor.version>
@@ -183,7 +186,6 @@ upgraded - this leads to recursive spaghetti.
 <osgi.compendium.version>4.3.1</osgi.compendium.version>
 <poi.ooxml.version>3.6</poi.ooxml.version>
 <poi.version>3.6</poi.version>
-<santuario.xmlsec.version>1.5.7</santuario.xmlsec.version>
 <saxpath.version>1.0-FCS</saxpath.version>
 <servletapi.version>2.5</servletapi.version>
 <sesame.version>2.7.0</sesame.version>
@@ -193,7 +195,6 @@ upgraded - this leads to recursive spaghetti.
 <spring.version>3.0.5.RELEASE</spring.version>
 <stax.version>1.0</stax.version>
 <tupelo.version>2.6</tupelo.version>
-<velocity.version>1.7</velocity.version>
 <xalan.version>2.7.1</xalan.version>
 <xerces.version>2.9.1</xerces.version>
 <xmlbeans.version>2.4.0</xmlbeans.version>
