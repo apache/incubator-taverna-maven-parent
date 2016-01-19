@@ -26,14 +26,16 @@ you may want to build the Apache Taverna Parent version corresponding to
 - Common plugins are defined in `<plugins>`.
 - This parent does NOT define the version of org.apache.taverna modules, that should
 be done within `<properties>` of each top-level project.
+- Versions of dependencies that are only used within one particular project
+(e.g. `beanshell.version` within `incubator-taverna-common-activities`)
+should rather be defined in the top-level `pom.xml` of that project.
 
 
 
 ## License
 
 (c) 2010-2014 University of Manchester
-
-(c) 2014-2015 Apache Software Foundation
+(c) 2014-2016 Apache Software Foundation
 
 This product includes software developed at The
 [Apache Software Foundation](http://www.apache.org/).
