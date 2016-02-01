@@ -171,7 +171,6 @@ upgraded - this leads to recursive spaghetti.
 <martj.version>0.6</martj.version>
 <mimeutil.version>2.1.2-6</mimeutil.version>
 <mockito.version>1.9.5</mockito.version>
-<mysql.connector.java.version>5.1.13</mysql.connector.java.version>
 <opencsv.version>2.1</opencsv.version>
 <opm.version>1.1.8</opm.version>
 <org.fife.ui.hexeditor.version>1.0.2011-07-04</org.fife.ui.hexeditor.version>
