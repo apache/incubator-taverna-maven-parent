@@ -5,7 +5,7 @@ The Apache Taverna Maven Parent provides common build settings for the rest of
 
 ## Prerequisites
 
-- [JDK 7](http://www.oracle.com/technetwork/java/javase/downloads/) / [OpenJDK 7](http://openjdk.java.net/) or later
+- [JDK 8](http://www.oracle.com/technetwork/java/javase/downloads/) / [OpenJDK 8](http://openjdk.java.net/) or later
 - [Apache Maven](https://maven.apache.org/download.cgi) 3.2 or later
 
 
