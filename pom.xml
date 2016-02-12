@@ -60,7 +60,7 @@
         <otherArchive>http://markmail.org/search/?q=list%3Aorg.apache.taverna.users</otherArchive>
       </otherArchives>
     </mailingList>
-    <mailingList>
+    <mailingList>    
       <name>Apache Taverna Commits</name>
       <subscribe>commits-subscribe@taverna.incubator.apache.org</subscribe>
       <unsubscribe>commits-unsubscribe@taverna.incubator.apache.org</unsubscribe>
@@ -127,7 +127,7 @@ upgraded - this leads to recursive spaghetti.
 <cglib.version>2.1.3</cglib.version>
 <commons.beanutils.version>1.9.2</commons.beanutils.version>
 <commons.cli.version>1.2.0</commons.cli.version>
-<commons.codec.version>1.7</commons.codec.version>
+<commons.codec.version>1.10</commons.codec.version>
 <commons.collections.version>3.2.1</commons.collections.version>
 <commons.configuration.version>1.9</commons.configuration.version>
 <commons.dbcp.version>1.4</commons.dbcp.version>
@@ -215,7 +215,7 @@ upgraded - this leads to recursive spaghetti.
         <dependency>
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpclient-osgi</artifactId>
-            <version>${apache.httpclient.version}</version>
+            <!-- <version>${apache.httpclient.version}</version>-->
             <exclusions>
               <!-- These are all embedded within httpclient-osgi 
               and so should not be depended on again
@@ -245,7 +245,7 @@ upgraded - this leads to recursive spaghetti.
         <dependency>
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpcore-osgi</artifactId>
-            <version>${apache.httpcore.version}</version>
+            <!-- <version>${apache.httpcore.version}</version> -->
             <exclusions>
               <!-- These are all embedded within httpcore-osgi 
                 and so should not be depended on again
