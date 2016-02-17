@@ -91,6 +91,7 @@
   		<id>andy</id>
   		<email>andy@apache.org</email>
   		<name>Andy Seaborne</name>
+  		<!--  TODO: <url>http://orcid.org/...</url> -->
   		<roles>
   			<role>mentor</role>
   		</roles>
@@ -128,7 +129,9 @@
   	<developer>
   		<id>gnaylor</id>
   		<email>gnaylor@apache.org</email>
+  		<!--  TODO: <url>http://orcid.org/...</url> -->
   		<name>Gale Naylor</name>
+  		
   		<roles>
   			<role>committer</role>
 			<role>PPMC member</role>
@@ -158,6 +161,7 @@
   		<id>jgarrido</id>
   		<email>jgarrido@apache.org</email>
   		<name>Julián Garrido</name>
+  		<url>http://orcid.org/0000-0002-6696-4772</url>
   		<roles>
   			<role>committer</role>
 			<role>PPMC member</role>
@@ -167,6 +171,7 @@
   		<id>mattmann</id>
   		<email>mattmann@apache.org</email>
   		<name>Chris Mattmann</name>
+  		<!-- FIXME: <url>http://orcid.org/0000-0001-7086-3889</url> unverified -->
   		<roles>
   			<role>mentor</role>
   		</roles>
@@ -175,6 +180,7 @@
   		<id>mpierce</id>
   		<email>mpierce@apache.org</email>
   		<name>Marlon Pierce</name>
+  		<url>http://orcid.org/0000-0002-9582-5712</url>
   		<roles>
   			<role>mentor</role>
   		</roles>
@@ -183,6 +189,7 @@
   		<id>redmitry</id>
   		<email>redmitry@apache.org</email>
   		<name>Dmitri Repchevsky</name>
+  		<!-- FIXME: <url>http://orcid.org/0000-0001-6415-0532</url> unverified -->
   		<roles>
   			<role>committer</role>
 			<role>PPMC member</role>
@@ -202,6 +209,7 @@
   		<id>smarru</id>
   		<email>smarru@apache.org</email>
   		<name>Suresh Marru</name>
+  		<url>http://orcid.org/0000-0002-6374-095X</url>
   		<roles>
   			<role>mentor</role>
   		</roles>
@@ -230,6 +238,7 @@
   		<id>suresh</id>
   		<email>suresh@apache.org</email>
   		<name>Suresh Srinivas</name>
+  		<!--  TODO: <url>http://orcid.org/...</url> -->
   		<roles>
   			<role>mentor</role>
   		</roles>
@@ -237,6 +246,7 @@
 	<developer>
 		<name>Menaka Madushanka</name>
 		<email>menaka12350@gmail.com</email>
+		<!--  TODO: <url>http://orcid.org/...</url> -->
 		<roles>
 			<role>contributor</role>
 		</roles>
@@ -244,6 +254,7 @@
 	<developer>
 		<name>Larry Akah</name>
 		<email>larryakah@gmail.com</email>
+		<!--  TODO: <url>http://orcid.org/...</url> -->
 		<roles>
 			<role>contributor</role>
 		</roles>
