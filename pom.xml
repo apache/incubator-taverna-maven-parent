@@ -493,15 +493,7 @@ upgraded - this leads to recursive spaghetti.
 
   <repositories>
     <!-- Apache snapshot repository inherited from Apache parent:
-
-    <repository>
-      <id>apache.snapshots</id>
-      <name>Apache Snapshot Repository</name>
       <url>http://repository.apache.org/snapshots</url>
-      <releases>
-        <enabled>false</enabled>
-      </releases>
-    </repository>
     -->
 
       <repository>
@@ -530,29 +522,6 @@ upgraded - this leads to recursive spaghetti.
         </snapshots>
       </repository>
 
-<!--
-<repository>
-    <id>repository.spring.snapshot</id>
-    <name>Spring Snapshot Repository</name>
-    <url>http://repo.spring.io/snapshot</url>
-    <releases>
-      <enabled>false</enabled>
-    </releases>
-    <snapshots />
-</repository>
-
-also in Maven Central:
-<repository>
-    <id>repository.spring.release</id>
-    <name>Spring GA Repository</name>
-    <url>http://repo.spring.io/release</url>
-    <releases />
-    <snapshots>
-      <enabled>false</enabled>
-    </snapshots>
-</repository>
-
--->
 <repository>
     <id>repository.spring.milestone</id>
     <name>Spring Milestone Repository</name>
