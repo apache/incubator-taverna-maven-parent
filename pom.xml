@@ -27,7 +27,7 @@
   </prerequisites>
 
   <groupId>org.apache.taverna</groupId>
-  <artifactId>taverna-parent</artifactId>
+  <artifactId>apache-taverna-parent</artifactId>
   <version>2-incubating-SNAPSHOT</version>
   <packaging>pom</packaging>
 
