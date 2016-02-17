@@ -22,7 +22,7 @@
       <artifactId>apache</artifactId>
       <version>17</version>
   </parent>
-  <prerequisites>
+  <prerequisites>    
     <maven>3.2.0</maven>
   </prerequisites>
 
@@ -60,7 +60,7 @@
         <otherArchive>http://markmail.org/search/?q=list%3Aorg.apache.taverna.users</otherArchive>
       </otherArchives>
     </mailingList>
-    <mailingList>    
+    <mailingList>
       <name>Apache Taverna Commits</name>
       <subscribe>commits-subscribe@taverna.incubator.apache.org</subscribe>
       <unsubscribe>commits-unsubscribe@taverna.incubator.apache.org</unsubscribe>
@@ -68,6 +68,198 @@
       <archive>http://mail-archives.apache.org/mod_mbox/incubator-taverna-commits/</archive>
     </mailingList>
   </mailingLists>
+  <developers>
+  	<!--  For an updated list, see
+  	http://taverna.incubator.apache.org/about/
+  	http://people.apache.org/committers-by-project.html#taverna
+
+  	This lists contain the official committers/PPMC members
+  	and contributors since Taverna became an Apache project.
+
+  	 -->
+  	<developer>
+  		<id>alaninmcr</id>
+  		<email>alaninmcr@apache.org</email>
+  		<name>Alan Robert Williams</name>
+  		<url>http://orcid.org/0000-0003-3156-2105</url>
+  		<roles>
+  			<role>committer</role>
+			<role>PPMC member</role>
+  		</roles>
+  	</developer>
+  	<developer>
+  		<id>andy</id>
+  		<email>andy@apache.org</email>
+  		<name>Andy Seaborne</name>
+  		<roles>
+  			<role>mentor</role>
+  		</roles>
+  	</developer>
+	<developer>
+  		<id>anenadic</id>
+  		<email>anenadic@apache.org</email>
+  		<name>Aleksandra Nenadic</name>
+  		<url>http://orcid.org/0000-0002-2269-3894</url>
+  		<roles>
+  			<role>committer</role>
+			<role>PPMC member</role>
+  		</roles>
+  	</developer>
+  	<developer>
+  		<id>brenninc</id>
+  		<email>brenninc@apache.org</email>
+  		<name>Christian Y. Brenninkmeijer</name>
+  		<url>http://orcid.org/0000-0002-2937-7819</url>
+  		<roles>
+  			<role>committer</role>
+			<role>PPMC member</role>
+  		</roles>
+  	</developer>
+  	<developer>
+  		<id>dkf</id>
+  		<email>dkf@apache.org</email>
+  		<name>Donal Fellows</name>
+  		<url>http://orcid.org/0000-0002-9091-5938</url>
+  		<roles>
+  			<role>committer</role>
+			<role>PPMC member</role>
+  		</roles>
+  	</developer>
+  	<developer>
+  		<id>gnaylor</id>
+  		<email>gnaylor@apache.org</email>
+  		<name>Gale Naylor</name>
+  		<roles>
+  			<role>committer</role>
+			<role>PPMC member</role>
+  		</roles>
+  	</developer>
+  	<developer>
+  		<id>hainesr</id>
+  		<email>hainesr@apache.org</email>
+  		<name>Robert Haines</name>
+  		<url>http://orcid.org/0000-0002-9538-7919</url>
+  		<roles>
+  			<role>committer</role>
+			<role>PPMC member</role>
+  		</roles>
+  	</developer>
+  	<developer>
+  		<id>ianwdunlop</id>
+  		<email>ianwdunlop@apache.org</email>
+  		<name>Ian William Dunlop</name>
+  		<url>http://orcid.org/0000-0001-7066-3350</url>
+  		<roles>
+  			<role>committer</role>
+			<role>PPMC member</role>
+  		</roles>
+  	</developer>
+  	<developer>
+  		<id>jgarrido</id>
+  		<email>jgarrido@apache.org</email>
+  		<name>Julián Garrido</name>
+  		<roles>
+  			<role>committer</role>
+			<role>PPMC member</role>
+  		</roles>
+  	</developer>
+	<developer>
+  		<id>mattmann</id>
+  		<email>mattmann@apache.org</email>
+  		<name>Chris Mattmann</name>
+  		<roles>
+  			<role>mentor</role>
+  		</roles>
+  	</developer>
+	<developer>
+  		<id>mpierce</id>
+  		<email>mpierce@apache.org</email>
+  		<name>Marlon Pierce</name>
+  		<roles>
+  			<role>mentor</role>
+  		</roles>
+  	</developer>
+	<developer>
+  		<id>redmitry</id>
+  		<email>redmitry@apache.org</email>
+  		<name>Dmitri Repchevsky</name>
+  		<roles>
+  			<role>committer</role>
+			<role>PPMC member</role>
+  		</roles>
+  	</developer>
+	<developer>
+  		<id>shoaibsufi</id>
+  		<email>shoaibsufi@apache.org</email>
+  		<name>Shoaib Sufi</name>
+  		<url>http://orcid.org/0000-0001-6390-2616</url>
+  		<roles>
+  			<role>committer</role>
+			<role>PPMC member</role>
+  		</roles>
+  	</developer>
+	<developer>
+  		<id>smarru</id>
+  		<email>smarru@apache.org</email>
+  		<name>Suresh Marru</name>
+  		<roles>
+  			<role>mentor</role>
+  		</roles>
+  	</developer>
+	<developer>
+  		<id>stain</id>
+  		<email>stain@apache.org</email>
+  		<name>Stian Soiland-Reyes</name>
+  		<url>http://orcid.org/0000-0001-9842-9718</url>
+  		<roles>
+  			<role>committer</role>
+			<role>PPMC member</role>
+  		</roles>
+  	</developer>
+	<developer>
+  		<id>stuzart</id>
+  		<email>stuzart@apache.org</email>
+  		<name>Stuart Owen</name>
+  		<url>http://orcid.org/0000-0003-2130-0865</url>
+  		<roles>
+  			<role>committer</role>
+			<role>PPMC member</role>
+  		</roles>
+  	</developer>
+	<developer>
+  		<id>suresh</id>
+  		<email>suresh@apache.org</email>
+  		<name>Suresh Srinivas</name>
+  		<roles>
+  			<role>mentor</role>
+  		</roles>
+  	</developer>
+	<developer>
+		<name>Menaka Madushanka</name>
+		<email>menaka12350@gmail.com</email>
+		<roles>
+			<role>contributor</role>
+		</roles>
+	</developer>
+	<developer>
+		<name>Larry Akah</name>
+		<email>larryakah@gmail.com</email>
+		<roles>
+			<role>contributor</role>
+		</roles>
+	</developer>
+	<developer>
+		<id>binfalse</id>
+		<name>Martin Scharm</name>
+		<email>github@binfalse.de</email>
+		<url>http://orcid.org/0000-0003-4519-7030</url>
+		<roles>
+			<role>contributor</role>
+		</roles>
+	</developer>
+  </developers>
+
+
   <issueManagement>
     <system>Jira</system>
     <!-- Note: Do not include Component for Maven Parent here, as
@@ -217,7 +409,7 @@ upgraded - this leads to recursive spaghetti.
             <artifactId>httpclient-osgi</artifactId>
             <!-- <version>${apache.httpclient.version}</version>-->
             <exclusions>
-              <!-- These are all embedded within httpclient-osgi 
+              <!-- These are all embedded within httpclient-osgi
               and so should not be depended on again
               -->
               <exclusion>
@@ -247,10 +439,10 @@ upgraded - this leads to recursive spaghetti.
             <artifactId>httpcore-osgi</artifactId>
             <!-- <version>${apache.httpcore.version}</version> -->
             <exclusions>
-              <!-- These are all embedded within httpcore-osgi 
+              <!-- These are all embedded within httpcore-osgi
                 and so should not be depended on again
               -->
-            
+
               <exclusion>
                 <groupId>org.apache.httpcomponents</groupId>
                 <artifactId>httpcore</artifactId>
@@ -422,7 +614,7 @@ upgraded - this leads to recursive spaghetti.
 
 
     </plugins>
-  </pluginManagement>  
+  </pluginManagement>
   </build>
   <profiles>
     <profile>
