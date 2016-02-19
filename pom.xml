@@ -586,6 +586,13 @@ upgraded - this leads to recursive spaghetti.
             unecessarily clutter so we exclude these
             -->
             <exclude>**/META-INF/services/*</exclude>
+
+            <!-- Generated during the release process -->
+            <exclude>DEPENDENCIES</exclude>
+
+           <!-- Created by Maven Shade plugin -->
+           <exclude>dependency-reduced-pom.xml</exclude>
+
           </excludes>
         </configuration>
     </plugin>
