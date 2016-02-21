@@ -448,7 +448,7 @@ upgraded - this leads to recursive spaghetti.
         <dependency>
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpcore-osgi</artifactId>
-            <!-- <version>${apache.httpcore.version}</version> -->
+            <version>${apache.httpcore.version}</version>
             <exclusions>
               <!-- These are all embedded within httpcore-osgi
                 and so should not be depended on again
