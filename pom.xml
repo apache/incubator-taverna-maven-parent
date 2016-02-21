@@ -319,7 +319,7 @@ upgraded - this leads to recursive spaghetti.
 <antlr.version>2.7.7</antlr.version>
 <apache.commons.csv.version>1.0.0.BUILD-20080106</apache.commons.csv.version>
 <apache.httpclient.version>4.5.1</apache.httpclient.version>
-<apache.httpcore.version>4.4.4</apache.httpcore.version>
+<apache.httpcore.version>4.4.4</apache.httpcore.version> <!-- must match what httpclient depends on -->
 <aspectj.version>1.6.9</aspectj.version>
 <axis.jaxrpc.version>1.4</axis.jaxrpc.version>
 <axis.sggj.version>1.4</axis.sggj.version>
