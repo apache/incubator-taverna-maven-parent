@@ -418,7 +418,7 @@ upgraded - this leads to recursive spaghetti.
         <dependency>
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpclient-osgi</artifactId>
-            <!-- <version>${apache.httpclient.version}</version>-->
+            <version>${apache.httpclient.version}</version>
             <exclusions>
               <!-- These are all embedded within httpclient-osgi
               and so should not be depended on again
