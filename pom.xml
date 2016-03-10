@@ -71,7 +71,7 @@
   <developers>
   	<!--  For an updated list, see
   	http://taverna.incubator.apache.org/about/
-  	http://people.apache.org/committers-by-project.html#taverna
+        http://home.apache.org/phonebook.html?other=taverna
 
   	This lists contain the official committers/PPMC members
   	and contributors since Taverna became an Apache project.
@@ -94,6 +94,7 @@
   		<!--  TODO: <url>http://orcid.org/...</url> -->
   		<roles>
   			<role>mentor</role>
+  			<role>champion</role>
   		</roles>
   	</developer>
 	<developer>
@@ -173,7 +174,7 @@
   		<name>Chris Mattmann</name>
   		<!-- FIXME: <url>http://orcid.org/0000-0001-7086-3889</url> unverified -->
   		<roles>
-  			<role>mentor</role>
+  			<role>emeritus mentor</role>
   		</roles>
   	</developer>
 	<developer>
@@ -189,7 +190,7 @@
   		<id>redmitry</id>
   		<email>redmitry@apache.org</email>
   		<name>Dmitri Repchevsky</name>
-  		<!-- FIXME: <url>http://orcid.org/0000-0001-6415-0532</url> unverified -->
+  		<url>http://orcid.org/0000-0001-6415-0532</url>
   		<roles>
   			<role>committer</role>
 			<role>PPMC member</role>
@@ -244,17 +245,31 @@
   		</roles>
   	</developer>
 	<developer>
+                <id>menaka121</id>
 		<name>Menaka Madushanka</name>
 		<email>menaka12350@gmail.com</email>
 		<!--  TODO: <url>http://orcid.org/...</url> -->
+                <url>https://github.com/menaka121</url>
 		<roles>
 			<role>contributor</role>
 		</roles>
 	</developer>
 	<developer>
+                <id>larrytech7</id>
 		<name>Larry Akah</name>
 		<email>larryakah@gmail.com</email>
 		<!--  TODO: <url>http://orcid.org/...</url> -->
+                <url>https://github.com/larrytech7</url>
+		<roles>
+			<role>contributor</role>
+		</roles>
+	</developer>
+	<developer>
+                <id>Samhane</id>
+		<name>Denis Karyakin</name>
+		<email>samhane.me@gmail.com</email>
+		<!--  TODO: <url>http://orcid.org/...</url> -->
+                <url>https://github.com/Samhane</url>
 		<roles>
 			<role>contributor</role>
 		</roles>
@@ -266,6 +281,15 @@
 		<url>http://orcid.org/0000-0003-4519-7030</url>
 		<roles>
 			<role>contributor</role>
+		</roles>
+	</developer>
+	<developer>
+		<id>gmlewis</id>
+		<name>Glenn Lewis</name>
+		<!--  TODO: <url>http://orcid.org/...</url> -->
+		<url>https://github.com/gmlewis</url>
+		<roles>
+			<role>security fixes</role>
 		</roles>
 	</developer>
   </developers>
