@@ -715,7 +715,7 @@ upgraded - this leads to recursive spaghetti.
     <pluginRepository>
         <id>apache.snapshots</id>
         <name>Apache Snapshot Repository</name>
-        <url>http://repository.apache.org/snapshots</url>
+        <url>https://repository.apache.org/snapshots</url>
         <releases>
           <enabled>false</enabled>
         </releases>
@@ -735,7 +735,7 @@ upgraded - this leads to recursive spaghetti.
         </snapshots>
         <id>bintray-spring</id>
         <name>bintray-spring</name>
-        <url>http://dl.bintray.com/spring/jars</url>
+        <url>https://dl.bintray.com/spring/jars</url>
       </repository>
 
       <repository>
@@ -758,7 +758,7 @@ upgraded - this leads to recursive spaghetti.
 <repository>
     <id>repository.spring.milestone</id>
     <name>Spring Milestone Repository</name>
-    <url>http://repo.spring.io/milestone</url>
+    <url>https://repo.spring.io/milestone</url>
     <releases />
     <snapshots>
       <enabled>false</enabled>
