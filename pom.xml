@@ -169,6 +169,16 @@
   		</roles>
   	</developer>
 	<developer>
+                <id>maanadev</id>
+		<name>Thilina Manamgoda</name>
+		<email>maanadev@apache.org</email>
+		<!--  TODO: <url>http://orcid.org/...</url> -->
+                <url>https://github.com/ThilinaManamgoda</url>
+		<roles>
+  			<role>committer</role>
+		</roles>
+	</developer>
+	<developer>
   		<id>mattmann</id>
   		<email>mattmann@apache.org</email>
   		<name>Chris Mattmann</name>
@@ -244,6 +254,9 @@
   			<role>mentor</role>
   		</roles>
   	</developer>
+
+	<!-- contributors -->
+
 	<developer>
                 <id>menaka121</id>
 		<name>Menaka Madushanka</name>
@@ -290,6 +303,56 @@
 		<url>https://github.com/gmlewis</url>
 		<roles>
 			<role>security fixes</role>
+		</roles>
+	</developer>
+	<developer>
+                <id>NadeeshDilanga</id>
+		<name>Nadeesh Dilanga</name>
+		<email>nadeesh092@gmail.com</email>
+		<!--  TODO: <url>http://orcid.org/...</url> -->
+                <url>https://github.com/NadeeshDilanga</url>
+		<roles>
+			<role>contributor</role>
+		</roles>
+	</developer>
+	<developer>
+                <id>sagar15795</id>
+		<name>Sagar</name>
+		<email>kumarsagar15795@gmail.com</email>
+		<!--  TODO: <url>http://orcid.org/...</url> -->
+                <url>https://github.com/sagar15795</url>
+		<roles>
+			<role>contributor</role>
+		</roles>
+	</developer>
+	<developer>
+		<id>therajanmaurya</id>
+		<name>Rajan Maurya</name>
+		<email>rajanmaurya154@gmail.com</email>
+		<!--  TODO: <url>http://orcid.org/...</url> -->
+                <url>https://github.com/therajanmaurya</url>
+		<roles>
+			<role>contributor</role>
+		</roles>
+	</developer>
+	<developer>
+		<id>edikaradumi</id>
+		<name>Edi Karadumi</name>
+		<email>edikaradumi@gmail.com</email>
+		<!--  TODO: <url>http://orcid.org/...</url> -->
+                <url>https://github.com/edikaradumi</url>
+		<roles>
+			<role>contributor</role>
+		</roles>
+	</developer>
+	<developer>
+		<id>PCStefan</id>
+		<name>Claudiu Stefan Padurariu</name>
+		<email>padurariu.claudiu.stefan@gmail.com </email>
+		<!--  TODO: <url>http://orcid.org/...</url> -->
+                <url>https://github.com/PCStefan</url>
+		<roles>
+			<role>contributor</role>
 		</roles>
 	</developer>
   </developers>
