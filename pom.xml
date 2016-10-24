@@ -571,6 +571,9 @@ upgraded - this leads to recursive spaghetti.
         <target>${maven.compiler.target}</target>
       </configuration>
     </plugin>
+
+      <!-- Generally only needed during -Papache-release,
+	   Apache super-parent will do that for us
     <plugin>
       <groupId>org.apache.maven.plugins</groupId>
       <artifactId>maven-source-plugin</artifactId>
@@ -594,6 +597,7 @@ upgraded - this leads to recursive spaghetti.
         </execution>
       </executions>
     </plugin>
+-->
     <plugin>
       <groupId>org.apache.maven.plugins</groupId>
       <artifactId>maven-surefire-plugin</artifactId>
@@ -625,6 +629,8 @@ upgraded - this leads to recursive spaghetti.
         </executions>
       </plugin>
 
+      <!-- Only needed during -Papache-release,
+	   Apache super-parent will do that for us
 	<plugin>
 	    <groupId>org.apache.maven.plugins</groupId>
 	    <artifactId>maven-javadoc-plugin</artifactId>
@@ -640,6 +646,7 @@ upgraded - this leads to recursive spaghetti.
 		</execution>
 	    </executions>
 	</plugin>
+-->
 
 
     <plugin>
