@@ -628,25 +628,13 @@ upgraded - this leads to recursive spaghetti.
           </execution>
         </executions>
       </plugin>
-
-      <!-- Only needed during -Papache-release,
-	   Apache super-parent will do that for us
 	<plugin>
 	    <groupId>org.apache.maven.plugins</groupId>
 	    <artifactId>maven-javadoc-plugin</artifactId>
-	    <executions>
-		<execution>
-		    <id>attach-javadocs</id>
-		    <goals>
-			<goal>jar</goal>
-		    </goals>
-		    <configuration>
-			<additionalparam>-Xdoclint:none</additionalparam>
-		    </configuration>
-		</execution>
-	    </executions>
+	    <configuration>
+		<additionalparam>-Xdoclint:none</additionalparam>
+	    </configuration>
 	</plugin>
--->
 
 
     <plugin>
