@@ -322,7 +322,7 @@
 		<!--  TODO: <url>http://orcid.org/...</url> -->
                 <url>https://github.com/sagar15795</url>
 		<roles>
-			<role>contributor</role>
+			<role>committer</role>
 		</roles>
 	</developer>
 	<developer>
@@ -332,7 +332,7 @@
 		<!--  TODO: <url>http://orcid.org/...</url> -->
                 <url>https://github.com/therajanmaurya</url>
 		<roles>
-			<role>contributor</role>
+			<role>committer</role>
 		</roles>
 	</developer>
 	<developer>
