@@ -401,6 +401,15 @@
 			<role>contributor</role>
 		</roles>
 	</developer>
+	<developer>
+		<id>yinonavraham</id>
+		<name>Yinon Avraham</name>
+		<email>yinonavraham@gmail.com</email>
+		<url>https://github.com/yinonavraham</url>
+		<roles>
+			<role>contributor</role>
+		</roles>
+	</developer>
   </developers>
 
 
