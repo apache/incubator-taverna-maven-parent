@@ -28,8 +28,8 @@
 		</module>
 		<module name="JavadocMethod">
    			<property name="scope" value="public"/>
-   			<property name="allowUndeclaredRTE" value="true"/>
    			<property name="severity" value="error"/>
+   			<property name="allowUndeclaredRTE" value="true"/>
    			<property name="allowMissingParamTags" value="true"/>
    			<property name="allowMissingThrowsTags" value="true"/>
    			<property name="allowMissingReturnTag" value="true"/>
@@ -38,9 +38,10 @@
 		<module name="JavadocType">
    			<property name="scope" value="public"/>
 		</module>
+		<module name="JavadocStyle"/>
  		<module name="ReturnCount">
  			<property name="severity" value="warning"/>
  		</module>
 	</module>
-	<module name="PackageHtml"/>
+	<module name="JavadocPackage"/>
 </module>

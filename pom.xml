@@ -31,7 +31,7 @@
   <version>3-incubating-SNAPSHOT</version>
   <packaging>pom</packaging>
 
-  <name>Apache Taverna (incubating) Maven parent</name>
+  <name>Apache Taverna Maven parent</name>
   <description>
     General POM-file parent for Apache Taverna projects
   </description>
@@ -738,10 +738,28 @@ upgraded - this leads to recursive spaghetti.
           </excludes>
         </configuration>
     </plugin>
+    <plugin>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-checkstyle-plugin</artifactId>
+      <!-- NOTE: configuration is under reporting -->
+      <dependencies>
+        <dependency>
+          <!-- contains checkstyle.xml -->
+          <groupId>org.apache.taverna</groupId>
+          <artifactId>taverna-shared-resources</artifactId>
+          <version>3-incubating-SNAPSHOT</version>
+        </dependency>
+      </dependencies>
+    </plugin>    
   </plugins>
 
   <pluginManagement>
     <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-checkstyle-plugin</artifactId>
+        <version>3.0.0</version>
+      </plugin>
       <plugin>
         <groupId>org.apache.felix</groupId>
         <artifactId>maven-bundle-plugin</artifactId>
@@ -781,9 +799,6 @@ upgraded - this leads to recursive spaghetti.
         <artifactId>maven-shade-plugin</artifactId>
         <version>3.1.0</version>
       </plugin>
-
-
-
     </plugins>
   </pluginManagement>
   </build>
@@ -814,11 +829,8 @@ upgraded - this leads to recursive spaghetti.
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-checkstyle-plugin</artifactId>
-        <version>2.15</version>
         <configuration>
-          <configLocation>
-            ${basedir}/Rcheckstyle.xml
-          </configLocation>
+          <configLocation>taverna-shared-resources/checkstyle.xml</configLocation>
         </configuration>
       </plugin>
       <plugin>
@@ -903,5 +915,9 @@ upgraded - this leads to recursive spaghetti.
   <distributionManagement>
   </distributionManagement>
        -->
+  <modules>  
+    <module>taverna-shared-resources</module>
+  </modules>
 
 </project>
+
