@@ -846,9 +846,9 @@ upgraded - this leads to recursive spaghetti.
 
 
   <repositories>
-    <!-- apache.snapshots inherited from Apache parent:
+<!-- apache.snapshots inherited from Apache parent:
       <url>https://repository.apache.org/snapshots</url>
-    -->
+-->
 
       <repository>
         <snapshots>
@@ -859,6 +859,7 @@ upgraded - this leads to recursive spaghetti.
         <url>https://dl.bintray.com/spring/jars</url>
       </repository>
 
+<!-- Now at https://repo.spring.io/release and JCenter
       <repository>
         <id>com.springsource.repository.bundles.release</id>
         <name>SpringSource Enterprise Bundle Repository - SpringSource Bundle Releases</name>
@@ -875,16 +876,35 @@ upgraded - this leads to recursive spaghetti.
           <enabled>false</enabled>
         </snapshots>
       </repository>
+-->
 
-<repository>
-    <id>repository.spring.milestone</id>
-    <name>Spring Milestone Repository</name>
-    <url>https://repo.spring.io/milestone</url>
-    <releases />
-    <snapshots>
-      <enabled>false</enabled>
-    </snapshots>
-</repository>
+	<repository>
+	    <id>repository.spring.release</id>
+	    <name>Spring Releases</name>
+	    <url>https://repo.spring.io/release</url>
+	    <releases />
+	    <snapshots>
+	      <enabled>false</enabled>
+	    </snapshots>
+	</repository>
+	<repository>
+	    <id>repository.spring.milestone</id>
+	    <name>Spring Milestone Repository</name>
+	    <url>https://repo.spring.io/milestone</url>
+	    <releases />
+	    <snapshots>
+	      <enabled>false</enabled>
+	    </snapshots>
+	</repository>
+	<repository>
+	  <id>jcenter</id>
+	  <name>JCenter at Bintray</name>
+	  <url>https://jcenter.bintray.com/</url>
+	    <releases />
+	    <snapshots>
+	      <enabled>false</enabled>
+	    </snapshots>
+	</repository>
 
 
   </repositories>
