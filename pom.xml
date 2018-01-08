@@ -393,15 +393,6 @@
                 </roles>
         </developer>
         <developer>
-                <id>m-murad</id>
-                <name>Murad</name>
-                <email>murad.kuka@gmail.com</email>
-                <url>https://github.com/m-murad</url>
-                <roles>
-                        <role>contributor</role>
-                </roles>
-        </developer>
-        <developer>
                 <id>yinonavraham</id>
                 <name>Yinon Avraham</name>
                 <email>yinonavraham@gmail.com</email>
