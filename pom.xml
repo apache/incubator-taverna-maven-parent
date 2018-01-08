@@ -711,6 +711,7 @@ upgraded - this leads to recursive spaghetti.
       <configuration>
         <releaseProfiles>apache-release</releaseProfiles>
         <tagNameFormat>@{project.version}-RC1</tagNameFormat>
+        <autoVersionSubmodules>true</autoVersionSubmodules>
       </configuration>
     </plugin>
 
