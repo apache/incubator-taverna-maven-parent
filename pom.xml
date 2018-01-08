@@ -68,6 +68,10 @@
       <archive>http://mail-archives.apache.org/mod_mbox/incubator-taverna-commits/</archive>
     </mailingList>
   </mailingLists>
+  <ciManagement>
+    <system>jenkins</system>
+    <url>https://builds.apache.org/user/stain/my-views/view/taverna/</url>
+  </ciManagement>
 
   <developers>
           <!--  For an updated list, see
