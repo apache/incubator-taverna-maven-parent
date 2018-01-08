@@ -28,7 +28,7 @@
 
   <groupId>org.apache.taverna</groupId>
   <artifactId>apache-taverna-parent</artifactId>
-  <version>3-incubating-SNAPSHOT</version>
+  <version>3-incubating</version>
   <packaging>pom</packaging>
 
   <name>Apache Taverna Maven parent</name>
@@ -442,7 +442,7 @@
       <connection>scm:git:https://git-wip-us.apache.org/repos/asf/incubator-taverna-maven-parent.git</connection>
       <developerConnection>scm:git:https://git-wip-us.apache.org/repos/asf/incubator-taverna-maven-parent.git</developerConnection>
       <url>https://github.com/apache/incubator-taverna-maven-parent/</url>
-      <tag>HEAD</tag>
+      <tag>3-incubating-RC2</tag>
 </scm>
 
 
@@ -727,7 +727,7 @@ upgraded - this leads to recursive spaghetti.
           <!-- contains checkstyle.xml -->
           <groupId>org.apache.taverna</groupId>
           <artifactId>taverna-shared-resources</artifactId>
-          <version>3-incubating-SNAPSHOT</version>
+          <version>3-incubating</version>
         </dependency>
       </dependencies>
     </plugin>    
