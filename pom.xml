@@ -43,8 +43,9 @@
       <subscribe>dev-subscribe@taverna.incubator.apache.org</subscribe>
       <unsubscribe>dev-unsubscribe@taverna.incubator.apache.org</unsubscribe>
       <post>dev@taverna.incubator.apache.org</post>
-      <archive>http://mail-archives.apache.org/mod_mbox/incubator-taverna-dev/</archive>
+      <archive>https://lists.apache.org/list.html?dev@taverna.apache.org</archive>      
       <otherArchives>
+        <otherArchive>http://mail-archives.apache.org/mod_mbox/incubator-taverna-dev/</otherArchive>
         <otherArchive>http://www.mail-archive.com/dev@taverna.incubator.apache.org/</otherArchive>
         <otherArchive>http://markmail.org/search/?q=list%3Aorg.apache.taverna.dev</otherArchive>
       </otherArchives>
@@ -54,8 +55,9 @@
       <subscribe>users-subscribe@taverna.incubator.apache.org</subscribe>
       <unsubscribe>users-unsubscribe@taverna.incubator.apache.org</unsubscribe>
       <post>users@taverna.incubator.apache.org</post>
-      <archive>http://mail-archives.apache.org/mod_mbox/incubator-taverna-users/</archive>
+      <archive>https://lists.apache.org/list.html?users@taverna.apache.org</archive>      
       <otherArchives>
+        <otherArchive>http://mail-archives.apache.org/mod_mbox/incubator-taverna-users/</otherArchive>
         <otherArchive>http://www.mail-archive.com/users@taverna.incubator.apache.org/</otherArchive>
         <otherArchive>http://markmail.org/search/?q=list%3Aorg.apache.taverna.users</otherArchive>
       </otherArchives>
@@ -64,8 +66,12 @@
       <name>Apache Taverna Commits</name>
       <subscribe>commits-subscribe@taverna.incubator.apache.org</subscribe>
       <unsubscribe>commits-unsubscribe@taverna.incubator.apache.org</unsubscribe>
-      <post>commits@taverna.incubator.apache.org</post>
-      <archive>http://mail-archives.apache.org/mod_mbox/incubator-taverna-commits/</archive>
+      <!-- only git/jira will post here
+        <post>commits@taverna.incubator.apache.org</post> -->
+      <archive>https://lists.apache.org/list.html?commits@taverna.apache.org</archive>
+      <otherArchives>
+        <otherArchive>http://mail-archives.apache.org/mod_mbox/incubator-taverna-commits/</otherArchive>
+      </otherArchives>      
     </mailingList>
   </mailingLists>
   <ciManagement>
