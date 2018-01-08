@@ -35,7 +35,7 @@
   <description>
     General POM-file parent for Apache Taverna projects
   </description>
-  <url>http://taverna.incubator.apache.org/</url>
+  <url>https://taverna.incubator.apache.org/</url>
   <inceptionYear>2015</inceptionYear>
   <mailingLists>
     <mailingList>
@@ -45,8 +45,8 @@
       <post>dev@taverna.incubator.apache.org</post>
       <archive>https://lists.apache.org/list.html?dev@taverna.apache.org</archive>      
       <otherArchives>
-        <otherArchive>http://mail-archives.apache.org/mod_mbox/incubator-taverna-dev/</otherArchive>
-        <otherArchive>http://www.mail-archive.com/dev@taverna.incubator.apache.org/</otherArchive>
+        <otherArchive>https://mail-archives.apache.org/mod_mbox/incubator-taverna-dev/</otherArchive>
+        <otherArchive>https://www.mail-archive.com/dev@taverna.incubator.apache.org/</otherArchive>
         <otherArchive>http://markmail.org/search/?q=list%3Aorg.apache.taverna.dev</otherArchive>
       </otherArchives>
     </mailingList>
@@ -57,8 +57,8 @@
       <post>users@taverna.incubator.apache.org</post>
       <archive>https://lists.apache.org/list.html?users@taverna.apache.org</archive>      
       <otherArchives>
-        <otherArchive>http://mail-archives.apache.org/mod_mbox/incubator-taverna-users/</otherArchive>
-        <otherArchive>http://www.mail-archive.com/users@taverna.incubator.apache.org/</otherArchive>
+        <otherArchive>https://mail-archives.apache.org/mod_mbox/incubator-taverna-users/</otherArchive>
+        <otherArchive>https://www.mail-archive.com/users@taverna.incubator.apache.org/</otherArchive>
         <otherArchive>http://markmail.org/search/?q=list%3Aorg.apache.taverna.users</otherArchive>
       </otherArchives>
     </mailingList>
@@ -70,7 +70,7 @@
         <post>commits@taverna.incubator.apache.org</post> -->
       <archive>https://lists.apache.org/list.html?commits@taverna.apache.org</archive>
       <otherArchives>
-        <otherArchive>http://mail-archives.apache.org/mod_mbox/incubator-taverna-commits/</otherArchive>
+        <otherArchive>https://mail-archives.apache.org/mod_mbox/incubator-taverna-commits/</otherArchive>
       </otherArchives>      
     </mailingList>
   </mailingLists>
@@ -81,7 +81,7 @@
 
   <developers>
           <!--  For an updated list, see
-          http://taverna.incubator.apache.org/about/
+          https://taverna.incubator.apache.org/about/
         https://home.apache.org/phonebook.html?podling=taverna
 
           This lists contain the official committers/PPMC members
@@ -873,8 +873,8 @@ upgraded - this leads to recursive spaghetti.
 
 
   <repositories>
-    <!-- Apache snapshot repository inherited from Apache parent:
-      <url>http://repository.apache.org/snapshots</url>
+    <!-- apache.snapshots inherited from Apache parent:
+      <url>https://repository.apache.org/snapshots</url>
     -->
 
       <repository>
