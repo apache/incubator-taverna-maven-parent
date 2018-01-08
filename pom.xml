@@ -68,6 +68,7 @@
       <archive>http://mail-archives.apache.org/mod_mbox/incubator-taverna-commits/</archive>
     </mailingList>
   </mailingLists>
+
   <developers>
           <!--  For an updated list, see
           http://taverna.incubator.apache.org/about/
@@ -345,8 +346,11 @@
                         <role>committer</role>
                 </roles>
         </developer>
-        <developer>
-                <id>edikaradumi</id>
+      </developers>
+      <contributors>
+
+        <contributor>
+                <!--<id>edikaradumi</id>-->
                 <name>Edi Karadumi</name>
                 <email>edikaradumi@gmail.com</email>
                 <!--  TODO: <url>http://orcid.org/...</url> -->
@@ -354,9 +358,9 @@
                 <roles>
                         <role>contributor</role>
                 </roles>
-        </developer>
-        <developer>
-                <id>PCStefan</id>
+        </contributor>
+        <contributor>
+                <!--<id>PCStefan</id>-->
                 <name>Claudiu Stefan Padurariu</name>
                 <email>padurariu.claudiu.stefan@gmail.com</email>
                 <!--  TODO: <url>http://orcid.org/...</url> -->
@@ -364,53 +368,53 @@
                 <roles>
                         <role>contributor</role>
                 </roles>
-        </developer>
-        <developer>
-                <id>matthiaskoenig</id>
+        </contributor>
+        <contributor>
+                <!--<id>matthiaskoenig</id>-->
                 <name>Matthias König</name>
                 <email>konigmatt@googlemail.com</email>
                 <url>https://orcid.org/0000-0003-1725-179X</url>
                 <roles>
                         <role>contributor</role>
                 </roles>
-        </developer>
-        <developer>
-                <id>MarkRobbo</id>
+        </contributor>
+        <contributor>
+                <!--<id>MarkRobbo</id>-->
                 <name>Mark Robinson</name>
                 <email>mark@goldtek.co.uk</email>
                 <url>http://orcid.org/0000-0002-8184-7507</url>
                 <roles>
                         <role>contributor</role>
                 </roles>
-        </developer>
-        <developer>
-                <id>m-murad</id>
+        </contributor>
+        <contributor>
+                <!--<id>m-murad</id>-->
                 <name>Murad</name>
                 <email>murad.kuka@gmail.com</email>
                 <url>https://github.com/m-murad</url>
                 <roles>
                         <role>contributor</role>
                 </roles>
-        </developer>
-        <developer>
-                <id>yinonavraham</id>
+        </contributor>
+        <contributor>
+                <!--<id>yinonavraham</id>-->
                 <name>Yinon Avraham</name>
                 <email>yinonavraham@gmail.com</email>
                 <url>https://github.com/yinonavraham</url>
                 <roles>
                         <role>contributor</role>
                 </roles>
-        </developer>
-        <developer>
-                <id>Chalana</id>
+        </contributor>
+        <contributor>
+                <!--<id>Chalana</id>-->
                 <name>Chalana Madusanka</name>
                 <!--<email></email>-->
                 <url>https://github.com/Chalana</url>
                 <roles>
                         <role>contributor</role>
                 </roles>
-        </developer>        
-  </developers>
+        </contributor>        
+  </contributors>
 
 
   <issueManagement>
