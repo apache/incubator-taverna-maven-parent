@@ -510,7 +510,7 @@ upgraded - this leads to recursive spaghetti.
 <javax.servlet.version>2.5.0</javax.servlet.version>
 <javax.transaction.version>1.1.0</javax.transaction.version>
 <jaxb.version>2.2.11</jaxb.version>
-<jaxen.version>1.1.4</jaxen.version>
+<jaxen.version>1.1.6</jaxen.version>
 <jaxp.ri.version>1.4</jaxp.ri.version>
 <jaxws.api.version>2.1</jaxws.api.version>
 <jdom.version>1.1.0</jdom.version> <!-- com.springsource.org.jdom -->
