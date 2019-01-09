@@ -104,7 +104,7 @@
                   <name>Andy Seaborne</name>
                   <!--  TODO: <url>http://orcid.org/...</url> -->
                   <roles>
-                          <role>mentor</role>
+                          <role>emeritus mentor</role>
                           <role>champion</role>
                   </roles>
           </developer>
@@ -515,7 +515,7 @@ upgraded - this leads to recursive spaghetti.
 <jaxws.api.version>2.1</jaxws.api.version>
 <jdom.version>1.1.0</jdom.version> <!-- com.springsource.org.jdom -->
 <jedit.syntax.version>2.2.5</jedit.syntax.version>
-<jena.version>3.6.0</jena.version><!-- See also jsonld-java and httpcomponents -->
+<jena.version>3.7.0</jena.version><!-- See also jsonld-java and httpcomponents -->
 <jersey.client.version>1.19.1</jersey.client.version>
 <jetty.version>6.1.24</jetty.version>
 <jmimemagic.version>0.1.2</jmimemagic.version>
