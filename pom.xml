@@ -437,15 +437,34 @@
 
   <scm>
     <!-- While this section will also be inherited, it should be
-    overridden within each Taverna module with specific repositories.
+    overridden within each Taverna module with specific repositories
+    following the below template.
+
+    ASF's GitBox is mirrored two-ways with GitHub.
+    GitHub allows SSH keys that is good for <developerConnection>
+    to work with mvn release:prepare without password prompts.
+    See https://taverna.incubator.apache.org/download/code/
+
+    To override to use https://github.com/ with mvn release, add to equivalent of ~/.gitconfig
+
+        [url "https://github.com/"]
+        insteadOf = git@github.com
+        pushInsteadOf = git@github.com
+
+    or to force use of GitBox:
+
+        [url "https://gitbox.apache.org/repos/asf/"]
+        insteadOf = git@github.com:apache
+        pushInsteadOf = git@github.com:apache
+    
+    See https://git-scm.com/docs/git-push/2.4.4#_git_urls_a_id_urls_a
+    
     -->
-      <connection>scm:git:https://git-wip-us.apache.org/repos/asf/incubator-taverna-maven-parent.git</connection>
-      <developerConnection>scm:git:https://git-wip-us.apache.org/repos/asf/incubator-taverna-maven-parent.git</developerConnection>
+      <connection>scm:git:https://gitbox.apache.org/repos/asf/incubator-taverna-maven-parent.git</connection>
+      <developerConnection>scm:git:git@github.com:apache/incubator-taverna-maven-parent.git</developerConnection>
       <url>https://github.com/apache/incubator-taverna-maven-parent/</url>
       <tag>HEAD</tag>
-</scm>
-
-
+  </scm>
 
   <properties>
     <!-- override java version from Apache parent -->
