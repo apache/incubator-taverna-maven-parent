@@ -134,7 +134,7 @@
                   <name>Daniel John Debrunner</name>
                 <!-- TODO: <url>http://orcid.org/...<url> -->
                   <roles>
-                          <role>mentor</role>
+                          <role>emeritus mentor</role>
                   </roles>
           </developer>
           <developer>
@@ -213,7 +213,7 @@
                   <name>Marlon Pierce</name>
                   <url>http://orcid.org/0000-0002-9582-5712</url>
                   <roles>
-                          <role>mentor</role>
+                          <role>emeritus mentor</role>
                   </roles>
           </developer>
         <developer>
@@ -252,7 +252,7 @@
                   <name>Suresh Marru</name>
                   <url>http://orcid.org/0000-0002-6374-095X</url>
                   <roles>
-                          <role>mentor</role>
+                          <role>emeritus mentor</role>
                   </roles>
           </developer>
         <developer>
@@ -282,7 +282,7 @@
                   <name>Suresh Srinivas</name>
                   <!--  TODO: <url>http://orcid.org/...</url> -->
                   <roles>
-                          <role>mentor</role>
+                          <role>emeritus mentor</role>
                   </roles>
           </developer>
 
