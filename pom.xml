@@ -445,17 +445,21 @@
     to work with mvn release:prepare without password prompts.
     See https://taverna.incubator.apache.org/download/code/
 
-    To override to use https://github.com/ with mvn release, add to equivalent of ~/.gitconfig
+    To force use of https://github.com/ add to equivalent of ~/.gitconfig
 
-        [url "https://github.com/"]
-        insteadOf = git@github.com
-        pushInsteadOf = git@github.com
+        [url "https://github.com/apache/"]
+        insteadOf = git@github.com:apache/
+        insteadOf = https://gitbox.apache.org/repos/asf/
+        pushInsteadOf = git@github.com:apache/
+        pushInsteadOf = https://gitbox.apache.org/repos/asf/
 
-    or to force use of GitBox:
+    *or*, to force use of https://gitbox.apache.org/
 
         [url "https://gitbox.apache.org/repos/asf/"]
-        insteadOf = git@github.com:apache
-        pushInsteadOf = git@github.com:apache
+        insteadOf = git@github.com:apache/
+        insteadOf = https://github.com/apache/
+        pushInsteadOf = git@github.com:apache/
+        pushInsteadOf = https://github.com/apache/
     
     See https://git-scm.com/docs/git-push/2.4.4#_git_urls_a_id_urls_a
     
