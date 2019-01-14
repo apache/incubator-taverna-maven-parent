@@ -20,11 +20,8 @@
   <parent>
       <groupId>org.apache</groupId>
       <artifactId>apache</artifactId>
-      <version>18</version>
+      <version>21</version>
   </parent>
-  <prerequisites>    
-    <maven>3.2.0</maven>
-  </prerequisites>
 
   <groupId>org.apache.taverna</groupId>
   <artifactId>apache-taverna-parent</artifactId>
@@ -766,18 +763,8 @@ upgraded - this leads to recursive spaghetti.
       <plugin>
         <groupId>org.apache.felix</groupId>
         <artifactId>maven-bundle-plugin</artifactId>
-        <version>3.4.0</version>
+        <version>3.5.1</version>
         <extensions>true</extensions>
-      </plugin>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-release-plugin</artifactId>
-        <version>2.5.3</version>
-      </plugin>
-      <plugin>
-        <groupId>org.apache.rat</groupId>
-        <artifactId>apache-rat-plugin</artifactId>
-        <version>0.12</version>
       </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -796,11 +783,6 @@ upgraded - this leads to recursive spaghetti.
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>appassembler-maven-plugin</artifactId>
         <version>1.10</version>
-      </plugin>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-shade-plugin</artifactId>
-        <version>3.1.0</version>
       </plugin>
     </plugins>
   </pluginManagement>
