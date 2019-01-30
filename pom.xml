@@ -534,6 +534,7 @@ upgraded - this leads to recursive spaghetti.
 <jaxp.ri.version>1.4</jaxp.ri.version>
 <jaxws.api.version>2.1</jaxws.api.version>
 <jdom.version>1.1.0</jdom.version> <!-- com.springsource.org.jdom -->
+<jdom2.version>2.0.6_1</jdom2.version> <!-- org.apache.servicemix.bundles.jdom -->
 <jedit.syntax.version>2.2.5</jedit.syntax.version>
 <jena.version>3.7.0</jena.version><!-- See also jsonld-java and httpcomponents -->
 <jersey.client.version>1.19.1</jersey.client.version>
@@ -734,6 +735,8 @@ upgraded - this leads to recursive spaghetti.
 
            <!-- Created by Maven Shade plugin -->
            <exclude>dependency-reduced-pom.xml</exclude>
+	   <!-- Created by VS Code -->
+           <exclude>.vscode</exclude>
 
           </excludes>
         </configuration>
@@ -856,6 +859,7 @@ upgraded - this leads to recursive spaghetti.
       <url>https://repository.apache.org/snapshots</url>
 -->
 
+<!--
       <repository>
         <snapshots>
           <enabled>false</enabled>
@@ -864,6 +868,7 @@ upgraded - this leads to recursive spaghetti.
         <name>bintray-spring</name>
         <url>https://dl.bintray.com/spring/jars</url>
       </repository>
+-->
 
 <!-- Now at https://repo.spring.io/release and JCenter
       <repository>
@@ -882,7 +887,6 @@ upgraded - this leads to recursive spaghetti.
           <enabled>false</enabled>
         </snapshots>
       </repository>
--->
 
 	<repository>
 	    <id>repository.spring.release</id>
@@ -911,6 +915,7 @@ upgraded - this leads to recursive spaghetti.
 	      <enabled>false</enabled>
 	    </snapshots>
 	</repository>
+-->
 
 
   </repositories>
