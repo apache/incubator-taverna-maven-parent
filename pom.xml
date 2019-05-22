@@ -44,7 +44,7 @@
       <otherArchives>
         <otherArchive>https://mail-archives.apache.org/mod_mbox/incubator-taverna-dev/</otherArchive>
         <otherArchive>https://www.mail-archive.com/dev@taverna.incubator.apache.org/</otherArchive>
-        <otherArchive>http://markmail.org/search/?q=list%3Aorg.apache.taverna.dev</otherArchive>
+        <otherArchive>https://markmail.org/search/?q=list%3Aorg.apache.taverna.dev</otherArchive>
       </otherArchives>
     </mailingList>
     <mailingList>
@@ -56,7 +56,7 @@
       <otherArchives>
         <otherArchive>https://mail-archives.apache.org/mod_mbox/incubator-taverna-users/</otherArchive>
         <otherArchive>https://www.mail-archive.com/users@taverna.incubator.apache.org/</otherArchive>
-        <otherArchive>http://markmail.org/search/?q=list%3Aorg.apache.taverna.users</otherArchive>
+        <otherArchive>https://markmail.org/search/?q=list%3Aorg.apache.taverna.users</otherArchive>
       </otherArchives>
     </mailingList>
     <mailingList>
@@ -89,7 +89,7 @@
                   <id>alaninmcr</id>
                   <email>alaninmcr@apache.org</email>
                   <name>Alan Robert Williams</name>
-                  <url>http://orcid.org/0000-0003-3156-2105</url>
+                  <url>https://orcid.org/0000-0003-3156-2105</url>
                   <roles>
                           <role>committer</role>
                         <role>PPMC member</role>
@@ -99,7 +99,7 @@
                   <id>andy</id>
                   <email>andy@apache.org</email>
                   <name>Andy Seaborne</name>
-                  <!--  TODO: <url>http://orcid.org/...</url> -->
+                  <!--  TODO: <url>https://orcid.org/...</url> -->
                   <roles>
                           <role>emeritus mentor</role>
                           <role>champion</role>
@@ -109,7 +109,7 @@
                   <id>anenadic</id>
                   <email>anenadic@apache.org</email>
                   <name>Aleksandra Nenadic</name>
-                  <url>http://orcid.org/0000-0002-2269-3894</url>
+                  <url>https://orcid.org/0000-0002-2269-3894</url>
                   <roles>
                           <role>committer</role>
                         <role>PPMC member</role>
@@ -119,7 +119,7 @@
                   <id>brenninc</id>
                   <email>brenninc@apache.org</email>
                   <name>Christian Y. Brenninkmeijer</name>
-                  <url>http://orcid.org/0000-0002-2937-7819</url>
+                  <url>https://orcid.org/0000-0002-2937-7819</url>
                   <roles>
                           <role>committer</role>
                         <role>PPMC member</role>
@@ -129,7 +129,7 @@
                   <id>djd</id>
                   <email>djd@apache.org</email>
                   <name>Daniel John Debrunner</name>
-                <!-- TODO: <url>http://orcid.org/...<url> -->
+                <!-- TODO: <url>https://orcid.org/...<url> -->
                   <roles>
                           <role>emeritus mentor</role>
                   </roles>
@@ -138,7 +138,7 @@
                   <id>dkf</id>
                   <email>dkf@apache.org</email>
                   <name>Donal K. Fellows</name>
-                  <url>http://orcid.org/0000-0002-9091-5938</url>
+                  <url>https://orcid.org/0000-0002-9091-5938</url>
                   <roles>
                           <role>committer</role>
                         <role>PPMC member</role>
@@ -147,7 +147,7 @@
           <developer>
                   <id>gnaylor</id>
                   <email>gnaylor@apache.org</email>
-                  <!--  TODO: <url>http://orcid.org/...</url> -->
+                  <!--  TODO: <url>https://orcid.org/...</url> -->
                   <name>Gale Naylor</name>
                   
                   <roles>
@@ -159,7 +159,7 @@
                   <id>hainesr</id>
                   <email>hainesr@apache.org</email>
                   <name>Robert Haines</name>
-                  <url>http://orcid.org/0000-0002-9538-7919</url>
+                  <url>https://orcid.org/0000-0002-9538-7919</url>
                   <roles>
                           <role>committer</role>
                         <role>PPMC member</role>
@@ -169,7 +169,7 @@
                   <id>ianwdunlop</id>
                   <email>ianwdunlop@apache.org</email>
                   <name>Ian William Dunlop</name>
-                  <url>http://orcid.org/0000-0001-7066-3350</url>
+                  <url>https://orcid.org/0000-0001-7066-3350</url>
                   <roles>
                           <role>committer</role>
                         <role>PPMC member</role>
@@ -179,7 +179,7 @@
                   <id>jgarrido</id>
                   <email>jgarrido@apache.org</email>
                   <name>Julián Garrido</name>
-                  <url>http://orcid.org/0000-0002-6696-4772</url>
+                  <url>https://orcid.org/0000-0002-6696-4772</url>
                   <roles>
                           <role>committer</role>
                         <role>PPMC member</role>
@@ -189,7 +189,7 @@
                 <id>maanadev</id>
                 <name>Thilina Manamgoda</name>
                 <email>maanadev@apache.org</email>
-                <!--  TODO: <url>http://orcid.org/...</url> -->
+                <!--  TODO: <url>https://orcid.org/...</url> -->
                 <url>https://github.com/ThilinaManamgoda</url>
                 <roles>
                           <role>committer</role>
@@ -199,7 +199,7 @@
                   <id>mattmann</id>
                   <email>mattmann@apache.org</email>
                   <name>Chris Mattmann</name>
-                  <!-- FIXME: <url>http://orcid.org/0000-0001-7086-3889</url> unverified -->
+                  <!-- FIXME: <url>https://orcid.org/0000-0001-7086-3889</url> unverified -->
                   <roles>
                           <role>emeritus mentor</role>
                   </roles>
@@ -208,7 +208,7 @@
                   <id>mpierce</id>
                   <email>mpierce@apache.org</email>
                   <name>Marlon Pierce</name>
-                  <url>http://orcid.org/0000-0002-9582-5712</url>
+                  <url>https://orcid.org/0000-0002-9582-5712</url>
                   <roles>
                           <role>emeritus mentor</role>
                   </roles>
@@ -217,7 +217,7 @@
                   <id>redmitry</id>
                   <email>redmitry@apache.org</email>
                   <name>Dmitri Repchevsky</name>
-                  <url>http://orcid.org/0000-0001-6415-0532</url>
+                  <url>https://orcid.org/0000-0001-6415-0532</url>
                   <roles>
                           <role>committer</role>
                         <role>PPMC member</role>
@@ -227,7 +227,7 @@
                 <id>sagar</id>
                 <name>Sagar</name>
                 <email>sagar@apache.org</email>
-                <!--  TODO: <url>http://orcid.org/...</url> -->
+                <!--  TODO: <url>https://orcid.org/...</url> -->
                 <url>https://github.com/sagar15795</url>
                 <roles>
                         <role>committer</role>
@@ -237,7 +237,7 @@
                   <id>shoaibsufi</id>
                   <email>shoaibsufi@apache.org</email>
                   <name>Shoaib Sufi</name>
-                  <url>http://orcid.org/0000-0001-6390-2616</url>
+                  <url>https://orcid.org/0000-0001-6390-2616</url>
                   <roles>
                           <role>committer</role>
                         <role>PPMC member</role>
@@ -247,7 +247,7 @@
                   <id>smarru</id>
                   <email>smarru@apache.org</email>
                   <name>Suresh Marru</name>
-                  <url>http://orcid.org/0000-0002-6374-095X</url>
+                  <url>https://orcid.org/0000-0002-6374-095X</url>
                   <roles>
                           <role>emeritus mentor</role>
                   </roles>
@@ -256,7 +256,7 @@
                   <id>stain</id>
                   <email>stain@apache.org</email>
                   <name>Stian Soiland-Reyes</name>
-                  <url>http://orcid.org/0000-0001-9842-9718</url>
+                  <url>https://orcid.org/0000-0001-9842-9718</url>
                   <roles>
                           <role>committer</role>
                         <role>PPMC member</role>
@@ -267,7 +267,7 @@
                   <id>stuzart</id>
                   <email>stuzart@apache.org</email>
                   <name>Stuart Owen</name>
-                  <url>http://orcid.org/0000-0003-2130-0865</url>
+                  <url>https://orcid.org/0000-0003-2130-0865</url>
                   <roles>
                           <role>committer</role>
                         <role>PPMC member</role>
@@ -277,7 +277,7 @@
                   <id>suresh</id>
                   <email>suresh@apache.org</email>
                   <name>Suresh Srinivas</name>
-                  <!--  TODO: <url>http://orcid.org/...</url> -->
+                  <!--  TODO: <url>https://orcid.org/...</url> -->
                   <roles>
                           <role>emeritus mentor</role>
                   </roles>
@@ -289,7 +289,7 @@
                 <id>menaka121</id>
                 <name>Menaka Madushanka</name>
                 <email>menaka12350@gmail.com</email>
-                <!--  TODO: <url>http://orcid.org/...</url> -->
+                <!--  TODO: <url>https://orcid.org/...</url> -->
                 <url>https://github.com/menaka121</url>
                 <roles>
                         <role>contributor</role>
@@ -299,7 +299,7 @@
                 <id>larrytech7</id>
                 <name>Larry Akah</name>
                 <email>larryakah@gmail.com</email>
-                <!--  TODO: <url>http://orcid.org/...</url> -->
+                <!--  TODO: <url>https://orcid.org/...</url> -->
                 <url>https://github.com/larrytech7</url>
                 <roles>
                         <role>contributor</role>
@@ -309,7 +309,7 @@
                 <id>Samhane</id>
                 <name>Denis Karyakin</name>
                 <email>samhane.me@gmail.com</email>
-                <!--  TODO: <url>http://orcid.org/...</url> -->
+                <!--  TODO: <url>https://orcid.org/...</url> -->
                 <url>https://github.com/Samhane</url>
                 <roles>
                         <role>contributor</role>
@@ -319,7 +319,7 @@
                 <id>binfalse</id>
                 <name>Martin Scharm</name>
                 <email>github@binfalse.de</email>
-                <url>http://orcid.org/0000-0003-4519-7030</url>
+                <url>https://orcid.org/0000-0003-4519-7030</url>
                 <roles>
                         <role>contributor</role>
                 </roles>
@@ -327,7 +327,7 @@
         <developer>
                 <id>gmlewis</id>
                 <name>Glenn Lewis</name>
-                <!--  TODO: <url>http://orcid.org/...</url> -->
+                <!--  TODO: <url>https://orcid.org/...</url> -->
                 <url>https://github.com/gmlewis</url>
                 <roles>
                         <role>security fixes</role>
@@ -337,7 +337,7 @@
                 <id>NadeeshDilanga</id>
                 <name>Nadeesh Dilanga</name>
                 <email>nadeesh092@gmail.com</email>
-                <!--  TODO: <url>http://orcid.org/...</url> -->
+                <!--  TODO: <url>https://orcid.org/...</url> -->
                 <url>https://github.com/NadeeshDilanga</url>
                 <roles>
                         <role>contributor</role>
@@ -347,7 +347,7 @@
                 <id>therajanmaurya</id>
                 <name>Rajan Maurya</name>
                 <email>rajanmaurya154@gmail.com</email>
-                <!--  TODO: <url>http://orcid.org/...</url> -->
+                <!--  TODO: <url>https://orcid.org/...</url> -->
                 <url>https://github.com/therajanmaurya</url>
                 <roles>
                         <role>committer</role>
@@ -360,7 +360,7 @@
                 <!--<id>edikaradumi</id>-->
                 <name>Edi Karadumi</name>
                 <email>edikaradumi@gmail.com</email>
-                <!--  TODO: <url>http://orcid.org/...</url> -->
+                <!--  TODO: <url>https://orcid.org/...</url> -->
                 <url>https://github.com/edikaradumi</url>
                 <roles>
                         <role>contributor</role>
@@ -370,7 +370,7 @@
                 <!--<id>PCStefan</id>-->
                 <name>Claudiu Stefan Padurariu</name>
                 <email>padurariu.claudiu.stefan@gmail.com</email>
-                <!--  TODO: <url>http://orcid.org/...</url> -->
+                <!--  TODO: <url>https://orcid.org/...</url> -->
                 <url>https://github.com/PCStefan</url>
                 <roles>
                         <role>contributor</role>
@@ -389,7 +389,7 @@
                 <!--<id>MarkRobbo</id>-->
                 <name>Mark Robinson</name>
                 <email>mark@goldtek.co.uk</email>
-                <url>http://orcid.org/0000-0002-8184-7507</url>
+                <url>https://orcid.org/0000-0002-8184-7507</url>
                 <roles>
                         <role>contributor</role>
                 </roles>
@@ -874,7 +874,7 @@ upgraded - this leads to recursive spaghetti.
       <repository>
         <id>com.springsource.repository.bundles.release</id>
         <name>SpringSource Enterprise Bundle Repository - SpringSource Bundle Releases</name>
-        <url>http://repository.springsource.com/maven/bundles/release</url>
+        <url>https://repository.springsource.com/maven/bundles/release</url>
         <snapshots>
           <enabled>false</enabled>
         </snapshots>
@@ -882,7 +882,7 @@ upgraded - this leads to recursive spaghetti.
       <repository>
         <id>com.springsource.repository.bundles.external</id>
         <name>SpringSource Enterprise Bundle Repository - External Bundle Releases</name>
-        <url>http://repository.springsource.com/maven/bundles/external</url>
+        <url>https://repository.springsource.com/maven/bundles/external</url>
         <snapshots>
           <enabled>false</enabled>
         </snapshots>
